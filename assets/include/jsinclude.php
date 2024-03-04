@@ -5,10 +5,47 @@
 <script
     src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_plugins/fancybox-3.1.25/jquery.fancybox.min.js">
 </script>
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
 
 
 
 <script type="text/javascript">
+//===========================calendar==================//
+
+$(document).ready(function() {
+    var calendarEl = $('.calendar')[0];
+
+    if (calendarEl) {
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+            initialView: 'dayGridMonth',
+            events: [{
+                    title: 'Event 1',
+                    start: '2024-03-10',
+                    classNames: ["first-event"]
+                },
+                {
+                    title: 'Event 2',
+                    start: '2024-03-10',
+                    classNames: ["second-event"]
+                },
+                {
+                    title: 'Event 3',
+                    start: '2024-03-10',
+                    classNames: ["third-event"]
+                },
+                {
+                    title: 'Event 2',
+                    start: '2024-03-15',
+                    classNames: ["first-event"]
+                },
+            ],
+        });
+        calendar.render();
+    } else {
+        console.error('Calendar element not found');
+    }
+});
+
 //===========Count Slider===================//
 $(function() {
     // Owl Carousel
