@@ -6,6 +6,10 @@
   <link rel="stylesheet" type="text/css" href="assets/css/aboutus.css">
   <link rel="stylesheet" type="text/css" href="assets/css/contactus.css">
   <link rel="stylesheet" type="text/css" href="assets/css/calender.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/cart.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/checkout.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/award.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/howItworks.css">
   <link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css"
       rel="stylesheet">
   <link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css"

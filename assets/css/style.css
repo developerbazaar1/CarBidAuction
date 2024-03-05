@@ -1757,7 +1757,7 @@ ul.custom-list {
 .table > :not(:last-child) > :last-child > * {
   border: none !important;
   border-color: #fff;
-  background: #eff2f5 !important;
+  /* background: #eff2f5; */
 }
 
 tr:first-child td:first-child {
