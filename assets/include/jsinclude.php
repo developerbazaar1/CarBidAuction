@@ -46,6 +46,54 @@ $(document).ready(function() {
     }
 });
 
+$(document).ready(function() {
+    $('#bid-amount').on('keydown', function(event) {
+        // Check if the key pressed is the "+" key
+        if (event.key === '+' || event.key === '-') {
+            event.preventDefault();
+        }
+    });
+});
+
+
+
+$(document).ready(function() {
+    let value = 250;
+
+    function updateValue(newValue) {
+        $('#bid-amount').val(newValue);
+        value = newValue;
+    }
+
+    function increment() {
+        const newValue = value + 250;
+        updateValue(newValue);
+    }
+
+    function decrement() {
+        const newValue = value - 250;
+        if (newValue + 250 !== 250) {
+            updateValue(newValue);
+        }
+    }
+
+    $('#decrement-btn').on('click', function() {
+        decrement();
+    });
+
+    $('#increment-btn').on('click', function() {
+        increment();
+    });
+
+    $('#bid-amount').on('input', function() {
+        const newValue = parseInt($(this).val());
+        if (!isNaN(newValue)) {
+            updateValue(newValue);
+        }
+    });
+});
+
+
 //===========Count Slider===================//
 $(function() {
     // Owl Carousel

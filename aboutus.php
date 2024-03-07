@@ -12,64 +12,65 @@
     <?php include 'assets/include/header.php' ;?>
     <!-- /Header -->
 
-    <section class="banner-aboutus">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 pe-0">
-                    <div class="banner-text-section">
-                        <div class="w-75">
-                            <div class="heading">
-                                We Value Our Clients And Want Them To Have A Nice Experience
-                            </div>
-                            <div class="aboutus-banner-desc mt-4">
-                                Lorem ipsum dolor sit amet consectetur. Aliquet vitae amet duis mattis tristique turpis.
-                                Odio
-                                turpis sed mauris vel. Faucibus congue scelerisque dignissim dui.
-                            </div>
+    <section class="overflow-visible">
+        <!-- <div class="container"> -->
+        <div class="row m-0 p-0">
+            <div class="col-lg-8 pe-0">
+                <div class="banner-text-section ">
+                    <div class="w-75 pl-50">
+                        <div class="heading">
+                            We Value Our Clients And Want Them To Have A Nice Experience
                         </div>
-                    </div>
-                    <div class="banner-bottom-section">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="banner-bottom-img">
-                                    <img src="assets/images/aboutus/car1.png" />
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="p-4 d-flex justify-content-center h-100 flex-column">
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <img src="assets/images/aboutus/rocket.png">
-                                        <div class="our-mission-text">
-                                            Our Mission
-                                        </div>
-                                    </div>
-                                    <div class="mission-desc">
-                                        Our mission is to revolutionize the way people buy and sell cars by creating a
-                                        trustworthy and efficient online auction platform.
-                                    </div>
-
-                                    <div class="d-flex gap-2 align-items-center pt-25 justify-content-end">
-                                        <img src="assets/images/aboutus/eye.png">
-                                        <div class="our-mission-text">
-                                            Our Vision
-                                        </div>
-                                    </div>
-                                    <div class="mission-desc">
-                                        We envision a future where anyone, anywhere can easily access and participate in
-                                        car auctions, making the process simple, enjoyable, and secure.
-                                    </div>
-                                </div>
-                            </div>
-
+                        <div class="aboutus-banner-desc mt-4">
+                            Lorem ipsum dolor sit amet consectetur. Aliquet vitae amet duis mattis tristique
+                            turpis.
+                            Odio
+                            turpis sed mauris vel. Faucibus congue scelerisque dignissim dui.
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 pl-0">
-                    <div class="side-car-img">
-                        <img src="assets/images/aboutus/bg_car.png">
+                <div class="banner-bottom-section">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="banner-bottom-img">
+                                <img src="assets/images/aboutus/car1.png" />
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="p-4 pe-5 d-flex justify-content-center h-100 flex-column">
+                                <div class="d-flex gap-2 align-items-center">
+                                    <img src="assets/images/aboutus/rocket.png">
+                                    <div class="our-mission-text">
+                                        Our Mission
+                                    </div>
+                                </div>
+                                <div class="mission-desc">
+                                    Our mission is to revolutionize the way people buy and sell cars by creating a
+                                    trustworthy and efficient online auction platform.
+                                </div>
+
+                                <div class="d-flex gap-2 align-items-center pt-25 justify-content-end">
+                                    <div class="our-mission-text">
+                                        Our Vision
+                                    </div>
+                                    <img src="assets/images/aboutus/eye.png">
+                                </div>
+                                <div class="mission-desc">
+                                    We envision a future where anyone, anywhere can easily access and participate in
+                                    car auctions, making the process simple, enjoyable, and secure.
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
+            <div class="col-lg-4 -mt-130 p-0">
+                <div class="section-about w-100 h-100 position-relative">
+                    <!-- <img src="assets/images/aboutus/bg_car.png"> -->
+                </div>
+            </div>
+            <!-- </div> -->
         </div>
     </section>
 
@@ -80,7 +81,7 @@
 
                 <div class="col-lg-6 mx-0 px-0">
 
-                    <div class="since-text">Since</div>
+                    <div class="since-text -mb-12">Since</div>
                     <div class="d-flex align-items-end">
                         <div class="year-text">2003</div>
                         <div class="text-end">
@@ -164,10 +165,29 @@
             <div class="pt-50">
                 <div class="row">
                     <div class="col-lg-4">
-                        <div class="ceo-img">
-                            <img src="assets/images/aboutus/ceo1.svg" />
+                        <div class="ceo-img position-relative">
+                            <img src="assets/images/aboutus/team1.svg" />
+                            <div class="hover-overlay">
+                                <div class="hover-text-bg">
+                                    henry@boxcars.com
+                                </div>
+                                <div class="d-flex gap-1 align-items-center hover-text-bg icon-hover">
+                                    <div>
+                                        <img src="assets/images/icon/facebook.svg" />
+                                    </div>
+                                    <div>
+                                        <img src="assets/images/icon/instagram-outlined.svg" />
+                                    </div>
+                                    <div>
+                                        <img src="assets/images/icon/linkedin-filled.svg" />
+                                    </div>
+                                    <div>
+                                        <img src="assets/images/icon/x-outlined.svg" />
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="since-text pt-3 text-center">
+                        <div class="since-text pt-1 text-center">
                             Wm Langosh
                         </div>
                         <div class="car-company-name text-center">
@@ -175,10 +195,29 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="ceo-img">
-                            <img src="assets/images/aboutus/ceo2.svg" />
+                        <div class="ceo-img position-relative">
+                            <img src="assets/images/aboutus/team2.svg" />
+                            <div class="hover-overlay">
+                                <div class="hover-text-bg">
+                                    Kristine@boxcars.com
+                                </div>
+                                <div class="d-flex gap-1 align-items-center hover-text-bg icon-hover">
+                                    <div>
+                                        <img src="assets/images/icon/facebook.svg" />
+                                    </div>
+                                    <div>
+                                        <img src="assets/images/icon/instagram-outlined.svg" />
+                                    </div>
+                                    <div>
+                                        <img src="assets/images/icon/linkedin-filled.svg" />
+                                    </div>
+                                    <div>
+                                        <img src="assets/images/icon/x-outlined.svg" />
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="since-text pt-3 text-center">
+                        <div class="since-text pt-1 text-center">
                             Kristine Ruecker
                         </div>
                         <div class="car-company-name text-center">
@@ -186,10 +225,29 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="ceo-img">
-                            <img src="assets/images/aboutus/ceo3.svg" />
+                        <div class="ceo-img position-relative">
+                            <img src="assets/images/aboutus/team3.svg" />
+                            <div class="hover-overlay">
+                                <div class="hover-text-bg">
+                                    Kristine@boxcars.com
+                                </div>
+                                <div class="d-flex gap-1 align-items-center hover-text-bg icon-hover">
+                                    <div>
+                                        <img src="assets/images/icon/facebook.svg" />
+                                    </div>
+                                    <div>
+                                        <img src="assets/images/icon/instagram-outlined.svg" />
+                                    </div>
+                                    <div>
+                                        <img src="assets/images/icon/linkedin-filled.svg" />
+                                    </div>
+                                    <div>
+                                        <img src="assets/images/icon/x-outlined.svg" />
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="since-text pt-3 text-center">
+                        <div class="since-text pt-1 text-center">
                             Lowell Kertzmann
                         </div>
                         <div class="car-company-name text-center">
@@ -205,6 +263,11 @@
     <!-- Footer -->
     <?php include 'assets/include/footer.php' ;?>
     <!-- /Footer -->
+
+
+    <!-- JS Include -->
+    <?php include 'assets/include/jsinclude.php' ;?>
+    <!-- /JS Include -->
 
 </body>
 

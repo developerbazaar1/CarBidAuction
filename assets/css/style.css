@@ -72,19 +72,29 @@ section {
 
 .top-header {
   border-radius: 0px 100px 100px 0px;
-  background: #26e788;
-  height: 80px;
+  background: #fff;
+  /* height: 80px; */
   width: 100%;
   z-index: unset;
   display: inline-flex;
   margin: 0 auto;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
+.text-black {
+  color: #000;
+}
 li.nav-item {
   align-items: center;
   display: flex;
 }
 
+.logo {
+  width: 122px;
+}
+.footer-img {
+  width: 76.418px;
+}
 .head-menu li {
   padding-left: 45px;
 }
@@ -399,6 +409,18 @@ background: linear-gradient(90deg, #21E786 0%, rgba(33, 231, 134, 0.00) 100.02%)
 
 .mr-80 {
   margin-right: 80px;
+}
+
+.pr-80 {
+  padding-right: 80px;
+}
+
+.pr-105 {
+  padding-right: 105px;
+}
+
+.pb-17 {
+  padding-bottom: 17px;
 }
 
 .mb-50 {
@@ -2037,6 +2059,9 @@ ul.list-features {
   width: 100%;
 }
 
+.slider-ratio {
+  aspect-ratio: 1.5;
+}
 .minnesato-text {
   color: #000;
   text-align: center;
@@ -2072,11 +2097,22 @@ ul.list-features {
   margin-left: 10px;
 }
 
+.minus-icon:hover {
+  background-color: #21e786;
+}
+
 .plus-icon {
   border-radius: 0px 100px 100px 0px;
   border: 1px solid #21e786;
   background: #21e786;
   margin-left: 5px;
+}
+
+.plus-icon:hover {
+  background-color: #fff;
+}
+.box-shadow-left-div {
+  box-shadow: -2px 0px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
 .place-bid {
@@ -2100,9 +2136,8 @@ ul.list-features {
 }
 
 .place-bid-btn:hover {
-  background: #000;
-  color: #fff;
-  border-color: #000;
+  background: #fff;
+  border-color: #21e786;
 }
 
 .not-eligible-btn {
@@ -2120,9 +2155,8 @@ ul.list-features {
 }
 
 .not-eligible-btn:hover {
-  background: #000;
-  color: #fff;
-  border-color: #000;
+  background: #fff;
+  border-color: #b01120;
 }
 .bid-guidelines {
   color: #000;
@@ -2173,6 +2207,14 @@ ul.list-features {
   object-fit: contain;
 }
 
+.-mb-12 {
+  margin-bottom: -12px;
+}
+
+.google-map-section {
+  z-index: -1;
+}
+
 /* for progress bar */
 
 .circular-progress {
@@ -2219,4 +2261,677 @@ ul.list-features {
   to {
     --progress: 67;
   }
+}
+
+/* end livebidding page  */
+
+/* for about us  */
+
+.aboutus-banner-desc {
+  color: #444343;
+  font-family: "Termina Test";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.banner-bottom-img {
+  aspect-ratio: 1.422;
+}
+
+.banner-bottom-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.our-mission-text {
+  color: #f7f7f7;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 28px;
+}
+.mission-desc {
+  color: #f7f7f7;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  padding-top: 10px;
+}
+
+.banner-bottom-section {
+  background-color: #000;
+  margin-left: -58px;
+}
+
+.banner-text-section {
+  padding: 97px 0px;
+  width: 959.9px;
+  margin-left: auto;
+  margin-right: 18%;
+}
+
+.pl-50 {
+  padding-left: 50px;
+}
+
+.-mt-130 {
+  margin-top: -130px;
+}
+.side-car-img {
+  aspect-ratio: 0.735;
+  margin-right: -58px;
+}
+.side-car-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-about {
+  background-image: url(../images/aboutus/bg_car.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  z-index: -1;
+}
+.since-text {
+  color: #000;
+  font-family: "Termina Test";
+  font-size: 16px;
+  font-weight: 600;
+}
+.year-text {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 160px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.experience-text {
+  color: #000;
+  font-family: "Termina Test";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+
+.expertise-section {
+  background: #f5f5f5;
+  padding: 50px 0px;
+}
+
+.ceo-img {
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 1000px;
+}
+
+.hover-overlay {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  bottom: 60px;
+  left: 172px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.ceo-img:hover .hover-overlay {
+  opacity: 1;
+}
+
+.hover-text-bg {
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 20px;
+  border-radius: 100px;
+  border: 1.5px solid #21e786;
+  background: #21e786;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  padding: 5px 15px;
+  width: fit-content;
+  margin-top: 5px;
+}
+
+.icon-hover img {
+  height: 25px;
+  width: 25px;
+}
+
+/* end about us page  */
+
+/* for award page  */
+
+tr.bg-table-award {
+  border: 1px solid #fff;
+}
+
+tr.bg-table-award td {
+  white-space: nowrap;
+}
+
+tr.bg-table-award {
+  background: #e3fbef !important;
+}
+
+tr.bg-table-award td {
+  color: #000;
+  font-family: "Termina Test";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+}
+
+.table-body-award td {
+  color: #444343;
+  text-align: center;
+  font-family: "Termina Test";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  vertical-align: middle;
+}
+
+.set-payment {
+  border-radius: 100px;
+  border: 2.5px solid #21e786;
+  background: #21e786;
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.table-img {
+  aspect-ratio: 1.846153846;
+  max-width: 75px;
+  margin: 0 auto;
+}
+.table-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.at button:active {
+  background: rgba(33, 231, 134, 0.5);
+  box-shadow: none !important;
+  border: 1px solid rgba(33, 231, 134, 0.5);
+}
+
+.active-btn-at {
+  background: rgba(33, 231, 134, 0.5) !important;
+  box-shadow: none !important;
+  border: 1px solid rgba(33, 231, 134, 0.5) !important;
+}
+
+.table-body-award tr {
+  border-bottom: 1px solid #e6e6e6;
+}
+.table-award {
+  border-radius: 25px;
+  border: 1px solid #e6e6e6;
+}
+
+.table-body-award tr:nth-last-child(1) {
+  border-bottom: none;
+}
+
+.side-icon {
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* end award page  */
+
+/* for calender  */
+
+.first-event {
+  border-radius: 100px 0px 0px 100px;
+  background: #fee6c9;
+  border: 1px solid #fee6c9;
+  font-family: "Termina Test";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
+  padding: 2.5px 10px;
+  margin-top: 2px;
+}
+
+.fc-event-title {
+  color: #000 !important;
+}
+
+.fc-scrollgrid tbody tr td {
+  padding: 0px !important;
+}
+
+.second-event {
+  border-radius: 100px 0px 0px 100px;
+  background: #ffd9d9;
+  border: 1px solid #ffd9d9;
+  font-family: "Termina Test";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
+  padding: 2.5px 10px;
+  margin-top: 2px;
+}
+
+.third-event {
+  border-radius: 100px 0px 0px 100px;
+  background: #d2f0ff;
+  border: 1px solid #d2f0ff;
+  font-family: "Termina Test";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
+  padding: 2.5px 10px;
+  margin-top: 2px;
+}
+
+.fc-daygrid-day-number {
+  color: var(--black, #252525);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 25px;
+  text-decoration: none;
+}
+
+.fc-daygrid-day-top {
+  flex-direction: column !important;
+}
+.fc-col-header-cell-cushion {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  text-decoration: none;
+}
+
+.fc-toolbar-title {
+  color: #252525;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 125%;
+}
+
+.fc-button {
+  background: transparent !important;
+  color: #000 !important;
+  border: transparent !important;
+}
+
+.fc-header-toolbar {
+  border-bottom: 1px solid #d3d3d3;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+}
+
+.calender-section {
+  border-radius: 8px;
+  background: #f7f7f7;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.25);
+  padding: 22px 10px;
+}
+
+/* end calender page  */
+
+/* for cart page  */
+.cart-car-img {
+  aspect-ratio: 1.3;
+}
+
+.cart-car-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 0px 0px 0px;
+}
+
+.header-cart {
+  border-bottom: 1px solid #aaa;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.header-cart-price {
+  color: #000;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 25px;
+}
+
+.service-title {
+  color: #444343;
+  font-family: "Termina Test";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.service-title:before {
+  content: "\f14a";
+  font-family: "Font Awesome 6 Pro";
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-ligatures: normal;
+  font-weight: 900;
+  font-size: 20px;
+  text-rendering: auto;
+  margin-right: 5px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.service-desc {
+  color: #444343;
+  font-family: "Termina Test";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-left: 23px;
+}
+
+.service-prise {
+  color: #000;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.service {
+  padding: 20px 0px;
+  margin: 0px 30px;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.left-section-cart {
+  border-radius: 10px;
+  border: 1px solid #aaa;
+}
+
+.card-order {
+  border-radius: 10px;
+  border: 2px solid #21e786;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.border-card-order {
+  border-bottom: 1px solid #aaaaaa;
+  padding-bottom: 10px;
+}
+
+/* end cart page  */
+
+/* for checkout page  */
+
+.header-checkout {
+  background: #e3fbef;
+  padding: 15px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.btn-credit-card {
+  border-radius: 100px;
+  border: 1px solid #d3d3d3;
+  background: transparent;
+  padding: 10px 15px;
+  color: #000;
+  font-family: "Termina Test";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+.checkout-section {
+  max-width: 1022px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+}
+
+.label-checkout {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 28px;
+}
+.input-field-checkout {
+  color: #777;
+  font-family: "Termina Test";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px;
+}
+
+.input-field-checkout-month {
+  color: #777;
+  font-family: "Termina Test";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0px;
+  border-top-right-radius: 0px;
+  border-end-end-radius: 0px;
+  border: none;
+  border-right: 1px solid #ced4da;
+}
+
+.input-field-checkout-year {
+  color: #777;
+  font-family: "Termina Test";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0px 10px 0px 10px;
+  border-top-left-radius: 0px;
+  border-end-start-radius: 0px;
+  border: none;
+}
+
+.input-field-checkout-year:focus {
+  border-color: #ced4da !important;
+  box-shadow: none !important;
+}
+
+.input-field-checkout-month:focus {
+  border-color: #ced4da !important;
+  box-shadow: none !important;
+}
+
+.month-year-input {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.input-group-checkout {
+  padding: 20px;
+}
+
+.bank-account-text {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 28px;
+  padding-bottom: 20px;
+}
+.border-bank {
+  border-bottom: 1px solid #aaaaaa;
+  margin: 30px 0px;
+}
+
+.drag-img {
+  border-radius: 5px;
+  border: 1px dashed #444343;
+  height: 214px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.drag-img-text {
+  color: #9d9d9d;
+  font-family: "Termina Test";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.drag-img-button {
+  border-radius: 5px;
+  border: 1px solid #21e786;
+  box-shadow: 2px 2px 0px 0px rgba(0, 31, 63, 0.1) inset;
+  color: #000;
+  font-family: "Termina Test";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.drag-uplod-img {
+  max-width: 892px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+/* end checkout page  */
+
+/* for contact us page  */
+
+.inquiries-list-desc {
+  color: #444343;
+  font-family: "Termina Test";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.contact-details {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  padding-top: 25px;
+}
+
+.input-field-contact {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+  border-bottom: 1px solid #939598;
+  align-items: normal;
+}
+
+.input-field-contact input {
+  color: #939598;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  border: #fff;
+  padding: 0px;
+}
+
+.input-field-contact textarea {
+  color: #939598;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  border: #fff;
+  padding: 0px;
+  height: 100px;
+}
+
+.input-field-contact textarea:focus {
+  border-color: #fff;
+  box-shadow: none;
+}
+
+.input-field-contact input:focus {
+  border-color: #fff;
+  box-shadow: none;
+}
+
+.submit-btn {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 20px;
+  border-radius: 100px;
+  border: 3px solid #000;
+  background: #000;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  padding: 15px 45px;
+}
+
+.submit-btn:hover {
+  background: #fff;
+  color: #000;
+  border: 3px solid #000;
+}
+
+/* end contact us page  */
+
+/* for how it works page  */
+
+.won-vehicles-section {
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  padding-bottom: 20px;
 }

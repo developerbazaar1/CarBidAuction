@@ -24,13 +24,16 @@
                 <div class="car-details-heade-section">
                     <div class="row">
                         <div class="col-lg-4">
-                            <div class="text-header">Auction List: <span class="fw-bolder">Toyota Camry</span></div>
+                            <div class="text-header">Auction List: <span
+                                    class="fw-bolder text-black text-uppercase">Toyota Camry</span></div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="text-header">Participants: <span class="fw-bolder">3,905</span></div>
+                            <div class="text-header">Participants: <span
+                                    class="fw-bolder text-black text-uppercase">3,905</span></div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="text-header">Units Left: <span class="fw-bolder">149</span></div>
+                            <div class="text-header">Units Left: <span
+                                    class="fw-bolder text-black text-uppercase">149</span></div>
                         </div>
                     </div>
                 </div>
@@ -46,34 +49,59 @@
                                 <!-- for slider section -->
                                 <div class="owl-carousel owl-theme mx-0 px-0 position-relative" id="slider-3">
                                     <div class="item">
-                                        <div>
-                                            <img src="assets/images/livebidding/car1.png" class="d-block w-100"
-                                                alt="...">
+                                        <div class="slider-ratio ag-photo-gallery_item ag-photo-gallery_item__wide">
+                                            <figure class="ag-photo-gallery_figure">
+                                                <a href="assets/images/livebidding/car1.png" data-fancybox="gallery"
+                                                    data-caption="Car 1">
+                                                    <img src="assets/images/livebidding/car1.png"
+                                                        class="d-block w-100 h-100" alt="...">
+                                                </a>
+                                            </figure>
                                         </div>
                                     </div>
                                     <div class="item">
-                                        <div>
-                                            <img src="assets/images/livebidding/car2.png" class="d-block w-100"
-                                                alt="...">
+                                        <div class="slider-ratio ag-photo-gallery_item ag-photo-gallery_item__wide">
+                                            <figure class="ag-photo-gallery_figure">
+                                                <a href="assets/images/livebidding/car2.png" data-fancybox="gallery"
+                                                    data-caption="Car 1">
+                                                    <img src="assets/images/livebidding/car2.png"
+                                                        class="d-block w-100 h-100" alt="...">
 
+                                                </a>
+                                            </figure>
                                         </div>
                                     </div>
                                     <div class="item">
-                                        <div>
-                                            <img src="assets/images/livebidding/car3.png" class="d-block w-100"
-                                                alt="...">
+                                        <div class="slider-ratio ag-photo-gallery_item ag-photo-gallery_item__wide">
+                                            <figure class="ag-photo-gallery_figure">
+                                                <a href="assets/images/livebidding/car3.png" data-fancybox="gallery"
+                                                    data-caption="Car 1">
+                                                    <img src="assets/images/livebidding/car3.png"
+                                                        class="d-block w-100 h-100" alt="...">
+                                                </a>
+                                            </figure>
                                         </div>
                                     </div>
                                     <div class="item">
-                                        <div>
-                                            <img src="assets/images/livebidding/car4.png" class="d-block w-100"
-                                                alt="...">
+                                        <div class="slider-ratio ag-photo-gallery_item ag-photo-gallery_item__wide">
+                                            <figure class="ag-photo-gallery_figure">
+                                                <a href="assets/images/livebidding/car4.png" data-fancybox="gallery"
+                                                    data-caption="Car 1">
+                                                    <img src="assets/images/livebidding/car4.png"
+                                                        class="d-block h-100 w-100" alt="...">
+                                                </a>
+                                            </figure>
                                         </div>
                                     </div>
                                     <div class="item">
-                                        <div>
-                                            <img src="assets/images/livebidding/car4.png" class="d-block w-100"
-                                                alt="...">
+                                        <div class="slider-ratio ag-photo-gallery_item ag-photo-gallery_item__wide">
+                                            <figure class="ag-photo-gallery_figure">
+                                                <a href="assets/images/livebidding/car4.png" data-fancybox="gallery"
+                                                    data-caption="Car 1">
+                                                    <img src="assets/images/livebidding/car4.png"
+                                                        class="d-block h-100 w-100" alt="...">
+                                                </a>
+                                            </figure>
                                         </div>
                                     </div>
                                 </div>
@@ -98,7 +126,6 @@
                                     <a class="btn btn-tag" href="#">Accident Free</a>
                                     <a class="btn btn-tag" href="#">GCC Specs</a>
                                     <a class="btn btn-tag" href="#">Warranty Available</a>
-                                    <a class="btn btn-tag" href="#">Bank Loan Available</a>
 
                                 </div>
 
@@ -215,7 +242,7 @@
 
                         <!-- right section -->
                         <div class="col-lg-4">
-                            <div class="py-4 border-start h-100">
+                            <div class="py-4 box-shadow-left-div h-100">
 
                                 <!-- progress bar -->
                                 <div class="text-center">
@@ -235,12 +262,12 @@
 
                                 <!-- input field and button -->
                                 <div class="d-flex justify-content-center mt-30">
-                                    <input type="number" placeholder="Enter Amount"
-                                        class="input-field form-control rounded-pill">
-                                    <button class="btn minus-icon">
+                                    <input type="number" id="bid-amount" value="250" placeholder="Enter Amount"
+                                        class="input-field form-control rounded-pill" />
+                                    <button id="decrement-btn" class="btn minus-icon">
                                         <img src="assets/images/icon/minus_icon.svg" />
                                     </button>
-                                    <button class="btn plus-icon">
+                                    <button id="increment-btn" class="btn plus-icon">
                                         <img src="assets/images/icon/plus_icon.svg" />
                                     </button>
                                 </div>
@@ -355,8 +382,8 @@
                         </div>
                         <div class="col-lg-3">
                             <div class="d-flex align-items-center h-100">
-                                <button class="btn place-bid-btn w-100">
-                                    Place Bid
+                                <button class="btn place-bid-btn p-3 w-100">
+                                    Next Bid
                                 </button>
                             </div>
                         </div>
@@ -426,7 +453,7 @@
                         </div>
                         <div class="col-lg-3">
                             <div class="d-flex align-items-center h-100">
-                                <button class="btn not-eligible-btn w-100">
+                                <button class="btn not-eligible-btn p-3 w-100">
                                     Not Eligible
                                 </button>
                             </div>
@@ -497,8 +524,8 @@
                         </div>
                         <div class="col-lg-3">
                             <div class="d-flex align-items-center h-100">
-                                <button class="btn place-bid-btn w-100">
-                                    Place Bid
+                                <button class="btn place-bid-btn p-3 w-100">
+                                    15 Mins
                                 </button>
                             </div>
                         </div>
@@ -568,8 +595,8 @@
                         </div>
                         <div class="col-lg-3">
                             <div class="d-flex align-items-center h-100">
-                                <button class="btn place-bid-btn w-100">
-                                    Place Bid
+                                <button class="btn place-bid-btn p-3 w-100">
+                                    30 Mins
                                 </button>
                             </div>
                         </div>

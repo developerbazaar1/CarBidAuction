@@ -13,11 +13,11 @@
     <?php include 'assets/include/header.php' ;?>
     <!-- /Header -->
 
-    <section class="google-map-section">
+    <section class="google-map-section position-relative -mt-130">
         <div>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448196.52647740656!2d76.76356035964785!3d28.64368459244109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1709542558888!5m2!1sen!2sin"
-                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                width="100%" height="581" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
@@ -100,7 +100,7 @@
                         <div class="col-lg-6">
                             <div class="input-field-contact">
                                 <img src="assets/images/icon/pencil-line.svg" />
-                                <input type="number" placeholder="Subject" class="input-field-contact form-control">
+                                <input type="text" placeholder="Subject" class="input-field-contact form-control">
                             </div>
                         </div>
 
@@ -110,7 +110,8 @@
                                 <div>
                                     <img src="assets/images/icon/message-square.svg" />
                                 </div>
-                                <textarea placeholder="Subject" class="input-field-contact form-control"> </textarea>
+                                <textarea value={null} row="9" placeholder="Write a message"
+                                    class="form-control"></textarea>
                             </div>
                         </div>
 
