@@ -65,12 +65,12 @@
 
                             <div class="border-end mt-3">
                                 <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                                    <div class="" role="group">
+                                    <div class="dropdown">
                                         <button id="" type="button" class="btn btn-primary dropdown-toggle"
                                             data-bs-toggle="dropdown" aria-expanded="false">
                                             Make
                                         </button>
-                                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                        <ul class="dropdown-menu" aria-labelledby="dropdown">
                                             <li><a class="dropdown-item" href="#">Dropdown link</a></li>
                                             <li><a class="dropdown-item" href="#">Dropdown link</a></li>
                                         </ul>

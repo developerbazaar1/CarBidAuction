@@ -84,7 +84,7 @@
                             <td>Phoenix</td>
                             <td>Nov 21, 2023</td>
                             <td>AED 10,000</td>
-                            <td><button class="btn set-payment">
+                            <td><button class="btn set-payment set-payment-bg">
                                     Set Payment
                                 </button></td>
                         </tr>
@@ -100,7 +100,7 @@
                             <td>Phoenix</td>
                             <td>Nov 21, 2023</td>
                             <td>AED 10,000</td>
-                            <td><button class="btn set-payment">
+                            <td><button class="btn set-payment set-payment-bg">
                                     Set Payment
                                 </button></td>
                         </tr>

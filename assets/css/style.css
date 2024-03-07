@@ -2373,6 +2373,7 @@ ul.list-features {
   width: fit-content;
   margin: 0 auto;
   border-radius: 1000px;
+  cursor: pointer;
 }
 
 .hover-overlay {
@@ -2449,14 +2450,22 @@ tr.bg-table-award td {
 
 .set-payment {
   border-radius: 100px;
-  border: 2.5px solid #21e786;
-  background: #21e786;
   color: #000;
   font-family: "Montserrat";
   font-size: 14px;
   font-style: italic;
   font-weight: 600;
   line-height: 16px;
+}
+
+.set-payment-bg {
+  border: 2.5px solid #21e786;
+  background: #21e786;
+}
+
+.set-payment-bg:hover {
+  background-color: #fff;
+  border-color: #21e786;
 }
 
 .table-img {
@@ -2934,4 +2943,135 @@ tr.bg-table-award td {
   border-radius: 10px;
   border: 1px solid #aaa;
   padding-bottom: 20px;
+}
+
+.z-3 {
+  z-index: 3;
+}
+
+/* for Purchase History page  */
+
+tr.bg-table-history {
+  background: #f0f0f0 !important;
+}
+.pt-30 {
+  padding-top: 30px;
+}
+
+/* for Delivery page  */
+
+.deliver-btn-bg {
+  border: 2.5px solid #ffa463;
+  background: #ffa463;
+}
+
+.deliver-btn-bg:hover {
+  background-color: #fff;
+  border-color: #ffa463;
+}
+
+.form-check-input:checked {
+  background-color: #000 !important;
+  border-color: #000 !important;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+/* for Update profile page  */
+.update-section {
+  max-width: 441px;
+  margin: 0 auto;
+}
+
+.dropdown-menu {
+  min-width: 3rem !important;
+}
+
+.font-montserrat {
+  font-family: "Montserrat";
+}
+
+.font-600 {
+  font-weight: 600;
+}
+
+.line-28 {
+  line-height: 28px;
+}
+
+.font-termina {
+  font-family: "Termina Test";
+}
+
+.font-14 {
+  font-size: 14px;
+}
+.text-gray {
+  color: #444343;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.font-500 {
+  font-weight: 500;
+}
+
+.notification-section {
+  max-width: 955px;
+  margin: 0 auto;
+}
+
+.side-section-license {
+  border-radius: 5px;
+  border: 1px solid #858585;
+  padding: 15px;
+}
+
+.text-dark-gray {
+  color: #333333;
+}
+
+.hover-text-edit {
+  cursor: pointer;
+}
+
+.hover-text-edit:hover {
+  text-decoration: underline;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.font-900 {
+  font-weight: 900;
+}
+
+.select-bar-payment {
+  border-radius: 100px;
+  padding: 10px 16px;
+}
+
+.pr-84 {
+  padding-right: 84px;
+}
+
+.btn-save-payment {
+  border-radius: 100px;
+  border: 1.5px solid #000;
+  background: #000;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+}
+
+.btn-save-payment:hover {
+  background-color: #fff;
 }

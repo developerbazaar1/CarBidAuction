@@ -92,7 +92,8 @@
                         </div>
                     </div>
 
-                    <p class="section-pera w-100 pt-25 mb-0 ps-0">We have been using Car Arbaby for our trips needs for
+                    <p class="section-pera w-100 pt-25 mb-0 ps-0 pr-84">We have been using Car Arbaby for our trips
+                        needs for
                         several years
                         now and have always been happy with their service. Their customer support is Excellent Service!
                         and they
@@ -173,16 +174,24 @@
                                 </div>
                                 <div class="d-flex gap-1 align-items-center hover-text-bg icon-hover">
                                     <div>
-                                        <img src="assets/images/icon/facebook.svg" />
+                                        <a href="#">
+                                            <img src="assets/images/icon/facebook.svg" />
+                                        </a>
                                     </div>
                                     <div>
-                                        <img src="assets/images/icon/instagram-outlined.svg" />
+                                        <a href="#">
+                                            <img src="assets/images/icon/instagram-outlined.svg" />
+                                        </a>
                                     </div>
                                     <div>
-                                        <img src="assets/images/icon/linkedin-filled.svg" />
+                                        <a href="#">
+                                            <img src="assets/images/icon/linkedin-filled.svg" />
+                                        </a>
                                     </div>
                                     <div>
-                                        <img src="assets/images/icon/x-outlined.svg" />
+                                        <a href="#">
+                                            <img src="assets/images/icon/x-outlined.svg" />
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -203,16 +212,24 @@
                                 </div>
                                 <div class="d-flex gap-1 align-items-center hover-text-bg icon-hover">
                                     <div>
-                                        <img src="assets/images/icon/facebook.svg" />
+                                        <a href="#">
+                                            <img src="assets/images/icon/facebook.svg" />
+                                        </a>
                                     </div>
                                     <div>
-                                        <img src="assets/images/icon/instagram-outlined.svg" />
+                                        <a href="#">
+                                            <img src="assets/images/icon/instagram-outlined.svg" />
+                                        </a>
                                     </div>
                                     <div>
-                                        <img src="assets/images/icon/linkedin-filled.svg" />
+                                        <a href="#">
+                                            <img src="assets/images/icon/linkedin-filled.svg" />
+                                        </a>
                                     </div>
                                     <div>
-                                        <img src="assets/images/icon/x-outlined.svg" />
+                                        <a href="#">
+                                            <img src="assets/images/icon/x-outlined.svg" />
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -233,16 +250,24 @@
                                 </div>
                                 <div class="d-flex gap-1 align-items-center hover-text-bg icon-hover">
                                     <div>
-                                        <img src="assets/images/icon/facebook.svg" />
+                                        <a href="#">
+                                            <img src="assets/images/icon/facebook.svg" />
+                                        </a>
                                     </div>
                                     <div>
-                                        <img src="assets/images/icon/instagram-outlined.svg" />
+                                        <a href="#">
+                                            <img src="assets/images/icon/instagram-outlined.svg" />
+                                        </a>
                                     </div>
                                     <div>
-                                        <img src="assets/images/icon/linkedin-filled.svg" />
+                                        <a href="#">
+                                            <img src="assets/images/icon/linkedin-filled.svg" />
+                                        </a>
                                     </div>
                                     <div>
-                                        <img src="assets/images/icon/x-outlined.svg" />
+                                        <a href="#">
+                                            <img src="assets/images/icon/x-outlined.svg" />
+                                        </a>
                                     </div>
                                 </div>
                             </div>

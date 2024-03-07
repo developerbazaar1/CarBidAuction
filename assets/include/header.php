@@ -1,4 +1,4 @@
-<section class="pr-80 pb-17">
+<section class="pr-80 pb-17 position-sticky top-0 z-3">
 
     <header class="top-header z-1 justify-content-center justify-content">
         <div class="container">

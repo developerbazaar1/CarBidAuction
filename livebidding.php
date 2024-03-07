@@ -114,7 +114,7 @@
                                     <div>
                                         Lot No: <span class="fw-bolder">LTN123456</span>
                                     </div>
-                                    <div>
+                                    <div class="fw-bolder">
                                         On Reserve
                                     </div>
                                 </div>
