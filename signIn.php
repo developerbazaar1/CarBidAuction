@@ -13,7 +13,7 @@
     <section>
         <div class="signin-section">
             <div class="container pe-5">
-                <div class="d-flex align-items-center w-100 h-100 justify-content-end py-110 max-w-485">
+                <div class="align-items-center w-100 h-100 justify-content-end py-110 max-w-485">
                     <div class="form-signin">
                         <div class="font-montserrat font-25 font-900 text-uppercase fst-italic">
                             Start Your Journey with Us
@@ -26,7 +26,8 @@
                                 <label class="form-label label-checkout text-white">
                                     Email Address:
                                 </label>
-                                <input type="text" class="form-control input-field-checkout input-field-signin"
+                                <input name="email" type="text"
+                                    class="form-control input-field-checkout input-field-signin"
                                     placeholder="dummy@login.com">
                             </div>
 
@@ -51,7 +52,7 @@
                                     </label>
                                 </div>
                                 <div class="">
-                                    <a href="/assets/forgotpassword.php"
+                                    <a href="/forgotpassword.php"
                                         class="font-montserrat font-500 font-14 text-white text-decoration-none">
                                         Forgot Password?
                                     </a>
@@ -83,7 +84,7 @@
 
                         <div class="font-montserrat font-500 font-14 text-center">
                             Don’t Have An Account?
-                            <span><a href="/assets/signup.php" class="signin-singn-up-text text-decoration-none">Sign Up
+                            <span><a href="/signup.php" class="signin-singn-up-text text-decoration-none">Sign Up
                                     Now</a></span>
                         </div>
                     </div>

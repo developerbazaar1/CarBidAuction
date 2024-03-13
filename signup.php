@@ -13,7 +13,7 @@
     <section>
         <div class="signin-section">
             <div class="container pe-5">
-                <div class="d-flex align-items-center w-100 h-100 justify-content-end py-4 max-w-450">
+                <div class=" align-items-center w-100 h-100 justify-content-end py-4 max-w-450">
                     <div class="form-signin">
                         <div class="font-montserrat font-25 font-900 text-uppercase fst-italic text-center">
                             Join the Excitement
@@ -34,7 +34,7 @@
                                 <label class="form-label label-checkout text-white">
                                     Phone Number:
                                 </label>
-                                <input name="phone" type="text" id="phone" placeholder="99999-99999"
+                                <input name="phone" type="number" id="phone" placeholder="99999-99999"
                                     class="form-control input-field-checkout input-field-signin" />
                             </div>
 
@@ -87,7 +87,7 @@
 
                         <div class="font-montserrat font-500 font-14 text-center">
                             Already have An Account?
-                            <span><a href="/assets/signIn.php" class="signin-singn-up-text text-decoration-none">Sign In
+                            <span><a href="/signIn.php" class="signin-singn-up-text text-decoration-none">Sign In
                                     Now</a></span>
                         </div>
                     </div>

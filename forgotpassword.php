@@ -13,10 +13,10 @@
     <section>
         <div class="signin-section">
             <div class="container pe-5">
-                <div class="d-flex align-items-center w-100 h-100 justify-content-end py-258 max-w-450">
+                <div class=" align-items-center w-100 h-100 justify-content-end py-258 max-w-450">
                     <div class="form-signin">
                         <div class="text-center">
-                            <a href="/assets/signIn.php"
+                            <a href="/signIn.php"
                                 class="d-flex align-items-center text-white gap-1 text-decoration-none back-login-text">
                                 <img src="assets/images/icon/ep_back.svg" />
                                 <div>

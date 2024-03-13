@@ -13,7 +13,7 @@
     <section>
         <div class="signin-section">
             <div class="container pe-5">
-                <div class="d-flex align-items-center w-100 h-100 justify-content-end py-258 max-w-450">
+                <div class=" align-items-center w-100 h-100 justify-content-end py-258 max-w-450">
                     <div class="form-signin">
 
                         <div class="font-montserrat font-25 font-900 text-uppercase fst-italic text-center mt-30">

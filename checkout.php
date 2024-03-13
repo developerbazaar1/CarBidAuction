@@ -194,6 +194,10 @@
     <!-- Footer -->
     <?php include 'assets/include/footer.php' ;?>
     <!-- /Footer -->
+
+    <!-- JS Include -->
+    <?php include 'assets/include/jsinclude.php' ;?>
+    <!-- /JS Include -->
 </body>
 
 </html>

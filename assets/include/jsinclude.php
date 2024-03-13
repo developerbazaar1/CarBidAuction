@@ -496,6 +496,28 @@ $(function() {
 
     /*=======Onscroll fixed Section==========*/
 
+    $(document).ready(function() {
+        var mobileNavToggler = $('#mobileNavToggler');
+        var mobileNav = $('#mobileNav');
+
+        mobileNavToggler.click(function() {
+            mobileNav.toggleClass('open');
+        });
+    });
+
+
+    $(document).ready(function() {
+        $('.redirect-details').click(function() {
+            window.location.href = "/details.php";
+        });
+    });
+
+    $(document).ready(function() {
+        $('.redirect-livebidding').click(function() {
+            window.location.href = "/livebidding.php";
+        });
+    });
+
 
     var elementPosition = $('.onscroll-fixed').offset();
     var howItSection = $('.scroll-none').offset().top + $('.scroll-none').outerHeight();
@@ -506,8 +528,18 @@ $(function() {
                 'position': 'fixed',
                 'top': '0'
             });
+
+            $('.home-header').css({
+                'position': 'unset',
+                'top': '0'
+            });
+
         } else {
             $('.onscroll-fixed').css('position', 'static');
+            $('.home-header').css({
+                'position': 'sticky',
+                'top': '0'
+            });
         }
     });
 

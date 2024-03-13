@@ -80,6 +80,24 @@ section {
   margin: 0 auto;
   box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
 }
+.home-header {
+  position: sticky;
+}
+
+/* Custom styles for mobile nav */
+#mobileNav {
+  position: fixed;
+  top: 0;
+  left: -250px; /* Hide off-screen initially */
+  width: 250px;
+  height: 100vh;
+  background-color: #f8f9fa;
+  transition: left 0.3s;
+  z-index: 1000;
+}
+#mobileNav.open {
+  left: 0; /* Show the mobile nav */
+}
 
 .text-black {
   color: #000;
@@ -1934,6 +1952,12 @@ ul.list-features {
   }
 }
 
+@media only screen and (max-width: 1240px) {
+  .head-menu li {
+    padding-left: 17px;
+  }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
   .head-menu li {
     padding-left: 15px;
@@ -2222,7 +2246,7 @@ ul.list-features {
   --half-size: calc(var(--size) / 2);
   --stroke-width: 20px;
   --radius: calc((var(--size) - var(--stroke-width)) / 2);
-  --circumference: calc(var(--radius) * pi * 2);
+  --circumference: calc(var(--radius) * 2 * 3.14159);
   --dash: calc((var(--progress) * var(--circumference)) / 100);
   animation: progress-animation 2s linear 0s 1 forwards;
 }
@@ -2244,19 +2268,13 @@ ul.list-features {
   transform: rotate(-90deg);
   transform-origin: var(--half-size) var(--half-size);
   stroke-dasharray: var(--dash) calc(var(--circumference) - var(--dash));
-  transition: stroke-dasharray 0.6s linear 0s;
+  transition: stroke-dasharray 15s linear 0s;
   stroke: #21e786;
-}
-
-@property --progress {
-  syntax: "<number>";
-  inherits: false;
-  initial-value: 0;
 }
 
 @keyframes progress-animation {
   from {
-    --progress: 0;
+    --progress: 100;
   }
   to {
     --progress: 67;
@@ -3284,6 +3302,7 @@ tr.bg-table-history {
   border: 1px solid #fff;
   background: rgba(135, 135, 135, 0.25);
   color: #d3d3d3;
+  font-weight: 500;
 }
 
 .input-field-signin:focus {
@@ -3461,4 +3480,100 @@ tr.bg-table-history {
   text-align: center;
   width: fit-content;
   margin-left: auto;
+}
+
+/* for liveauction page  */
+
+.timer-box {
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: #21e786;
+  color: #000;
+  text-align: right;
+  font-variant-numeric: ordinal;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: normal;
+  padding: 4px;
+  width: 44px;
+  text-align: center;
+}
+
+.timer-section {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
+  gap: 30px;
+}
+
+.custom-checkbox {
+  display: none;
+}
+
+.custom-checkbox + label::before {
+  content: url("../images/icon/unlike-star.svg");
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-top: -34px;
+  margin-right: 18px;
+  margin-left: -12px;
+  cursor: pointer;
+}
+
+.custom-checkbox:checked + label::before {
+  content: url("../images/icon/like-star.svg");
+}
+
+.like-car {
+  position: absolute;
+  right: 21px;
+  top: 21px;
+}
+
+.star-outline-checkbox {
+  display: none;
+}
+
+.star-outline-checkbox + label::before {
+  content: url("../images/icon/star-outline.svg");
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  /* margin-top: -34px;
+  margin-right: 18px;
+  margin-left: -12px; */
+  cursor: pointer;
+}
+
+.star-outline-checkbox:checked + label::before {
+  content: url("../images/icon/star_fill.svg");
+}
+
+.input-field-checkout:-webkit-autofill,
+.input-field-checkout:-webkit-autofill:hover,
+.input-field-checkout:-webkit-autofill:focus,
+.input-field-checkout:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #d3d3d3;
+  transition: background-color 5000s ease-in-out 0s;
+  box-shadow: inset 0 0 20px 20px rgba(135, 135, 135, 0.25);
+}
+.form-control:focus {
+  border-color: #ced4da;
+  box-shadow: none;
+}
+
+.product-anchor {
+  display: block;
+  position: relative;
+  text-decoration: none;
+}
+
+.product-anchor .inner-box {
+  position: relative;
 }
