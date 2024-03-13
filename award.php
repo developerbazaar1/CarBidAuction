@@ -18,31 +18,43 @@
         <div class="btn-group ml-20" role="group" aria-label="Basic checkbox toggle button group">
 
             <div class="at">
-                <button class="btn btn-outline-primary">Dashboard</button>
+                <a href="/dashboard.php">
+                    <button class="btn btn-outline-primary ">Dashboard</button>
+                </a>
             </div>
 
             <div class="at">
-                <button class="btn btn-outline-primary active-btn-at">Award Pending</button>
-            </div>
-
-
-            <div class="at">
-                <button class="btn btn-outline-primary">Won Vehicles</button>
-            </div>
-
-
-            <div class="at">
-                <button class="btn btn-outline-primary">Lost Pre-Bids</button>
+                <a href="/award.php">
+                    <button class="btn btn-outline-primary active-btn-at">Award Pending</button>
+                </a>
             </div>
 
 
             <div class="at">
-                <button class="btn btn-outline-primary">My Vehicles</button>
+                <a href="/wonvehicles.php">
+                    <button class="btn btn-outline-primary ">Won Vehicles</button>
+                </a>
             </div>
 
 
             <div class="at">
-                <button class="btn btn-outline-primary">Profile</button>
+                <a href="/lostbid.php">
+                    <button class="btn btn-outline-primary">Lost Pre-Bids</button>
+                </a>
+            </div>
+
+
+            <div class="at">
+                <a href="/myvehicle.php">
+                    <button class="btn btn-outline-primary">My Vehicles</button>
+                </a>
+            </div>
+
+
+            <div class="at">
+                <a href="/profile.php">
+                    <button class="btn btn-outline-primary">Profile</button>
+                </a>
             </div>
 
         </div>
@@ -62,13 +74,13 @@
                 <table class="table table-borderless mb-0">
 
                     <tr class="bg-table-award">
-                        <td class="border-top-left">S.NO.</td>
-                        <td>Image</td>
-                        <td>Award Title</td>
-                        <td>Branch</td>
-                        <td>Won Date</td>
-                        <td>Payment Due</td>
-                        <td class="border-top-right">Pay Now</td>
+                        <td scope="col" class="col-1 border-top-left">S.NO.</td>
+                        <td scope="col" class="col-1">Image</td>
+                        <td scope="col" class="col-2">Award Title</td>
+                        <td scope="col" class="col-2">Branch</td>
+                        <td scope="col" class="col-2">Won Date</td>
+                        <td scope="col" class="col-2">Payment Due</td>
+                        <td scope="col" class="border-top-right col-3">Pay Now</td>
                     </tr>
 
 
@@ -77,10 +89,10 @@
                             <td>1</td>
                             <td>
                                 <div class="table-img">
-                                    <img src="assets/images/livebidding/car3.png" />
+                                    <img src="assets/images/livebidding/car8.png" />
                                 </div>
                             </td>
-                            <td>AVEO LS AUTOMATIC A/A</td>
+                            <td class="px-5">AVEO LS AUTOMATIC A/A</td>
                             <td>Phoenix</td>
                             <td>Nov 21, 2023</td>
                             <td>AED 10,000</td>
@@ -89,21 +101,6 @@
                                 </button></td>
                         </tr>
 
-                        <tr>
-                            <td>1</td>
-                            <td>
-                                <div class="table-img">
-                                    <img src="assets/images/livebidding/car3.png" />
-                                </div>
-                            </td>
-                            <td>AVEO LS AUTOMATIC A/A</td>
-                            <td>Phoenix</td>
-                            <td>Nov 21, 2023</td>
-                            <td>AED 10,000</td>
-                            <td><button class="btn set-payment set-payment-bg">
-                                    Set Payment
-                                </button></td>
-                        </tr>
 
                     </tbody>
                 </table>

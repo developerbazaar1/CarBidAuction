@@ -129,7 +129,7 @@ li.nav-item {
   padding-top: 220px;
 
   min-height: 730px;
-  margin-top: -100px;
+  margin-top: -123px;
   width: 100%;
   z-index: -2;
 }
@@ -2856,6 +2856,7 @@ tr.bg-table-award td {
   max-width: 892px;
   margin: 0 auto;
   padding-top: 30px;
+  cursor: pointer;
 }
 
 /* end checkout page  */
@@ -3074,4 +3075,390 @@ tr.bg-table-history {
 
 .btn-save-payment:hover {
   background-color: #fff;
+}
+.nav-tabs .active {
+  background: #fff;
+}
+
+/* for profile page  */
+
+.model-licensesdocuments {
+  transform: translate(50px, 0px) !important;
+  max-width: 560px !important;
+  margin-right: 49px;
+}
+
+.model-licensesdocuments-body {
+  border-radius: 5px 0px 0px 5px;
+  border-left: 2px solid #21e786;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.model-heder-addcard {
+  border-bottom: 1px solid #d3d3d3;
+  background: #e3fbef;
+  padding: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.model-content-addcard {
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);
+}
+.btn-save-addcard {
+  max-width: 253px;
+  margin: 0 auto;
+  margin-top: 11px;
+  margin-bottom: 25px;
+}
+
+.model-dialog-addcard {
+  transform: none !important;
+}
+
+.form-switch .form-check-input {
+  background-image: url(../images/icon/switch.svg);
+  background-repeat: no-repeat;
+  height: 26px;
+  width: 64px;
+  background-position: center left;
+  border: none;
+  background-size: contain;
+}
+.form-check-input {
+  background: #efefef;
+  padding: 3.37px;
+}
+.form-switch .form-check-input:checked {
+  background-color: #21e786 !important;
+  border-color: #21e786 !important;
+}
+.form-check-input:focus {
+  box-shadow: none;
+  box-shadow: none;
+}
+
+.form-switch .form-check-input:focus {
+  background-image: url(../images/icon/switch.svg);
+}
+
+.form-switch label {
+  margin-left: 15px;
+  margin-top: 7px;
+}
+
+.form-switch .form-check-input:checked {
+  background-image: url(../images/icon/switch2.svg);
+}
+
+#fileInput {
+  display: none;
+}
+
+.dropdown-menu li a {
+  padding: 10px 16px;
+  text-transform: none;
+}
+.dropdown-menu li img {
+  width: 24px;
+  height: 24px;
+}
+.top-header .dropdown-menu {
+  border-radius: 15px;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);
+}
+
+.dropdown-menu li a:hover {
+  background-color: #8cefbf;
+  text-decoration: none;
+}
+
+.dropdown-menu li a:hover div {
+  color: #000 !important;
+}
+
+.top-header .dropdown-menu {
+  top: 78px;
+}
+.dashboard-vehicles {
+  border-radius: 25px;
+  border: 1px solid #939598;
+  padding: 10px 25px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.dashboard-vehicles:hover {
+  background: #21e786;
+  border: 1px solid #21e786;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.font-700 {
+  font-weight: 700;
+}
+
+.announcements-card {
+  border-radius: 10px;
+  border: 2px solid #21e786;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  padding: 15px;
+}
+
+.announcements-sub-header {
+  max-width: 261px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.element-to-change {
+  background-color: #21e786;
+  padding: 4.2px 7.2px;
+  border-radius: 50%;
+  width: fit-content;
+  box-shadow: 0px 0px 12.353px 0px rgba(0, 0, 0, 0.25);
+}
+.myvehicle-bid {
+  width: 100px;
+}
+
+.filters-item {
+  padding: 10px 20px;
+}
+.font-24 {
+  font-size: 24px;
+}
+
+.bg-status {
+  background-color: #eff2f5;
+}
+.divider-filters {
+  border-bottom: 1px solid #000;
+  margin: 20px 10px;
+}
+
+.filter-dropdown {
+  min-width: 320px !important;
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
+  transform: translate(0px, 0px) !important;
+  z-index: 2;
+}
+
+/* for sign in section */
+.signin-section {
+  background-image: url(../images/background/bg-signin.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.form-signin {
+  border-radius: 20px;
+  border: 1px solid var(--Glass1-Stroke-Carey, #afafaf);
+  background: linear-gradient(
+      321deg,
+      rgba(191, 191, 191, 0.16) 5.98%,
+      rgba(0, 0, 0, 0) 66.28%
+    ),
+    rgba(0, 0, 0, 0.5);
+  box-shadow: -8px 4px 5px 0px rgba(0, 0, 0, 0.24);
+  backdrop-filter: blur(5px);
+  padding: 25px;
+}
+.font-25 {
+  font-size: 25px;
+}
+
+.input-field-signin {
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background: rgba(135, 135, 135, 0.25);
+  color: #d3d3d3;
+}
+
+.input-field-signin:focus {
+  color: #d3d3d3;
+  background: rgba(135, 135, 135, 0.25);
+  box-shadow: none;
+  border-color: #fff;
+}
+
+.signin-check:checked {
+  background-color: #21e786 !important;
+}
+.signin-check:checked[type="checkbox"] {
+  background-image: url(../images/icon/chack.svg);
+}
+.signin-check:focus {
+  box-shadow: none;
+  border-color: #fff;
+}
+
+.or-side-div {
+  height: 1px;
+}
+
+.font-noto {
+  font-family: "Noto Sans";
+}
+.btn-google {
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-family: "Termina Test";
+  color: #fff;
+  font-weight: 500;
+  line-height: 24px;
+  gap: 10px;
+  border: none;
+  width: 100%;
+}
+.group-button-signin {
+  max-width: 250px;
+  margin: 0 auto;
+}
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.signin-singn-up-text {
+  color: #21e786;
+}
+.py-110 {
+  padding: 110px 0px;
+}
+
+.input-password {
+  border-right: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.password-icon {
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background: rgba(135, 135, 135, 0.25);
+  padding: 10px;
+  border-left: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  cursor: pointer;
+}
+.max-w-485 {
+  max-width: 485px;
+  margin-left: auto;
+}
+.max-w-450 {
+  max-width: 450px;
+  margin-left: auto;
+}
+.iti {
+  width: 100%;
+}
+.iti__country-list {
+  background-color: #000 !important;
+}
+
+/* for forgot password */
+.back-login-text {
+  width: fit-content;
+  margin: 0 auto;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.shadow-btn {
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.py-258 {
+  padding: 258px 0px;
+}
+
+.max-w-314 {
+  max-width: 314px;
+  margin: 0 auto;
+}
+
+/* for Pricing Plan Page  */
+
+.pricing-card-heding {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 34px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.choose-plan-btn {
+  border-radius: 100px;
+  border: 0px solid #0000003f;
+  background: #0000003f;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 20px;
+  width: 100%;
+  padding: 15px 25px;
+  margin-top: 25px;
+}
+
+.choose-plan-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.card-group-pricing-plan {
+  border-radius: 50px;
+  background: #e3fbef;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  padding: 26px 0px;
+  margin-top: 96px;
+}
+
+.most-popular {
+  border-radius: 40px;
+  background: #21e786;
+  box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.25);
+  margin-top: -67px;
+}
+.bg-plan {
+  background-image: url(../images/background/bg-plan.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.most-popular-text {
+  border-radius: 25px;
+  background: #8ff2c2;
+  padding: 7px 17px 6px 16px;
+  font-family: "Avenir";
+  color: #000;
+  font-weight: 900;
+  font-size: 10px;
+  text-align: center;
+  width: fit-content;
+  margin-left: auto;
 }

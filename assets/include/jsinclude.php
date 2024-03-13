@@ -6,10 +6,141 @@
     src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_plugins/fancybox-3.1.25/jquery.fancybox.min.js">
 </script>
 <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
-
-
-
+<!-- Latest compiled and minified JavaScript -->
+<link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.19/css/intlTelInput.css" />
+<script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
 <script type="text/javascript">
+// for favorite is check or uncheck
+
+$(document).ready(function() {
+    $('.clickable-image').click(function() {
+
+        var targetId = $(this).data('target');
+        var currentColor = $('#' + targetId).data('current-color');
+
+        var newColor = currentColor === "rgb(255, 255, 255)" ? "#21E786" : "rgb(255, 255, 255)";
+
+        $('#' + targetId).css('background-color', newColor);
+        $('#' + targetId).data('current-color', newColor);
+    });
+});
+
+// end favorite is check or uncheck
+
+// for input phone number and country code
+
+$(document).ready(function() {
+    var input = $('#phone')[0];
+    window.intlTelInput(input, {
+        separateDialCode: true
+    });
+});
+
+// end input phone number and country code
+
+
+// for type password toggle
+
+
+$(document).ready(function() {
+    $('.password-toggle').click(function() {
+        var passwordInput = $('#passwordInput');
+        var icon = $('.password-toggle img');
+
+        if (passwordInput.attr('type') === 'password') {
+            passwordInput.attr('type', 'text');
+            icon.attr('src', 'assets/images/icon/eye.svg');
+        } else {
+            passwordInput.attr('type', 'password');
+            icon.attr('src', 'assets/images/icon/eye-closed.svg');
+        }
+    });
+});
+
+$(document).ready(function() {
+    $('.confirm-password-toggle').click(function() {
+        var passwordInput = $('#confirmPasswordInput');
+        var icon = $('.confirm-password-toggle img');
+
+        if (passwordInput.attr('type') === 'password') {
+            passwordInput.attr('type', 'text');
+            icon.attr('src', 'assets/images/icon/eye.svg');
+        } else {
+            passwordInput.attr('type', 'password');
+            icon.attr('src', 'assets/images/icon/eye-closed.svg');
+        }
+    });
+});
+
+// for otp 
+
+$(document).ready(function() {
+    $('.otp-input').on('input', function() {
+        if ($(this).val().length == 1) {
+            $(this).next('.otp-input').focus();
+        }
+    });
+
+    $('.otp-input:last').on('input', function() {
+        if ($(this).val().length == 1) {
+            $(this).blur();
+        }
+    });
+});
+
+// for sign in form redirect 
+
+$(document).ready(function() {
+    $('#signin-form').submit(function(event) {
+        event.preventDefault();
+
+        window.location.href = '/';
+    });
+});
+
+$(document).ready(function() {
+    $('#signup-form').submit(function(event) {
+        event.preventDefault();
+
+        window.location.href = '/otp.php';
+    });
+});
+
+$(document).ready(function() {
+    $('#otp-form').submit(function(event) {
+        event.preventDefault();
+
+        window.location.href = '/';
+    });
+});
+
+
+// for chang tab in another file 
+
+
+$(document).ready(function() {
+    $('.dashboard-vehicles').click(function() {
+        let tabId = $(this).data('tab-id');
+        if (tabId) {
+            sessionStorage.setItem('activeTab', tabId);
+
+            window.location.href = 'wonvehicles.php';
+        }
+    });
+});
+
+$(document).ready(function() {
+    let activeTab = sessionStorage.getItem('activeTab');
+    if (activeTab) {
+        $(`#${activeTab}`).tab('show');
+        sessionStorage.removeItem('activeTab');
+    }
+});
+
+// for chang tab in another file 
+
+
+
 //===========================calendar==================//
 
 $(document).ready(function() {
@@ -45,6 +176,42 @@ $(document).ready(function() {
         console.error('Calendar element not found');
     }
 });
+
+// for image drag
+
+$(document).ready(function() {
+    $('#dropZone').on('click', function() {
+        $('#fileInput').click();
+    });
+
+    $('#fileInput').on('change', function(e) {
+        const file = e.target.files[0];
+        const reader = new FileReader();
+        reader.onload = function(event) {
+            const imageUrl = event.target.result;
+            $('#dropZone').html(`<img src="${imageUrl}" alt="Dropped Image">`);
+        };
+        reader.readAsDataURL(file);
+    });
+
+    $('#dropZone').on('dragover', function(e) {
+        e.preventDefault();
+    });
+
+    $('#dropZone').on('drop', function(e) {
+        e.preventDefault();
+        const file = e.originalEvent.dataTransfer.files[0];
+        const reader = new FileReader();
+        reader.onload = function(event) {
+            const imageUrl = event.target.result;
+            $('#dropZone').html(`<img src="${imageUrl}" alt="Dropped Image">`);
+        };
+        reader.readAsDataURL(file);
+    });
+});
+
+// end image drag
+
 
 $(document).ready(function() {
     $('#bid-amount').on('keydown', function(event) {
