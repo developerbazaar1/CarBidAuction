@@ -6,3 +6,8 @@
     padding: 0px;
   }
 }
+@media (min-width: 1600px) {
+  .signin-section {
+    height: 100vh;
+  }
+}

@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <title>Document</title>
+    <title> Car Arbab</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <?php include 'assets/include/cssinclude.php' ;?>
 
 </head>
@@ -16,8 +17,8 @@
         <div class="container">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item">Home</li>
-                    <li class="breadcrumb-item">Cart</li>
+                    <li class="breadcrumb-item"><a href="/" class="text-decoration-none">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/cart.php" class="text-decoration-none">Cart</a></li>
                     <li class="breadcrumb-item active" aria-current="page"><a href="#">Checkout</a></li>
                 </ol>
             </nav>
@@ -32,13 +33,13 @@
 
             <div class="checkout-section mt-50">
                 <div class="header-checkout nav nav-tabs" id="myTab" role="tablist">
-                    <button class="btn btn-credit-card" id="home-tab" data-bs-toggle="tab"
+                    <button class="btn btn-credit-card active" id="home-tab" data-bs-toggle="tab"
                         data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
                         aria-selected="false">
                         Credit Card
                     </button>
 
-                    <button class="btn btn-credit-card bg-transparent" id="profile-tab" data-bs-toggle="tab"
+                    <button class="btn btn-credit-card" id="profile-tab" data-bs-toggle="tab"
                         data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane"
                         aria-selected="true">
                         Bank Transfer
@@ -70,7 +71,7 @@
 
                             <div class="col-lg-6">
                                 <div>
-                                    <label class="form-label label-checkout">Name on card
+                                    <label class="form-label label-checkout">Expiration
                                     </label>
                                     <div class="d-flex month-year-input">
                                         <input type="number" class="form-control input-field-checkout-month"
@@ -86,7 +87,7 @@
                                     <label class="form-label label-checkout">
                                         CVV
                                     </label>
-                                    <input type="text" class="form-control input-field-checkout"
+                                    <input type="number" class="form-control input-field-checkout"
                                         placeholder="Enter your card CVV no.">
                                 </div>
                             </div>
@@ -168,19 +169,9 @@
                             <input type="text" class="form-control input-field-checkout" placeholder="Enter Lot #">
                         </div>
 
-                        <div class="drag-uplod-img">
-                            <div class="drag-img">
-                                <img src="assets/images/icon/bytesize_upload.svg">
-                                <div class="drag-img-text">
-                                    Drag Or Upload Your Payment Receipt Here
-                                </div>
-                                <button class="btn drag-img-button">
-                                    Browse File
-                                </button>
-                            </div>
-                            <div class="drag-img-text mt-2">
-                                Image should not bigger than 100 KB
-                            </div>
+                        <div class="pt-30">
+                            <input type="file" class="dropify" data-max-file-size="100kb" />
+                            <div class="drag-img-text mt-10">Image should not bigger than 100 KB</div>
                         </div>
                         <div class="text-center mt-4">
                             <button class="btn bid-now">Pay AED 39,150</button>

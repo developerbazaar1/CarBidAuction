@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <title>New Project</title>
+    <title> Car Arbab</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
 
 
     <!-- Css Meta Url-css Style Include -->
@@ -358,7 +359,7 @@
 
                 <div class="row">
 
-                    <div class="col-lg-4 mt-25">
+                    <div class="col-lg-4 mt-25 position-relative">
                         <div class="inner-box redirect-details">
                             <div class="car-modal tag">MUV</div>
                             <div class="product-img-box">
@@ -366,13 +367,7 @@
                                 <div class="car-value tag">Estimated Market Value: <span class="text-black">AED
                                         30,000</span>
                                 </div>
-                                <div class="like-car">
-                                    <div class="form-check">
-                                        <input type="checkbox" id="customCheckbox-13"
-                                            class="custom-checkbox form-check-input">
-                                        <label for="customCheckbox-13" class="form-check-label"></label>
-                                    </div>
-                                </div>
+
                             </div>
 
                             <div class="details">
@@ -441,23 +436,23 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="like-car">
+                            <div class="form-check">
+                                <input type="checkbox" id="customCheckbox-13" class="custom-checkbox form-check-input">
+                                <label for="customCheckbox-13" class="form-check-label"></label>
+                            </div>
+                        </div>
                     </div>
                     <!---col--->
 
-                    <div class="col-lg-4 mt-25">
+                    <div class="col-lg-4 mt-25 position-relative">
                         <div class="inner-box redirect-details">
                             <div class="car-modal tag">MUV</div>
                             <div class="product-img-box">
                                 <img class="w-100" src="assets/images/product/product-6.png" alt="">
                                 <div class="car-value tag">Estimated Market Value: <span class="text-black">AED
                                         30,000</span></div>
-                                <div class="like-car">
-                                    <div class="form-check">
-                                        <input type="checkbox" id="customCheckbox-14"
-                                            class="custom-checkbox form-check-input">
-                                        <label for="customCheckbox-14" class="form-check-label"></label>
-                                    </div>
-                                </div>
+
                             </div>
 
                             <div class="details">
@@ -526,24 +521,24 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="like-car">
+                            <div class="form-check">
+                                <input type="checkbox" id="customCheckbox-14" class="custom-checkbox form-check-input">
+                                <label for="customCheckbox-14" class="form-check-label"></label>
+                            </div>
+                        </div>
                     </div>
                     <!---col--->
 
 
-                    <div class="col-lg-4 mt-25">
+                    <div class="col-lg-4 mt-25 position-relative">
                         <div class="inner-box redirect-details">
                             <div class="car-modal tag">MUV</div>
                             <div class="product-img-box">
                                 <img class="w-100" src="assets/images/product/product-7.png" alt="">
                                 <div class="car-value tag">Estimated Market Value: <span class="text-black">AED
                                         30,000</span></div>
-                                <div class="like-car">
-                                    <div class="form-check">
-                                        <input type="checkbox" id="customCheckbox-15"
-                                            class="custom-checkbox form-check-input">
-                                        <label for="customCheckbox-15" class="form-check-label"></label>
-                                    </div>
-                                </div>
+
                             </div>
 
                             <div class="details">
@@ -611,24 +606,24 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="like-car">
+                            <div class="form-check">
+                                <input type="checkbox" id="customCheckbox-15" class="custom-checkbox form-check-input">
+                                <label for="customCheckbox-15" class="form-check-label"></label>
+                            </div>
+                        </div>
                     </div>
                     <!---col--->
 
 
-                    <div class="col-lg-4 mt-25">
+                    <div class="col-lg-4 mt-25 position-relative">
                         <div class="inner-box redirect-details">
                             <div class="car-modal tag">MUV</div>
                             <div class="product-img-box">
                                 <img class="w-100" src="assets/images/product/product-8.png" alt="">
                                 <div class="car-value tag">Estimated Market Value: <span class="text-black">AED
                                         30,000</span></div>
-                                <div class="like-car">
-                                    <div class="form-check">
-                                        <input type="checkbox" id="customCheckbox-16"
-                                            class="custom-checkbox form-check-input">
-                                        <label for="customCheckbox-16" class="form-check-label"></label>
-                                    </div>
-                                </div>
+
                             </div>
 
                             <div class="details">
@@ -697,23 +692,23 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="like-car">
+                            <div class="form-check">
+                                <input type="checkbox" id="customCheckbox-16" class="custom-checkbox form-check-input">
+                                <label for="customCheckbox-16" class="form-check-label"></label>
+                            </div>
+                        </div>
                     </div>
                     <!---col--->
 
-                    <div class="col-lg-4 mt-25">
+                    <div class="col-lg-4 mt-25 position-relative">
                         <div class="inner-box redirect-details">
                             <div class="car-modal tag">MUV</div>
                             <div class="product-img-box">
                                 <img class="w-100" src="assets/images/product/product-9.png" alt="">
                                 <div class="car-value tag">Estimated Market Value: <span class="text-black">AED
                                         30,000</span></div>
-                                <div class="like-car">
-                                    <div class="form-check">
-                                        <input type="checkbox" id="customCheckbox-17"
-                                            class="custom-checkbox form-check-input">
-                                        <label for="customCheckbox-17" class="form-check-label"></label>
-                                    </div>
-                                </div>
+
                             </div>
 
                             <div class="details">
@@ -782,23 +777,23 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="like-car">
+                            <div class="form-check">
+                                <input type="checkbox" id="customCheckbox-17" class="custom-checkbox form-check-input">
+                                <label for="customCheckbox-17" class="form-check-label"></label>
+                            </div>
+                        </div>
                     </div>
                     <!---col--->
 
-                    <div class="col-lg-4 mt-25">
+                    <div class="col-lg-4 mt-25 position-relative">
                         <div class="inner-box redirect-details">
                             <div class="car-modal tag">MUV</div>
                             <div class="product-img-box">
                                 <img class="w-100" src="assets/images/product/product-10.png" alt="">
                                 <div class="car-value tag">Estimated Market Value: <span class="text-black">AED
                                         30,000</span></div>
-                                <div class="like-car">
-                                    <div class="form-check">
-                                        <input type="checkbox" id="customCheckbox-18"
-                                            class="custom-checkbox form-check-input">
-                                        <label for="customCheckbox-18" class="form-check-label"></label>
-                                    </div>
-                                </div>
+
                             </div>
 
                             <div class="details">
@@ -867,24 +862,24 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="like-car">
+                            <div class="form-check">
+                                <input type="checkbox" id="customCheckbox-18" class="custom-checkbox form-check-input">
+                                <label for="customCheckbox-18" class="form-check-label"></label>
+                            </div>
+                        </div>
                     </div>
                     <!---col--->
 
 
-                    <div class="col-lg-4 mt-25">
+                    <div class="col-lg-4 mt-25 position-relative">
                         <div class="inner-box redirect-details">
                             <div class="car-modal tag">MUV</div>
                             <div class="product-img-box">
                                 <img class="w-100" src="assets/images/product/product-11.png" alt="">
                                 <div class="car-value tag">Estimated Market Value: <span class="text-black">AED
                                         30,000</span></div>
-                                <div class="like-car">
-                                    <div class="form-check">
-                                        <input type="checkbox" id="customCheckbox-19"
-                                            class="custom-checkbox form-check-input">
-                                        <label for="customCheckbox-19" class="form-check-label"></label>
-                                    </div>
-                                </div>
+
                             </div>
 
                             <div class="details">
@@ -952,24 +947,24 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="like-car">
+                            <div class="form-check">
+                                <input type="checkbox" id="customCheckbox-19" class="custom-checkbox form-check-input">
+                                <label for="customCheckbox-19" class="form-check-label"></label>
+                            </div>
+                        </div>
                     </div>
                     <!---col--->
 
 
-                    <div class="col-lg-4 mt-25">
+                    <div class="col-lg-4 mt-25 position-relative">
                         <div class="inner-box redirect-details">
                             <div class="car-modal tag">MUV</div>
                             <div class="product-img-box">
                                 <img class="w-100" src="assets/images/product/product-12.png" alt="">
                                 <div class="car-value tag">Estimated Market Value: <span class="text-black">AED
                                         30,000</span></div>
-                                <div class="like-car">
-                                    <div class="form-check">
-                                        <input type="checkbox" id="customCheckbox-20"
-                                            class="custom-checkbox form-check-input">
-                                        <label for="customCheckbox-20" class="form-check-label"></label>
-                                    </div>
-                                </div>
+
                             </div>
 
                             <div class="details">
@@ -1035,6 +1030,12 @@
 
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="like-car">
+                            <div class="form-check">
+                                <input type="checkbox" id="customCheckbox-20" class="custom-checkbox form-check-input">
+                                <label for="customCheckbox-20" class="form-check-label"></label>
                             </div>
                         </div>
                     </div>

@@ -11,6 +11,54 @@
 }
 
 @font-face {
+  font-family: "Termina Test Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Termina Test Regular"),
+    url("TerminaTest-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Termina Test";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Termina Test"),
+    url("../webfonts/TerminaTest-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Termina Test";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Termina Test"),
+    url("../webfonts/TerminaTest-Demi.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Termina Test";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Termina Test"),
+    url("../webfonts/TerminaTest-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Termina Test";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Termina Test"),
+    url("../webfonts/TerminaTest-Heavy.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Termina Test";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Termina Test"),
+    url("../webfonts/TerminaTest-Black.woff") format("woff");
+}
+
+@font-face {
   font-family: "good-times-rg";
   font-style: normal;
   font-weight: 100;
@@ -100,7 +148,7 @@ section {
 }
 
 .text-black {
-  color: #000;
+  color: #000 !important;
 }
 li.nav-item {
   align-items: center;
@@ -144,12 +192,26 @@ li.nav-item {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom right;
-  padding-top: 220px;
-
-  min-height: 730px;
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 630px;
   margin-top: -123px;
   width: 100%;
   z-index: -2;
+}
+.video-btn {
+  position: absolute;
+  top: 25%;
+  left: 47%;
+  cursor: pointer;
+}
+
+.img-hero {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .hero-h1 {
@@ -262,6 +324,11 @@ background: linear-gradient(90deg, #21E786 0%, rgba(33, 231, 134, 0.00) 100.02%)
 .btn-usrhub:hover {
   background: #fff;
   color: #000;
+}
+
+.btn-usrhub:hover path {
+  fill: black;
+  transition: all ease 0.3s;
 }
 
 .title-section {
@@ -866,8 +933,8 @@ ul.list-item {
 }
 
 ul.list-item li {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 ul.list-item li a {
@@ -929,8 +996,8 @@ ul.list-item li:hover a {
 }
 
 .footer-section ul li {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 ul.social-icons {
@@ -939,7 +1006,7 @@ ul.social-icons {
 
 .social-icons li {
   float: left;
-  padding: 0px 10px;
+  /* padding: 0px 10px; */
 }
 
 .social-icons {
@@ -1467,7 +1534,7 @@ li.breadcrumb-item {
   position: fixed;
   left: 0px;
   right: 0px;
-  top: 5px;
+  top: 0px;
   border-radius: 100px;
   background: #21e786;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);
@@ -1915,12 +1982,19 @@ ul.list-features {
 .pr-20 {
   padding-right: 20px;
 }
+.pr-30 {
+  padding-right: 30px;
+}
 .ml-0 {
   margin-left: 0px;
 }
 
 .w-285 {
   width: 285px;
+}
+
+.max-w-250 {
+  max-width: 250px;
 }
 
 .onscroll-fixed {
@@ -2239,6 +2313,51 @@ ul.list-features {
   z-index: -1;
 }
 
+.success-popup {
+  border-radius: 25px;
+  border: 2px solid #21e786;
+  background: #8ff2c2;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  display: none;
+}
+
+.bid-done {
+  border-radius: 25px;
+  border: 2px solid #e7b021;
+  background: #f2e28f;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.25);
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  width: 100%;
+  padding: 20px;
+}
+
+.bid-done a:hover {
+  color: #000;
+}
+
 /* for progress bar */
 
 .circular-progress {
@@ -2552,6 +2671,10 @@ tr.bg-table-award td {
   padding: 0px !important;
 }
 
+.fc-today-button {
+  display: none !important;
+}
+
 .second-event {
   border-radius: 100px 0px 0px 100px;
   background: #ffd9d9;
@@ -2666,6 +2789,8 @@ tr.bg-table-award td {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
+  display: flex;
+  gap: 4px;
 }
 
 .service-title:before {
@@ -2842,7 +2967,6 @@ tr.bg-table-award td {
 
 .drag-img {
   border-radius: 5px;
-  border: 1px dashed #444343;
   height: 214px;
   display: flex;
   justify-content: center;
@@ -2859,6 +2983,21 @@ tr.bg-table-award td {
   line-height: 18px;
 }
 
+.dropify-wrapper {
+  border: 1px dashed #9d9d9d !important;
+  border-radius: 5px;
+}
+
+.dropify-wrapper .dropify-message span p {
+  color: #9d9d9d !important;
+  font-family: "Termina Test";
+  font-size: 12px !important;
+  font-weight: 600;
+  line-height: 18px;
+}
+.dropify-wrapper .dropify-message span.file-icon {
+  font-size: 30px !important;
+}
 .drag-img-button {
   border-radius: 5px;
   border: 1px solid #21e786;
@@ -2908,7 +3047,7 @@ tr.bg-table-award td {
   font-family: "Montserrat";
   font-size: 12px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: normal;
   border: #fff;
   padding: 0px;
 }
@@ -2918,7 +3057,7 @@ tr.bg-table-award td {
   font-family: "Montserrat";
   font-size: 12px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: normal;
   border: #fff;
   padding: 0px;
   height: 100px;
@@ -2998,6 +3137,10 @@ tr.bg-table-history {
   gap: 20px;
 }
 
+.p-20 {
+  padding: 20px;
+}
+
 /* for Update profile page  */
 .update-section {
   max-width: 441px;
@@ -3015,7 +3158,9 @@ tr.bg-table-history {
 .font-600 {
   font-weight: 600;
 }
-
+.font-800 {
+  font-weight: 800;
+}
 .line-28 {
   line-height: 28px;
 }
@@ -3025,7 +3170,7 @@ tr.bg-table-history {
 }
 
 .font-14 {
-  font-size: 14px;
+  font-size: 14px !important;
 }
 .text-gray {
   color: #444343;
@@ -3035,6 +3180,10 @@ tr.bg-table-history {
   margin-top: 10px;
 }
 
+.mb-10 {
+  margin-bottom: 10px;
+}
+
 .font-500 {
   font-weight: 500;
 }
@@ -3042,6 +3191,17 @@ tr.bg-table-history {
 .notification-section {
   max-width: 955px;
   margin: 0 auto;
+}
+
+.password-icon-profile {
+  border-radius: 10px;
+  border: 1px solid #ced4da;
+  background: #fff;
+  padding: 10px;
+  border-left: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  cursor: pointer;
 }
 
 .side-section-license {
@@ -3108,7 +3268,7 @@ tr.bg-table-history {
 
 .model-licensesdocuments-body {
   border-radius: 5px 0px 0px 5px;
-  border-left: 2px solid #21e786;
+  border-left: 3px solid #21e786;
 }
 
 .font-18 {
@@ -3330,6 +3490,11 @@ tr.bg-table-history {
 .font-noto {
   font-family: "Noto Sans";
 }
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
 .btn-google {
   padding: 10px;
   border-radius: 10px;
@@ -3358,6 +3523,9 @@ tr.bg-table-history {
 }
 .py-110 {
   padding: 110px 0px;
+}
+.py-82 {
+  padding: 82px 0px;
 }
 
 .input-password {
@@ -3423,6 +3591,33 @@ tr.bg-table-history {
   font-style: italic;
   font-weight: 900;
   line-height: 34px;
+}
+
+.pricing-list {
+  color: #1c1b1f;
+  font-family: "Termina Test";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  display: flex;
+  gap: 4px;
+}
+
+.line-18 {
+  line-height: 18px;
+}
+
+.pricing-list:before {
+  content: "\f14a";
+  font-family: "Font Awesome 6 Pro";
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-ligatures: normal;
+  font-weight: 900;
+  font-size: 20px;
+  text-rendering: auto;
+  margin-right: 5px;
+  -webkit-font-smoothing: antialiased;
 }
 
 .mt-20 {
@@ -3530,8 +3725,8 @@ tr.bg-table-history {
 
 .like-car {
   position: absolute;
-  right: 21px;
-  top: 21px;
+  right: 26px;
+  top: 26px;
 }
 
 .star-outline-checkbox {
@@ -3576,4 +3771,54 @@ tr.bg-table-history {
 
 .product-anchor .inner-box {
   position: relative;
+}
+.redirect-livebidding {
+  cursor: pointer;
+}
+.redirect-details {
+  cursor: pointer;
+}
+
+/* details section  */
+
+.img-car-details {
+  aspect-ratio: 1.672;
+}
+.object-fit-contain {
+  object-fit: contain !important;
+}
+.min-w-fit {
+  min-width: fit-content;
+}
+
+.card-positionss {
+  position: sticky;
+  top: 150px;
+}
+
+.modle-buy-now {
+  aspect-ratio: 2;
+  max-width: 400px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.modle-buy-now img {
+  object-fit: cover;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  column-gap: 25px;
+}
+section.auction-timer {
+  overflow: inherit;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.redius-25 {
+  border-radius: 25px;
 }

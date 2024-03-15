@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <title>New Project</title>
-
+    <title> Car Arbab</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <!-- Css Meta Url-css Style Include -->
     <?php include 'assets/include/cssinclude.php' ;?>
     <!-- /Css Include -->
@@ -22,16 +22,19 @@
     <section class="hero-section z-0" style="">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5  animated wow fadeInLeft ">
+                <div class="col-lg-5 py-82 animated wow fadeInLeft ">
                     <h1 class="hero-h1">Unleash the Power of Choice: Your Dream Car Awaits!</h1>
                     <p class="hero-pera">Elevate your drive with Website Name. Explore diverse car auctions, bid, and
                         win your dream ride. Unleash the thrill – start now!</p>
                     <button type="button" class="btn hero-btn">Explore Auctions</button>
 
                 </div>
-                <div class="col-lg-5  animated wow fadeInRight text-end">
+                <div class="col-lg-7   animated wow fadeInRight text-end position-relative">
 
-                    <img class="w-100" src="assets/images/background/hero-right.png">
+                    <img class="w-100 img-hero" src="assets/images/background/cars.png">
+                    <div class="video-btn">
+                        <img src="assets/images/icon/slow_motion_video.svg" />
+                    </div>
 
                 </div>
             </div>
@@ -176,67 +179,88 @@
                     <div class="owl-carousel owl-theme mx-0 px-0" id="slider-1">
 
                         <div class="item">
-                            <div class="inner-box">
-                                <img class="w-100" src="assets/images/product/product-1.jpg" alt="">
-                                <div class="details">
-                                    <div class="model-name">AVEO LS AUTOMATIC A/A</div>
-                                    <div class="brand-name">Toyota</div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/manual.png"> Manual
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/petrol.png"> Petrol
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/owner.png"> First Owner
-                                            </span>
+                            <div class="position-relative">
+                                <div class="inner-box redirect-details">
+                                    <div class="car-modal tag">MUV</div>
+                                    <div class="product-img-box">
+                                        <img class="w-100" src="assets/images/product/product-3.jpg" alt="">
+                                        <div class="car-value tag">Estimated Market Value: <span class="text-black">AED
+                                                30,000</span>
                                         </div>
 
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
-                                            </span>
+                                    </div>
+
+                                    <div class="details">
+                                        <div class="model-name">AVEO LS AUTOMATIC A/A</div>
+                                        <div class="brand-name">Toyota</div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/manual.png"> Manual
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/petrol.png"> Petrol
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/owner.png"> First Owner
+                                                </span>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
+                                                </span>
+                                            </div>
+
+                                            <div class="col-12 m-auto">
+                                                <div class="divider"> </div>
+                                            </div>
+
+
+                                            <div class="col-6 cost-box">
+                                                <div class="pri">Repair Cost:</div>
+                                                <div class="amou d-flex justify-content-between">
+                                                    AED 3,500
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 cost-box">
+                                                <div class="pri">Current Bid Price:</div>
+                                                <div class="amou d-flex justify-content-between">
+                                                    AED 25,000
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <a href="#" class="btn bid-btn">Bid Now</a>
+                                            </div>
+
+                                            <div class="col-12 text-center">
+                                                <a href="#" class="ctm-link"> Buy Now $XXXX</a>
+
+                                            </div>
                                         </div>
-
-                                        <div class="col-12 m-auto">
-                                            <div class="divider"> </div>
-                                        </div>
-
-
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Repair Cost:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 3,500</div>
-                                        </div>
-
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Current Bid Price:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 25,000</div>
-                                        </div>
-
-                                        <div class="col-12">
-                                            <a href="#" class="btn bid-btn">Bid Now</a>
-                                        </div>
-
-                                        <div class="col-12 text-center">
-                                            <a href="#" class="ctm-link"> Buy Now $XXXX</a>
-
-                                        </div>
+                                    </div>
+                                </div>
+                                <div class="like-car">
+                                    <div class="form-check">
+                                        <input type="checkbox" id="customCheckBox13"
+                                            class="custom-checkbox form-check-input">
+                                        <label for="customCheckBox13" class="form-check-label"></label>
                                     </div>
                                 </div>
                             </div>
@@ -244,67 +268,88 @@
 
 
                         <div class="item">
-                            <div class="inner-box">
-                                <img class="w-100" src="assets/images/product/product-2.jpg" alt="">
-                                <div class="details">
-                                    <div class="model-name">AVEO LS AUTOMATIC A/A</div>
-                                    <div class="brand-name">Toyota</div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/manual.png"> Manual
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/petrol.png"> Petrol
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/owner.png"> First Owner
-                                            </span>
+                            <div class="position-relative">
+                                <div class="inner-box redirect-details">
+                                    <div class="car-modal tag">MUV</div>
+                                    <div class="product-img-box">
+                                        <img class="w-100" src="assets/images/product/product-2.jpg" alt="">
+                                        <div class="car-value tag">Estimated Market Value: <span class="text-black">AED
+                                                30,000</span>
                                         </div>
 
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
-                                            </span>
+                                    </div>
+
+                                    <div class="details">
+                                        <div class="model-name">AVEO LS AUTOMATIC A/A</div>
+                                        <div class="brand-name">Toyota</div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/manual.png"> Manual
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/petrol.png"> Petrol
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/owner.png"> First Owner
+                                                </span>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
+                                                </span>
+                                            </div>
+
+                                            <div class="col-12 m-auto">
+                                                <div class="divider"> </div>
+                                            </div>
+
+
+                                            <div class="col-6 cost-box">
+                                                <div class="pri">Repair Cost:</div>
+                                                <div class="amou d-flex justify-content-between">
+                                                    AED 3,500
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 cost-box">
+                                                <div class="pri">Current Bid Price:</div>
+                                                <div class="amou d-flex justify-content-between">
+                                                    AED 25,000
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <a href="#" class="btn bid-btn">Bid Now</a>
+                                            </div>
+
+                                            <div class="col-12 text-center">
+                                                <a href="#" class="ctm-link"> Buy Now $XXXX</a>
+
+                                            </div>
                                         </div>
-
-                                        <div class="col-12 m-auto">
-                                            <div class="divider"> </div>
-                                        </div>
-
-
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Repair Cost:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 3,500</div>
-                                        </div>
-
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Current Bid Price:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 25,000</div>
-                                        </div>
-
-                                        <div class="col-12">
-                                            <a href="#" class="btn bid-btn">Bid Now</a>
-                                        </div>
-
-                                        <div class="col-12 text-center">
-                                            <a href="#" class="ctm-link"> Buy Now $XXXX</a>
-
-                                        </div>
+                                    </div>
+                                </div>
+                                <div class="like-car">
+                                    <div class="form-check">
+                                        <input type="checkbox" id="customCheckBox14"
+                                            class="custom-checkbox form-check-input">
+                                        <label for="customCheckBox14" class="form-check-label"></label>
                                     </div>
                                 </div>
                             </div>
@@ -312,268 +357,264 @@
 
 
                         <div class="item">
-                            <div class="inner-box">
-                                <img class="w-100" src="assets/images/product/product-3.jpg" alt="">
-                                <div class="details">
-                                    <div class="model-name">AVEO LS AUTOMATIC A/A</div>
-                                    <div class="brand-name">Toyota</div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/manual.png"> Manual
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/petrol.png"> Petrol
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/owner.png"> First Owner
-                                            </span>
+                            <div class="position-relative">
+                                <div class="inner-box redirect-details">
+                                    <div class="car-modal tag">MUV</div>
+                                    <div class="product-img-box">
+                                        <img class="w-100" src="assets/images/product/product-1.jpg" alt="">
+                                        <div class="car-value tag">Estimated Market Value: <span class="text-black">AED
+                                                30,000</span>
                                         </div>
 
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
-                                            </span>
+                                    </div>
+
+                                    <div class="details">
+                                        <div class="model-name">AVEO LS AUTOMATIC A/A</div>
+                                        <div class="brand-name">Toyota</div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/manual.png"> Manual
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/petrol.png"> Petrol
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/owner.png"> First Owner
+                                                </span>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
+                                                </span>
+                                            </div>
+
+                                            <div class="col-12 m-auto">
+                                                <div class="divider"> </div>
+                                            </div>
+
+
+                                            <div class="col-6 cost-box">
+                                                <div class="pri">Repair Cost:</div>
+                                                <div class="amou d-flex justify-content-between">
+                                                    AED 3,500
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 cost-box">
+                                                <div class="pri">Current Bid Price:</div>
+                                                <div class="amou d-flex justify-content-between">
+                                                    AED 25,000
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <a href="#" class="btn bid-btn">Bid Now</a>
+                                            </div>
+
+                                            <div class="col-12 text-center">
+                                                <a href="#" class="ctm-link"> Buy Now $XXXX</a>
+
+                                            </div>
                                         </div>
-
-                                        <div class="col-12 m-auto">
-                                            <div class="divider"> </div>
-                                        </div>
-
-
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Repair Cost:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 3,500</div>
-                                        </div>
-
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Current Bid Price:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 25,000</div>
-                                        </div>
-
-                                        <div class="col-12">
-                                            <a href="#" class="btn bid-btn">Bid Now</a>
-                                        </div>
-
-                                        <div class="col-12 text-center">
-                                            <a href="#" class="ctm-link"> Buy Now $XXXX</a>
-
-                                        </div>
+                                    </div>
+                                </div>
+                                <div class="like-car">
+                                    <div class="form-check">
+                                        <input type="checkbox" id="customCheckBox15"
+                                            class="custom-checkbox form-check-input">
+                                        <label for="customCheckBox15" class="form-check-label"></label>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="item">
-                            <div class="inner-box">
-                                <img class="w-100" src="assets/images/product/product-2.jpg" alt="">
-                                <div class="details">
-                                    <div class="model-name">AVEO LS AUTOMATIC A/A</div>
-                                    <div class="brand-name">Toyota</div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/manual.png"> Manual
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/petrol.png"> Petrol
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/owner.png"> First Owner
-                                            </span>
+                            <div class="position-relative">
+                                <div class="inner-box redirect-details">
+                                    <div class="car-modal tag">MUV</div>
+                                    <div class="product-img-box">
+                                        <img class="w-100" src="assets/images/product/product-13.png" alt="">
+                                        <div class="car-value tag">Estimated Market Value: <span class="text-black">AED
+                                                30,000</span>
                                         </div>
 
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
-                                            </span>
+                                    </div>
+
+                                    <div class="details">
+                                        <div class="model-name">AVEO LS AUTOMATIC A/A</div>
+                                        <div class="brand-name">Toyota</div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/manual.png"> Manual
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/petrol.png"> Petrol
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/owner.png"> First Owner
+                                                </span>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
+                                                </span>
+                                            </div>
+
+                                            <div class="col-12 m-auto">
+                                                <div class="divider"> </div>
+                                            </div>
+
+
+                                            <div class="col-6 cost-box">
+                                                <div class="pri">Repair Cost:</div>
+                                                <div class="amou d-flex justify-content-between">
+                                                    AED 3,500
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 cost-box">
+                                                <div class="pri">Current Bid Price:</div>
+                                                <div class="amou d-flex justify-content-between">
+                                                    AED 25,000
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <a href="#" class="btn bid-btn">Bid Now</a>
+                                            </div>
+
+                                            <div class="col-12 text-center">
+                                                <a href="#" class="ctm-link"> Buy Now $XXXX</a>
+
+                                            </div>
                                         </div>
-
-                                        <div class="col-12 m-auto">
-                                            <div class="divider"> </div>
-                                        </div>
-
-
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Repair Cost:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 3,500</div>
-                                        </div>
-
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Current Bid Price:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 25,000</div>
-                                        </div>
-
-                                        <div class="col-12">
-                                            <a href="#" class="btn bid-btn">Bid Now</a>
-                                        </div>
-
-                                        <div class="col-12 text-center">
-                                            <a href="#" class="ctm-link"> Buy Now $XXXX</a>
-
-                                        </div>
+                                    </div>
+                                </div>
+                                <div class="like-car">
+                                    <div class="form-check">
+                                        <input type="checkbox" id="customCheckBox16"
+                                            class="custom-checkbox form-check-input">
+                                        <label for="customCheckBox16" class="form-check-label"></label>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="item">
-                            <div class="inner-box">
-                                <img class="w-100" src="assets/images/product/product-1.jpg" alt="">
-                                <div class="details">
-                                    <div class="model-name">AVEO LS AUTOMATIC A/A</div>
-                                    <div class="brand-name">Toyota</div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/manual.png"> Manual
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/petrol.png"> Petrol
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/owner.png"> First Owner
-                                            </span>
+                            <div class="position-relative">
+                                <div class="inner-box redirect-details">
+                                    <div class="car-modal tag">MUV</div>
+                                    <div class="product-img-box">
+                                        <img class="w-100" src="assets/images/product/product-6.png" alt="">
+                                        <div class="car-value tag">Estimated Market Value: <span class="text-black">AED
+                                                30,000</span>
                                         </div>
 
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
-                                            </span>
-                                        </div>
+                                    </div>
 
-                                        <div class="col-12 m-auto">
-                                            <div class="divider"> </div>
-                                        </div>
+                                    <div class="details">
+                                        <div class="model-name">AVEO LS AUTOMATIC A/A</div>
+                                        <div class="brand-name">Toyota</div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/manual.png"> Manual
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/petrol.png"> Petrol
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/owner.png"> First Owner
+                                                </span>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
+                                                </span>
+                                            </div>
+
+                                            <div class="col-12 m-auto">
+                                                <div class="divider"> </div>
+                                            </div>
 
 
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Repair Cost:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 3,500</div>
-                                        </div>
+                                            <div class="col-6 cost-box">
+                                                <div class="pri">Repair Cost:</div>
+                                                <div class="amou d-flex justify-content-between">
+                                                    AED 3,500
+                                                </div>
+                                            </div>
 
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Current Bid Price:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 25,000</div>
-                                        </div>
+                                            <div class="col-6 cost-box">
+                                                <div class="pri">Current Bid Price:</div>
+                                                <div class="amou d-flex justify-content-between">
+                                                    AED 25,000
+                                                </div>
+                                            </div>
 
-                                        <div class="col-12">
-                                            <a href="#" class="btn bid-btn">Bid Now</a>
-                                        </div>
+                                            <div class="col-12">
+                                                <a href="#" class="btn bid-btn">Bid Now</a>
+                                            </div>
 
-                                        <div class="col-12 text-center">
-                                            <a href="#" class="ctm-link"> Buy Now $XXXX</a>
+                                            <div class="col-12 text-center">
+                                                <a href="#" class="ctm-link"> Buy Now $XXXX</a>
 
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="inner-box">
-                                <img class="w-100" src="assets/images/product/product-3.jpg" alt="">
-                                <div class="details">
-                                    <div class="model-name">AVEO LS AUTOMATIC A/A</div>
-                                    <div class="brand-name">Toyota</div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/manual.png"> Manual
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/petrol.png"> Petrol
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/owner.png"> First Owner
-                                            </span>
-                                        </div>
-
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
-                                            </span>
-                                        </div>
-
-                                        <div class="col-12 m-auto">
-                                            <div class="divider"> </div>
-                                        </div>
-
-
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Repair Cost:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 3,500</div>
-                                        </div>
-
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Current Bid Price:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 25,000</div>
-                                        </div>
-
-                                        <div class="col-12">
-                                            <a href="#" class="btn bid-btn">Bid Now</a>
-                                        </div>
-
-                                        <div class="col-12 text-center">
-                                            <a href="#" class="ctm-link"> Buy Now $XXXX</a>
-
-                                        </div>
+                                <div class="like-car">
+                                    <div class="form-check">
+                                        <input type="checkbox" id="customCheckBox17"
+                                            class="custom-checkbox form-check-input">
+                                        <label for="customCheckBox17" class="form-check-label"></label>
                                     </div>
                                 </div>
                             </div>
@@ -1013,67 +1054,88 @@
                     <div class="owl-carousel owl-theme mx-0 px-0" id="slider-2">
 
                         <div class="item">
-                            <div class="inner-box">
-                                <img class="w-100" src="assets/images/product/product-1.jpg" alt="">
-                                <div class="details">
-                                    <div class="model-name">AVEO LS AUTOMATIC A/A</div>
-                                    <div class="brand-name">Toyota</div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/manual.png"> Manual
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/petrol.png"> Petrol
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/owner.png"> First Owner
-                                            </span>
+                            <div class="position-relative">
+                                <div class="inner-box redirect-details">
+                                    <div class="car-modal tag">MUV</div>
+                                    <div class="product-img-box">
+                                        <img class="w-100" src="assets/images/product/product-2.jpg" alt="">
+                                        <div class="car-value tag">Estimated Market Value: <span class="text-black">AED
+                                                30,000</span>
                                         </div>
 
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
-                                            </span>
+                                    </div>
+
+                                    <div class="details">
+                                        <div class="model-name">AVEO LS AUTOMATIC A/A</div>
+                                        <div class="brand-name">Toyota</div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/manual.png"> Manual
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/petrol.png"> Petrol
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/owner.png"> First Owner
+                                                </span>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
+                                                </span>
+                                            </div>
+
+                                            <div class="col-12 m-auto">
+                                                <div class="divider"> </div>
+                                            </div>
+
+
+                                            <div class="col-6 cost-box">
+                                                <div class="pri">Repair Cost:</div>
+                                                <div class="amou d-flex justify-content-between">
+                                                    AED 3,500
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 cost-box">
+                                                <div class="pri">Current Bid Price:</div>
+                                                <div class="amou d-flex justify-content-between">
+                                                    AED 25,000
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <a href="#" class="btn bid-btn">Bid Now</a>
+                                            </div>
+
+                                            <div class="col-12 text-center">
+                                                <a href="#" class="ctm-link"> Buy Now $XXXX</a>
+
+                                            </div>
                                         </div>
-
-                                        <div class="col-12 m-auto">
-                                            <div class="divider"> </div>
-                                        </div>
-
-
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Repair Cost:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 3,500</div>
-                                        </div>
-
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Current Bid Price:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 25,000</div>
-                                        </div>
-
-                                        <div class="col-12">
-                                            <a href="#" class="btn bid-btn">Bid Now</a>
-                                        </div>
-
-                                        <div class="col-12 text-center">
-                                            <a href="#" class="ctm-link"> Buy Now $XXXX</a>
-
-                                        </div>
+                                    </div>
+                                </div>
+                                <div class="like-car">
+                                    <div class="form-check">
+                                        <input type="checkbox" id="customCheckBox18"
+                                            class="custom-checkbox form-check-input">
+                                        <label for="customCheckBox18" class="form-check-label"></label>
                                     </div>
                                 </div>
                             </div>
@@ -1081,336 +1143,352 @@
 
 
                         <div class="item">
-                            <div class="inner-box">
-                                <img class="w-100" src="assets/images/product/product-2.jpg" alt="">
-                                <div class="details">
-                                    <div class="model-name">AVEO LS AUTOMATIC A/A</div>
-                                    <div class="brand-name">Toyota</div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/manual.png"> Manual
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/petrol.png"> Petrol
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/owner.png"> First Owner
-                                            </span>
+                            <div class="position-relative">
+                                <div class="inner-box redirect-details">
+                                    <div class="car-modal tag">MUV</div>
+                                    <div class="product-img-box">
+                                        <img class="w-100" src="assets/images/product/product-1.jpg" alt="">
+                                        <div class="car-value tag">Estimated Market Value: <span class="text-black">AED
+                                                30,000</span>
                                         </div>
 
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
-                                            </span>
-                                        </div>
+                                    </div>
 
-                                        <div class="col-12 m-auto">
-                                            <div class="divider"> </div>
-                                        </div>
+                                    <div class="details">
+                                        <div class="model-name">AVEO LS AUTOMATIC A/A</div>
+                                        <div class="brand-name">Toyota</div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/manual.png"> Manual
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/petrol.png"> Petrol
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/owner.png"> First Owner
+                                                </span>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
+                                                </span>
+                                            </div>
+
+                                            <div class="col-12 m-auto">
+                                                <div class="divider"> </div>
+                                            </div>
 
 
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Repair Cost:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 3,500</div>
-                                        </div>
+                                            <div class="col-6 cost-box">
+                                                <div class="pri">Repair Cost:</div>
+                                                <div class="amou d-flex justify-content-between">
+                                                    AED 3,500
+                                                </div>
+                                            </div>
 
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Current Bid Price:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 25,000</div>
-                                        </div>
+                                            <div class="col-6 cost-box">
+                                                <div class="pri">Current Bid Price:</div>
+                                                <div class="amou d-flex justify-content-between">
+                                                    AED 25,000
+                                                </div>
+                                            </div>
 
-                                        <div class="col-12">
-                                            <a href="#" class="btn bid-btn">Bid Now</a>
-                                        </div>
+                                            <div class="col-12">
+                                                <a href="#" class="btn bid-btn">Bid Now</a>
+                                            </div>
 
-                                        <div class="col-12 text-center">
-                                            <a href="#" class="ctm-link"> Buy Now $XXXX</a>
+                                            <div class="col-12 text-center">
+                                                <a href="#" class="ctm-link"> Buy Now $XXXX</a>
 
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-
-
-                        <div class="item">
-                            <div class="inner-box">
-                                <img class="w-100" src="assets/images/product/product-3.jpg" alt="">
-                                <div class="details">
-                                    <div class="model-name">AVEO LS AUTOMATIC A/A</div>
-                                    <div class="brand-name">Toyota</div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/manual.png"> Manual
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/petrol.png"> Petrol
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/owner.png"> First Owner
-                                            </span>
-                                        </div>
-
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
-                                            </span>
-                                        </div>
-
-                                        <div class="col-12 m-auto">
-                                            <div class="divider"> </div>
-                                        </div>
-
-
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Repair Cost:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 3,500</div>
-                                        </div>
-
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Current Bid Price:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 25,000</div>
-                                        </div>
-
-                                        <div class="col-12">
-                                            <a href="#" class="btn bid-btn">Bid Now</a>
-                                        </div>
-
-                                        <div class="col-12 text-center">
-                                            <a href="#" class="ctm-link"> Buy Now $XXXX</a>
-
-                                        </div>
+                                <div class="like-car">
+                                    <div class="form-check">
+                                        <input type="checkbox" id="customCheckBox19"
+                                            class="custom-checkbox form-check-input">
+                                        <label for="customCheckBox19" class="form-check-label"></label>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="item">
-                            <div class="inner-box">
-                                <img class="w-100" src="assets/images/product/product-2.jpg" alt="">
-                                <div class="details">
-                                    <div class="model-name">AVEO LS AUTOMATIC A/A</div>
-                                    <div class="brand-name">Toyota</div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/manual.png"> Manual
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/petrol.png"> Petrol
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/owner.png"> First Owner
-                                            </span>
+                            <div class="position-relative">
+                                <div class="inner-box redirect-details">
+                                    <div class="car-modal tag">MUV</div>
+                                    <div class="product-img-box">
+                                        <img class="w-100" src="assets/images/product/product-13.png" alt="">
+                                        <div class="car-value tag">Estimated Market Value: <span class="text-black">AED
+                                                30,000</span>
                                         </div>
 
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
-                                            </span>
+                                    </div>
+
+                                    <div class="details">
+                                        <div class="model-name">AVEO LS AUTOMATIC A/A</div>
+                                        <div class="brand-name">Toyota</div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/manual.png"> Manual
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/petrol.png"> Petrol
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/owner.png"> First Owner
+                                                </span>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
+                                                </span>
+                                            </div>
+
+                                            <div class="col-12 m-auto">
+                                                <div class="divider"> </div>
+                                            </div>
+
+
+                                            <div class="col-6 cost-box">
+                                                <div class="pri">Repair Cost:</div>
+                                                <div class="amou d-flex justify-content-between">
+                                                    AED 3,500
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 cost-box">
+                                                <div class="pri">Current Bid Price:</div>
+                                                <div class="amou d-flex justify-content-between">
+                                                    AED 25,000
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <a href="#" class="btn bid-btn">Bid Now</a>
+                                            </div>
+
+                                            <div class="col-12 text-center">
+                                                <a href="#" class="ctm-link"> Buy Now $XXXX</a>
+
+                                            </div>
                                         </div>
-
-                                        <div class="col-12 m-auto">
-                                            <div class="divider"> </div>
-                                        </div>
-
-
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Repair Cost:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 3,500</div>
-                                        </div>
-
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Current Bid Price:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 25,000</div>
-                                        </div>
-
-                                        <div class="col-12">
-                                            <a href="#" class="btn bid-btn">Bid Now</a>
-                                        </div>
-
-                                        <div class="col-12 text-center">
-                                            <a href="#" class="ctm-link"> Buy Now $XXXX</a>
-
-                                        </div>
+                                    </div>
+                                </div>
+                                <div class="like-car">
+                                    <div class="form-check">
+                                        <input type="checkbox" id="customCheckBox20"
+                                            class="custom-checkbox form-check-input">
+                                        <label for="customCheckBox20" class="form-check-label"></label>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="item">
-                            <div class="inner-box">
-                                <img class="w-100" src="assets/images/product/product-1.jpg" alt="">
-                                <div class="details">
-                                    <div class="model-name">AVEO LS AUTOMATIC A/A</div>
-                                    <div class="brand-name">Toyota</div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/manual.png"> Manual
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/petrol.png"> Petrol
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/owner.png"> First Owner
-                                            </span>
+                            <div class="position-relative">
+                                <div class="inner-box redirect-details">
+                                    <div class="car-modal tag">MUV</div>
+                                    <div class="product-img-box">
+                                        <img class="w-100" src="assets/images/product/product-6.png" alt="">
+                                        <div class="car-value tag">Estimated Market Value: <span class="text-black">AED
+                                                30,000</span>
                                         </div>
 
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
-                                            </span>
+                                    </div>
+
+                                    <div class="details">
+                                        <div class="model-name">AVEO LS AUTOMATIC A/A</div>
+                                        <div class="brand-name">Toyota</div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/manual.png"> Manual
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/petrol.png"> Petrol
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/owner.png"> First Owner
+                                                </span>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
+                                                </span>
+                                            </div>
+
+                                            <div class="col-12 m-auto">
+                                                <div class="divider"> </div>
+                                            </div>
+
+
+                                            <div class="col-6 cost-box">
+                                                <div class="pri">Repair Cost:</div>
+                                                <div class="amou d-flex justify-content-between">
+                                                    AED 3,500
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 cost-box">
+                                                <div class="pri">Current Bid Price:</div>
+                                                <div class="amou d-flex justify-content-between">
+                                                    AED 25,000
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <a href="#" class="btn bid-btn">Bid Now</a>
+                                            </div>
+
+                                            <div class="col-12 text-center">
+                                                <a href="#" class="ctm-link"> Buy Now $XXXX</a>
+
+                                            </div>
                                         </div>
-
-                                        <div class="col-12 m-auto">
-                                            <div class="divider"> </div>
-                                        </div>
-
-
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Repair Cost:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 3,500</div>
-                                        </div>
-
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Current Bid Price:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 25,000</div>
-                                        </div>
-
-                                        <div class="col-12">
-                                            <a href="#" class="btn bid-btn">Bid Now</a>
-                                        </div>
-
-                                        <div class="col-12 text-center">
-                                            <a href="#" class="ctm-link"> Buy Now $XXXX</a>
-
-                                        </div>
+                                    </div>
+                                </div>
+                                <div class="like-car">
+                                    <div class="form-check">
+                                        <input type="checkbox" id="customCheckBox21"
+                                            class="custom-checkbox form-check-input">
+                                        <label for="customCheckBox21" class="form-check-label"></label>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="item">
-                            <div class="inner-box">
-                                <img class="w-100" src="assets/images/product/product-3.jpg" alt="">
-                                <div class="details">
-                                    <div class="model-name">AVEO LS AUTOMATIC A/A</div>
-                                    <div class="brand-name">Toyota</div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/manual.png"> Manual
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/petrol.png"> Petrol
-                                            </span>
-                                        </div>
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/owner.png"> First Owner
-                                            </span>
+                            <div class="position-relative">
+                                <div class="inner-box redirect-details">
+                                    <div class="car-modal tag">MUV</div>
+                                    <div class="product-img-box">
+                                        <img class="w-100" src="assets/images/product/product-3.jpg" alt="">
+                                        <div class="car-value tag">Estimated Market Value: <span class="text-black">AED
+                                                30,000</span>
                                         </div>
 
-                                        <div class="col-6">
-                                            <span class="d-flex align-items-center icon-box">
-                                                <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
-                                            </span>
+                                    </div>
+
+                                    <div class="details">
+                                        <div class="model-name">AVEO LS AUTOMATIC A/A</div>
+                                        <div class="brand-name">Toyota</div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/manual.png"> Manual
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/petrol.png"> Petrol
+                                                </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/owner.png"> First Owner
+                                                </span>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <span class="d-flex align-items-center icon-box">
+                                                    <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
+                                                </span>
+                                            </div>
+
+                                            <div class="col-12 m-auto">
+                                                <div class="divider"> </div>
+                                            </div>
+
+
+                                            <div class="col-6 cost-box">
+                                                <div class="pri">Repair Cost:</div>
+                                                <div class="amou d-flex justify-content-between">
+                                                    AED 3,500
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 cost-box">
+                                                <div class="pri">Current Bid Price:</div>
+                                                <div class="amou d-flex justify-content-between">
+                                                    AED 25,000
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <a href="#" class="btn bid-btn">Bid Now</a>
+                                            </div>
+
+                                            <div class="col-12 text-center">
+                                                <a href="#" class="ctm-link"> Buy Now $XXXX</a>
+
+                                            </div>
                                         </div>
-
-                                        <div class="col-12 m-auto">
-                                            <div class="divider"> </div>
-                                        </div>
-
-
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Repair Cost:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 3,500</div>
-                                        </div>
-
-                                        <div class="col-6 cost-box">
-                                            <div class="pri">Current Bid Price:</div>
-                                            <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 25,000</div>
-                                        </div>
-
-                                        <div class="col-12">
-                                            <a href="#" class="btn bid-btn">Bid Now</a>
-                                        </div>
-
-                                        <div class="col-12 text-center">
-                                            <a href="#" class="ctm-link"> Buy Now $XXXX</a>
-
-                                        </div>
+                                    </div>
+                                </div>
+                                <div class="like-car">
+                                    <div class="form-check">
+                                        <input type="checkbox" id="customCheckBox22"
+                                            class="custom-checkbox form-check-input">
+                                        <label for="customCheckBox22" class="form-check-label"></label>
                                     </div>
                                 </div>
                             </div>
@@ -1421,8 +1499,10 @@
                 </div>
                 <!---/col-12----->
 
-                <div class="col-lg-12 mt-50 mx-auto text-center"><button class="btn-load-more"><i
-                            class="fa-solid fa-spinner"></i> &nbsp; More </button></div>
+                <div class="col-lg-12 mt-50 mx-auto text-center"><button class="btn-load-more">
+                        Load More
+                        <img src="assets/images/icon/Down2.svg" class="ms-1" />
+                    </button></div>
             </div>
             <!----/Row----->
 
@@ -1453,7 +1533,7 @@
 
                         <div class="col-lg-2 col-sm-2 col-xs-6 mx-auto text-center hv">
                             <div class="ico-b d-flex justify-content-center align-items-center mb-35"><img class=""
-                                    src="assets/images/icon/step1.png"></div>
+                                    src="assets/images/icon/question1.svg"></div>
                             <div class="step"> Step:1</div>
                             <div class="explore">Explore Listings</div>
                         </div>
@@ -1464,12 +1544,12 @@
                             <div class="explore">Secure Participation</div>
 
                             <div class="ico-b d-flex justify-content-center align-items-center mt-35"><img class=""
-                                    src="assets/images/icon/step2.png"></div>
+                                    src="assets/images/icon/question2.svg"></div>
                         </div>
 
                         <div class="col-lg-2 col-sm-2 col-xs-6 mx-auto text-center hv">
                             <div class="ico-b d-flex justify-content-center align-items-center mb-35"><img class=""
-                                    src="assets/images/icon/step3.png"></div>
+                                    src="assets/images/icon/question3.svg"></div>
                             <div class="step"> Step:3</div>
                             <div class="explore">Auction Countdown</div>
                         </div>
@@ -1479,13 +1559,13 @@
                             <div class="step mt-90"> Step:4</div>
                             <div class="explore">Bid with Confidence</div>
                             <div class="ico-b d-flex justify-content-center align-items-center mt-35"><img class=""
-                                    src="assets/images/icon/step4.png"></div>
+                                    src="assets/images/icon/question4.svg"></div>
 
                         </div>
 
                         <div class="col-lg-2 col-sm-2 col-xs-6 mx-auto text-center hv">
                             <div class="ico-b d-flex justify-content-center align-items-center mb-35"><img class=""
-                                    src="assets/images/icon/step5.png"></div>
+                                    src="assets/images/icon/question5.svg"></div>
                             <div class="step"> Step:5</div>
                             <div class="explore">Victory Lap</div>
                         </div>

@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <title>New Project</title>
+    <title> Car Arbab</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <!-- Css Meta Url-css Style Include -->
     <?php include 'assets/include/cssinclude.php' ;?>
     <!-- /Css Include -->
@@ -23,7 +24,7 @@
 
         <div class="container">
             <div class="row mx-0 px-0">
-                <div class="col-lg-9 mx-0 px-0">
+                <div class="col-lg-8 mx-0 px-0">
 
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
@@ -38,9 +39,11 @@
                     <p class="p">3.5 D5 PowerPulse Momentum 5dr AWD Geartronic Estate</p>
                 </div>
 
-                <div class="col-lg-3 mx-0 px-0  breadcrumb-right mt-4 pt-3">
-                    <a href="#" class="btn buy-now"> Buy Now AED <span>XXXX</span></a>
-                    <a href="#" class="btn bid-now">Bid Now</a>
+                <div class="col-lg-4 mx-0 px-0  breadcrumb-right mt-4 pt-3">
+                    <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn buy-now"> Buy Now AED
+                        <span>XXXX</span></button>
+                    <button data-bs-toggle="modal" data-bs-target="#bid-now-modle" class="btn bid-now ms-4">Bid
+                        Now</button>
                 </div>
 
             </div>
@@ -56,16 +59,16 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-8">
+                <div class="col-lg-7">
                     <div class="ag-format-container">
 
                         <div class="ag-photo-gallery_list">
                             <div class="ag-photo-gallery_item ag-photo-gallery_item__wide">
                                 <figure class="ag-photo-gallery_figure">
-                                    <a href="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-1098x549-6.jpg"
-                                        data-fancybox="gallery" data-caption="Car 1">
-                                        <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-1098x549-6.jpg"
-                                            class="ag-photo-gallery_img" alt="" />
+                                    <a href="assets/images/livebidding/car4.png" data-fancybox="gallery"
+                                        data-caption="Car 1">
+                                        <img src="assets/images/livebidding/car4.png" class="ag-photo-gallery_img"
+                                            alt="" />
                                     </a>
                                 </figure>
                             </div>
@@ -74,37 +77,41 @@
 
                             <div class="ag-photo-gallery_item ag-photo-gallery_item__narrow">
                                 <figure class="ag-photo-gallery_figure">
-                                    <a href="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-1098x549-2.jpg"
-                                        data-fancybox="gallery" data-caption="Car 2">
-                                        <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-1098x549-2.jpg"
-                                            class="ag-photo-gallery_img" alt="" />
+                                    <a href="assets/images/livebidding/car1.png" data-fancybox="gallery"
+                                        data-caption="Car 2" class="img-car-details">
+                                        <img src="assets/images/livebidding/car1.png"
+                                            class="ag-photo-gallery_img object-fit-contain w-100 h-100 pt-0 mt-0"
+                                            alt="" />
                                     </a>
                                 </figure>
                             </div>
                             <div class="ag-photo-gallery_item ag-photo-gallery_item__narrow">
                                 <figure class="ag-photo-gallery_figure">
-                                    <a href="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-1098x549-9.jpg"
-                                        data-fancybox="gallery" data-caption="Car 3">
-                                        <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-1098x549-9.jpg"
-                                            class="ag-photo-gallery_img" alt="" />
+                                    <a href="assets/images/livebidding/car2.png" data-fancybox="gallery"
+                                        data-caption="Car 3" class="img-car-details">
+                                        <img src="assets/images/livebidding/car2.png"
+                                            class="ag-photo-gallery_img object-fit-contain w-100 h-100 pt-0 mt-0"
+                                            alt="" />
                                     </a>
                                 </figure>
                             </div>
                             <div class="ag-photo-gallery_item ag-photo-gallery_item__narrow">
                                 <figure class="ag-photo-gallery_figure">
-                                    <a href="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-1098x549-4.jpg"
-                                        data-fancybox="gallery" data-caption="Car 4">
-                                        <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-1098x549-4.jpg"
-                                            class="ag-photo-gallery_img" alt="" />
+                                    <a href="assets/images/livebidding/car3.png" data-fancybox="gallery"
+                                        data-caption="Car 4" class="img-car-details">
+                                        <img src="assets/images/livebidding/car3.png"
+                                            class="ag-photo-gallery_img object-fit-contain w-100 h-100 pt-0 mt-0"
+                                            alt="" />
                                     </a>
                                 </figure>
                             </div>
                             <div class="ag-photo-gallery_item ag-photo-gallery_item__narrow">
                                 <figure class="ag-photo-gallery_figure">
-                                    <a href="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-1098x549-5.jpg"
-                                        data-fancybox="gallery" data-caption="Car 5">
-                                        <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-1098x549-5.jpg"
-                                            class="ag-photo-gallery_img" alt="" />
+                                    <a href="assets/images/livebidding/car9.png" data-fancybox="gallery"
+                                        data-caption="Car 5" class="img-car-details">
+                                        <img src="assets/images/livebidding/car9.png"
+                                            class="ag-photo-gallery_img object-fit-contain w-100 h-100 pt-0 mt-0"
+                                            alt="" />
                                     </a>
                                 </figure>
                             </div>
@@ -117,7 +124,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 text-center">
+                <div class="col-lg-5 text-center">
                     <img src="assets/images/background/car-right.png">
 
 
@@ -135,7 +142,7 @@
 
 
     <!-----Auction-timer------->
-    <section class="auction-timer pt-50 pb-50">
+    <section class="auction-timer pt-50">
 
         <div class="container countdown-bg unset" id="Fx">
             <div class="row mx-0 px-0">
@@ -221,527 +228,625 @@
 
         <div class="container">
 
-            <div class="row">
-                <div class="col-lg-12 tag-group">
-
-                    <a class="btn btn-tag" href="#">Ending Soon</a>
-                    <a class="btn btn-tag" href="#">Accident Free</a>
-                    <a class="btn btn-tag" href="#">GCC Specs</a>
-                    <a class="btn btn-tag" href="#">Warranty Available</a>
-                    <a class="btn btn-tag" href="#">Bank Loan Available</a>
-
-                </div>
-                <!----col--->
-            </div>
-            <!----row---->
+            <!-- row  -->
+            <div class="row gx-5 ">
+                <!-- col 1 -->
+                <div class="col-lg-8 ">
 
 
-            <div class="row">
-                <div class="col-lg-12 ">
 
-                    <h2 class="car-overv" Car Overview>Car Overview</h2>
-                </div>
-                <div class="col-lg-12 tag-group">
+                    <div class="row">
+                        <div class="col-lg-12 tag-group">
 
-                    <div class="row px-0 mx-0">
+                            <a class="btn btn-tag" href="#">Ending Soon</a>
+                            <a class="btn btn-tag" href="#">Accident Free</a>
+                            <a class="btn btn-tag" href="#">GCC Specs</a>
+                            <a class="btn btn-tag" href="#">Warranty Available</a>
+                            <a class="btn btn-tag" href="#">Bank Loan Available</a>
 
-                        <div class="col-lg-2 px-0 mx-0">
-                            <span class="d-flex align-items-center icon-box">
-                                <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
-                            </span>
                         </div>
-
-                        <div class="col-lg-2 px-0 mx-0">
-                            <span class="d-flex align-items-center icon-box">
-                                <img class="ico" src="assets/images/icon/manual.png"> Manual
-                            </span>
-                        </div>
-
-                        <div class="col-lg-2 px-0 mx-0">
-                            <span class="d-flex align-items-center icon-box">
-                                <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
-                            </span>
-                        </div>
-
-
-                        <div class="col-lg-2 px-0 mx-0">
-                            <span class="d-flex align-items-center icon-box">
-                                <img class="ico" src="assets/images/icon/petrol.png"> Petrol
-                            </span>
-                        </div>
-
-                        <div class="col-lg-2 px-0 mx-0">
-                            <span class="d-flex align-items-center icon-box">
-                                <img class="ico" src="assets/images/icon/owner.png"> First Owner
-                            </span>
-                        </div>
-
-                        <div class="col-lg-2 px-0 mx-0">
-                            <span class="d-flex align-items-center icon-box">
-                                <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
-                            </span>
-                        </div>
-
+                        <!----col--->
                     </div>
-                    <!----inner--row--->
+                    <!----row---->
 
 
-                </div>
+                    <div class="row">
+                        <div class="col-lg-12 ">
 
-            </div>
-            <!----row--->
-
-
-            <div class="row">
-                <div class="col-lg-12 ">
-
-                    <h2 class="car-overv" Car Overview>Vehicle Details</h2>
-                </div>
-                <div class="col-lg-12 tag-group">
-
-                    <div class="row px-0 mx-0">
-
-                        <div class="col-lg-6 ml-0 pl-0 pr-20">
-
-                            <div class="list">
-                                <div class="d-flex justify-content-between">
-                                    <div class="left-text">Title</div>
-                                    <div class="right-text">2018 Toyota Camry SE</div>
-                                </div>
-                            </div>
-
-                            <div class="list">
-                                <div class="d-flex justify-content-between">
-                                    <div class="left-text">VIN Number</div>
-                                    <div class="right-text">ABC123XYZ456789</div>
-                                </div>
-                            </div>
-
-                            <div class="list">
-                                <div class="d-flex justify-content-between">
-                                    <div class="left-text">Title Code</div>
-                                    <div class="right-text">Clean</div>
-                                </div>
-                            </div>
-
-                            <div class="list">
-                                <div class="d-flex justify-content-between">
-                                    <div class="left-text">Vehicle Type</div>
-                                    <div class="right-text">Sedan</div>
-                                </div>
-                            </div>
-
-                            <div class="list">
-                                <div class="d-flex justify-content-between">
-                                    <div class="left-text">Key Availability</div>
-                                    <div class="right-text">Yes</div>
-                                </div>
-                            </div>
+                            <h2 class="car-overv" Car Overview>Car Overview</h2>
                         </div>
+                        <div class="col-lg-12 tag-group">
 
+                            <div class="grid-container px-0 mx-0">
 
-                        <div class="col-lg-6 pl-20">
-
-                            <div class="list">
-                                <div class="d-flex justify-content-between">
-                                    <div class="left-text">Primary Damage</div>
-                                    <div class="right-text">None</div>
+                                <div class="px-0 mx-0">
+                                    <span class="d-flex align-items-center icon-box">
+                                        <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
+                                    </span>
                                 </div>
-                            </div>
 
-                            <div class="list">
-                                <div class="d-flex justify-content-between">
-                                    <div class="left-text">Color</div>
-                                    <div class="right-text">Midnight Blue</div>
+                                <div class="px-0 mx-0">
+                                    <span class="d-flex align-items-center icon-box">
+                                        <img class="ico" src="assets/images/icon/manual.png"> Manual
+                                    </span>
                                 </div>
-                            </div>
 
-                            <div class="list">
-                                <div class="d-flex justify-content-between">
-                                    <div class="left-text">Engine Type</div>
-                                    <div class="right-text">Inline-4</div>
+                                <div class="px-0 mx-0">
+                                    <span class="d-flex align-items-center icon-box">
+                                        <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
+                                    </span>
                                 </div>
-                            </div>
 
-                            <div class="list">
-                                <div class="d-flex justify-content-between">
-                                    <div class="left-text">Transmission</div>
-                                    <div class="right-text">Automatic</div>
-                                </div>
-                            </div>
 
-                            <div class="list">
-                                <div class="d-flex justify-content-between">
-                                    <div class="left-text">Drive Type</div>
-                                    <div class="right-text">Front-Wheel Drive</div>
+                                <div class="px-0 mx-0">
+                                    <span class="d-flex align-items-center icon-box">
+                                        <img class="ico" src="assets/images/icon/petrol.png"> Petrol
+                                    </span>
                                 </div>
-                            </div>
 
-                            <div class="list">
-                                <div class="d-flex justify-content-between">
-                                    <div class="left-text">Highlights</div>
-                                    <div class="right-text w-225">Leather Seats, Advanced Safety Features</div>
+                                <div class="px-0 mx-0">
+                                    <span class="d-flex align-items-center icon-box">
+                                        <img class="ico" src="assets/images/icon/owner.png"> First Owner
+                                    </span>
                                 </div>
+
+                                <div class="px-0 mx-0">
+                                    <span class="d-flex align-items-center icon-box">
+                                        <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
+                                    </span>
+                                </div>
+
                             </div>
+                            <!----inner--row--->
+
 
                         </div>
 
                     </div>
-                </div>
-
-            </div>
-            <!----row----->
+                    <!----row--->
 
 
+                    <div class="row">
+                        <div class="col-lg-12 ">
 
-            <div class="row">
-                <div class="col-lg-12 ">
-
-                    <h2 class="car-overv" Car Overview>Car Overview Score</h2>
-                </div>
-                <div class="col-lg-12 tag-group">
-
-                    <div class="row px-0 mx-0">
-
-                        <div class="col-lg-6 px-0 mx-0">
-
-                            <div class="skill-main">
-                                <div class="skill-wrrap">
-                                    <div class="skill-name">Exterior Body Damage Diagram</div>
-                                    <div class="skill-bar">
-                                        <div class="skill-per bg-chanege" per="66.6"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="skill-main">
-                                <div class="skill-wrrap">
-                                    <div class="skill-name">Brakes</div>
-                                    <div class="skill-bar">
-                                        <div class="skill-per" per="80"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="skill-main">
-                                <div class="skill-wrrap">
-                                    <div class="skill-name">Suspension/Steering</div>
-                                    <div class="skill-bar">
-                                        <div class="skill-per" per="91.7"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="skill-main">
-                                <div class="skill-wrrap">
-                                    <div class="skill-name">Road Test And Final Checks</div>
-                                    <div class="skill-bar">
-                                        <div class="skill-per" per="95.2"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="skill-main">
-                                <div class="skill-wrrap">
-                                    <div class="skill-name">Tyres</div>
-                                    <div class="skill-bar">
-                                        <div class="skill-per" per="92.8"></div>
-                                    </div>
-                                </div>
-                            </div>
-
+                            <h2 class="car-overv" Car Overview>Vehicle Details</h2>
                         </div>
-                        <!-----col----6--->
+                        <div class="col-lg-12 tag-group">
 
+                            <div class="row px-0 mx-0">
 
-                        <div class="col-lg-6 px-0 mx-0">
+                                <div class="col-lg-6 ml-0 pl-0 pr-20">
 
-                            <div class="skill-main">
-                                <div class="skill-wrrap">
-                                    <div class="skill-name">Engine & Transmission</div>
-                                    <div class="skill-bar">
-                                        <div class="skill-per" per="86.6"></div>
+                                    <div class="list">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="left-text">Title</div>
+                                            <div class="right-text">2018 Toyota Camry SE</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="list">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="left-text">VIN Number</div>
+                                            <div class="right-text">ABC123XYZ456789</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="list">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="left-text">Title Code</div>
+                                            <div class="right-text">Clean</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="list">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="left-text">Vehicle Type</div>
+                                            <div class="right-text">Sedan</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="list">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="left-text">Key Availability</div>
+                                            <div class="right-text">Yes</div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
 
-                            <div class="skill-main">
-                                <div class="skill-wrrap">
-                                    <div class="skill-name">Electrical Controls</div>
-                                    <div class="skill-bar">
-                                        <div class="skill-per" per="99"></div>
+                                <div class="col-lg-6 pl-20">
+
+                                    <div class="list">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="left-text">Primary Damage</div>
+                                            <div class="right-text">None</div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
 
-
-                            <div class="skill-main">
-                                <div class="skill-wrrap">
-                                    <div class="skill-name">Interior</div>
-                                    <div class="skill-bar">
-                                        <div class="skill-per" per="94"></div>
+                                    <div class="list">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="left-text">Color</div>
+                                            <div class="right-text">Midnight Blue</div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
 
-                            <div class="skill-main">
-                                <div class="skill-wrrap">
-                                    <div class="skill-name">Exterior Body Damage Diagram</div>
-                                    <div class="skill-bar">
-                                        <div class="skill-per bg-chanege" per="66.6%"></div>
+                                    <div class="list">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="left-text">Engine Type</div>
+                                            <div class="right-text">Inline-4</div>
+                                        </div>
                                     </div>
+
+                                    <div class="list">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="left-text">Transmission</div>
+                                            <div class="right-text">Automatic</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="list">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="left-text">Drive Type</div>
+                                            <div class="right-text">Front-Wheel Drive</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="list">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="left-text">Highlights</div>
+                                            <div class="right-text w-225">Leather Seats, Advanced Safety Features</div>
+                                        </div>
+                                    </div>
+
                                 </div>
-                            </div>
-
-
-                            <div class="float-right d-flex justify-content-end">
-
-                                <a href="#" class="full-insp">Full Inspection Report</a>
 
                             </div>
-
                         </div>
 
+                    </div>
+                    <!----row----->
 
 
 
+                    <div class="row">
+                        <div class="col-lg-12 ">
+
+                            <h2 class="car-overv" Car Overview>Car Overview Score</h2>
+                        </div>
+                        <div class="col-lg-12 tag-group">
+
+                            <div class="row px-0 mx-0 gx-5">
+
+                                <div class="col-lg-6 pl-0">
+
+                                    <div class="skill-main">
+                                        <div class="skill-wrrap">
+                                            <div class="skill-name">Exterior Body Damage Diagram</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-per bg-chanege" per="66.6"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="skill-main">
+                                        <div class="skill-wrrap">
+                                            <div class="skill-name">Brakes</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-per" per="80"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="skill-main">
+                                        <div class="skill-wrrap">
+                                            <div class="skill-name">Suspension/Steering</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-per" per="91.7"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="skill-main">
+                                        <div class="skill-wrrap">
+                                            <div class="skill-name">Road Test And Final Checks</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-per" per="95.2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="skill-main">
+                                        <div class="skill-wrrap">
+                                            <div class="skill-name">Tyres</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-per" per="92.8"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-----col----6--->
+
+
+                                <div class="col-lg-6 pr-0">
+
+                                    <div class="skill-main">
+                                        <div class="skill-wrrap">
+                                            <div class="skill-name">Engine & Transmission</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-per" per="86.6"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="skill-main">
+                                        <div class="skill-wrrap">
+                                            <div class="skill-name">Electrical Controls</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-per" per="99"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="skill-main">
+                                        <div class="skill-wrrap">
+                                            <div class="skill-name">Interior</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-per" per="94"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="skill-main">
+                                        <div class="skill-wrrap">
+                                            <div class="skill-name">Exterior Body Damage Diagram</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-per bg-chanege" per="66.6%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="float-right d-flex justify-content-end">
+
+                                        <a href="#" class="full-insp">Full Inspection Report</a>
+
+                                    </div>
+
+                                </div>
+
+
+
+
+
+                            </div>
+                            <!----row---->
+
+                        </div>
+                        <!----col-12------>
 
                     </div>
                     <!----row---->
 
+
+
+
+
+                    <div class="mt-30">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button
+                                        class="accordion-button collapsed text-black font-900 font-18 fst-italic font-montserrat border rounded-pill"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Complete Car Auction History:
+                                    </button>
+                                </h2>
+
+                                <!--row---->
+
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body p-0 m-0">
+                                        <div class="row">
+
+                                            <div class="col-lg-12 table-responsive">
+
+                                                <table class="table ctm-table">
+
+                                                    <tr class="bg-ctm">
+                                                        <td class="border-top-left">Auction Date</td>
+                                                        <td>Auction Platform</td>
+                                                        <td>Lot No</td>
+                                                        <td>Price of Auction</td>
+                                                        <td>Place of Auction</td>
+                                                        <td class="border-top-right">Mileage</td>
+                                                    </tr>
+
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>2024-01-01</td>
+                                                            <td>Online Auction</td>
+                                                            <td>101</td>
+                                                            <td>AED 15,000</td>
+                                                            <td>Virtual</td>
+                                                            <td>50,000 mi.</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2023-02-02</td>
+                                                            <td>Local Auction</td>
+                                                            <td>101</td>
+                                                            <td>AED 15,000</td>
+                                                            <td>Virtual</td>
+                                                            <td>50,000 mi.</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2024-01-01</td>
+                                                            <td>Online Auction</td>
+                                                            <td>101</td>
+                                                            <td>AED 15,000</td>
+                                                            <td>Virtual</td>
+                                                            <td>50,000 mi.</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2023-02-02</td>
+                                                            <td>Online Auction</td>
+                                                            <td>101</td>
+                                                            <td>AED 15,000</td>
+                                                            <td>Virtual</td>
+                                                            <td>50,000 mi.</td>
+                                                        </tr>
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-lg-12 ">
+
+                                <h2 class="car-overv" Car Overview>Features</h2>
+                            </div>
+                            <div class="col-lg-12 tag-group">
+
+                                <div class="row">
+
+                                    <div class="col-lg-3 checklist">
+                                        <span class="heading">Interior</span>
+                                        <ul class="list-features">
+                                            <li><a href="javascript:void(0);"> Air Conditioner</a></li>
+                                            <li><a href="javascript:void(0);"> Digital Odometer</a></li>
+                                            <li><a href="javascript:void(0);"> Heater</a></li>
+                                            <li><a href="javascript:void(0);"> Leather Seats</a></li>
+                                            <li><a href="javascript:void(0);"> Tachometer</a></li>
+                                            <li><a href="javascript:void(0);"> Panoramic Moonroof</a></li>
+                                            <li><a href="javascript:void(0);"> Touchscreen Display</a></li>
+                                        </ul>
+                                    </div>
+                                    <!---col-lg-3---->
+
+                                    <div class="col-lg-3 checklist">
+                                        <span class="heading">Safety</span>
+                                        <ul class="list-features">
+                                            <li><a href="javascript:void(0);"> Anti-lock Braking</a></li>
+                                            <li><a href="javascript:void(0);"> Brake Assist</a></li>
+                                            <li><a href="javascript:void(0);"> Child Safety Locks</a></li>
+                                            <li><a href="javascript:void(0);"> Driver Air Bag</a></li>
+                                            <li><a href="javascript:void(0);"> Power Door Locks</a></li>
+                                            <li><a href="javascript:void(0);"> Stability Control</a></li>
+                                            <li><a href="javascript:void(0);"> Traction Control</a></li>
+                                        </ul>
+                                    </div>
+                                    <!---col-lg-3---->
+
+                                    <div class="col-lg-3 checklist">
+                                        <span class="heading">Exterior</span>
+                                        <ul class="list-features">
+                                            <li><a href="javascript:void(0);"> Fog Lights Front</a></li>
+                                            <li><a href="javascript:void(0);"> Rain Sensing Wiper</a></li>
+                                            <li><a href="javascript:void(0);"> Rear Spoiler</a></li>
+                                            <li><a href="javascript:void(0);"> Windows - Electric</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <!---col-lg-3---->
+
+                                    <div class="col-lg-3 checklist">
+                                        <span class="heading">Comfort & Convenience</span>
+                                        <ul class="list-features">
+                                            <li><a href="javascript:void(0);"> Android Auto</a></li>
+                                            <li><a href="javascript:void(0);"> Digital Odometer</a></li>
+                                            <li><a href="javascript:void(0);"> Heater</a></li>
+                                            <li><a href="javascript:void(0);"> Leather Seats</a></li>
+                                            <li><a href="javascript:void(0);"> Leather Seats</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <!---col-lg-3---->
+
+
+
+                                </div>
+                                <!---row---->
+
+                            </div>
+
+                        </div>
+                        <!----row---->
+
+
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-lg-12 ">
+
+                            <h2 class="car-overv" Car Overview>Engine and Transmission</h2>
+                        </div>
+                        <div class="col-lg-12">
+
+                            <div class="row px-0 mx-0">
+
+                                <div class="col-lg-6 ml-0 pl-0 pr-20">
+
+                                    <div class="list">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="left-text">Engine and Transmission</div>
+                                            <div class="right-text">80</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="list">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="left-text">Max. Towing Weight - Braked (kg)</div>
+                                            <div class="right-text">1000</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="list">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="left-text w-285">Max. Towing Weight - Unbraked (kg)</div>
+                                            <div class="right-text">1100</div>
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+
+
+                                <div class="col-lg-6 pl-20">
+
+                                    <div class="list">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="left-text">Minimum Kerbweight (kg)</div>
+                                            <div class="right-text">350</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="list">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="left-text">Turning Circle - Kerb to Kerb (m)</div>
+                                            <div class="right-text">6500</div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!----row----->
+
                 </div>
-                <!----col-12------>
+                <!-- /col 1 -->
 
+                <!-- /col 2 -->
+                <div class="col-lg-4 position-relative">
+                    <div class="card-positionss">
+                        <div class="announcements-card">
+                            <div class="text-black font-montserrat font-800 fst-italic fs-6 mb-20 text-center">
+                                Bidding History
+                            </div>
+                            <div class="d-flex flex-column gap-3">
+                                <div
+                                    class="d-flex justify-content-between align-items-center text-gray font-termina font-14 font-500">
+                                    <div>Lot No:</div>
+                                    <div class="font-600">
+                                        LTN123456
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="d-flex justify-content-between align-items-center text-gray font-termina font-14 font-500">
+                                    <div>Live Auction </br>
+                                        Date & Time:</div>
+                                    <div class="font-600 text-end">
+                                        15/10/2023,<br>
+                                        10:00 AM GST +4
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="d-flex justify-content-between align-items-center text-gray font-termina font-14 font-500">
+                                    <div>Current Bid:</div>
+                                    <div class="font-600">
+                                        AED 25,000
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="d-flex justify-content-between align-items-center text-gray font-termina font-14 font-500">
+                                    <div>Pre-bid Closes In:</div>
+                                    <div class="font-600">
+                                        2 Days 5 Hours
+                                    </div>
+                                </div>
+
+                                <div class="text-black fs-6 font-500 font-montserrat">
+                                    If you are awarded this vehicle on Feb 13 (GMT), then
+                                </div>
+
+                                <div
+                                    class="d-flex justify-content-between align-items-center text-gray font-termina font-14 font-500">
+                                    <div>Payment is due:</div>
+                                    <div class="font-600">
+                                        20/10/2023
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="d-flex justify-content-between align-items-center text-gray font-termina font-14 font-500">
+                                    <div>Pick up by:</div>
+                                    <div class="font-600">
+                                        20/10/2023
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="text-black fs-6 fst-italic font-800 font-montserrat">
+                                        Your Bid:
+                                    </div>
+                                    <div class="d-flex gap-10 mt-10">
+                                        <div class="w-100">
+                                            <input type="number" placeholder="Enter Amount"
+                                                class="input-field form-control text-center rounded-pill mw-100 w-100">
+                                        </div>
+                                        <div class="min-w-fit">
+                                            <button class="btn place-bid-btn px-3">
+                                                Place Bid
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /col 2 -->
             </div>
-            <!----row---->
-
+            <!-- /row  -->
         </div>
         <!---container--->
 
 
-
-        <div class="container">
-
-            <div class="row border-r">
-                <div class="col-lg-12  d-flex justify-content-between pt-0 pb-0">
-
-                    <div class="">
-                        <h2 class="car-overv pt-0" car="" overview="">Complete Car Auction History:</h2>
-                    </div>
-
-                    <div class="right-t"> 3 Records Found</div>
-                </div>
-            </div>
-            <!--row---->
-
-
-            <div class="row">
-
-                <div class="col-lg-12 table-responsive">
-
-                    <table class="table ctm-table">
-
-                        <tr class="bg-ctm">
-                            <td class="border-top-left">Auction Date</td>
-                            <td>Auction Platform</td>
-                            <td>Lot No</td>
-                            <td>Price of Auction</td>
-                            <td>Place of Auction</td>
-                            <td class="border-top-right">Mileage</td>
-                        </tr>
-
-
-                        <tbody>
-                            <tr>
-                                <td>2024-01-01</td>
-                                <td>Online Auction</td>
-                                <td>101</td>
-                                <td>AED 15,000</td>
-                                <td>Virtual</td>
-                                <td>50,000 mi.</td>
-                            </tr>
-                            <tr>
-                                <td>2023-02-02</td>
-                                <td>Local Auction</td>
-                                <td>101</td>
-                                <td>AED 15,000</td>
-                                <td>Virtual</td>
-                                <td>50,000 mi.</td>
-                            </tr>
-                            <tr>
-                                <td>2024-01-01</td>
-                                <td>Online Auction</td>
-                                <td>101</td>
-                                <td>AED 15,000</td>
-                                <td>Virtual</td>
-                                <td>50,000 mi.</td>
-                            </tr>
-                            <tr>
-                                <td>2023-02-02</td>
-                                <td>Online Auction</td>
-                                <td>101</td>
-                                <td>AED 15,000</td>
-                                <td>Virtual</td>
-                                <td>50,000 mi.</td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-
-                </div>
-            </div>
-
-
-            <div class="row">
-                <div class="col-lg-12 ">
-
-                    <h2 class="car-overv" Car Overview>Features</h2>
-                </div>
-                <div class="col-lg-12 tag-group">
-
-                    <div class="row">
-
-                        <div class="col-lg-3 checklist">
-                            <span class="heading">Interior</span>
-                            <ul class="list-features">
-                                <li><a href="javascript:void(0);"> Air Conditioner</a></li>
-                                <li><a href="javascript:void(0);"> Digital Odometer</a></li>
-                                <li><a href="javascript:void(0);"> Heater</a></li>
-                                <li><a href="javascript:void(0);"> Leather Seats</a></li>
-                                <li><a href="javascript:void(0);"> Tachometer</a></li>
-                                <li><a href="javascript:void(0);"> Panoramic Moonroof</a></li>
-                                <li><a href="javascript:void(0);"> Touchscreen Display</a></li>
-                            </ul>
-                        </div>
-                        <!---col-lg-3---->
-
-                        <div class="col-lg-3 checklist">
-                            <span class="heading">Safety</span>
-                            <ul class="list-features">
-                                <li><a href="javascript:void(0);"> Anti-lock Braking</a></li>
-                                <li><a href="javascript:void(0);"> Brake Assist</a></li>
-                                <li><a href="javascript:void(0);"> Child Safety Locks</a></li>
-                                <li><a href="javascript:void(0);"> Driver Air Bag</a></li>
-                                <li><a href="javascript:void(0);"> Power Door Locks</a></li>
-                                <li><a href="javascript:void(0);"> Stability Control</a></li>
-                                <li><a href="javascript:void(0);"> Traction Control</a></li>
-                            </ul>
-                        </div>
-                        <!---col-lg-3---->
-
-                        <div class="col-lg-3 checklist">
-                            <span class="heading">Exterior</span>
-                            <ul class="list-features">
-                                <li><a href="javascript:void(0);"> Fog Lights Front</a></li>
-                                <li><a href="javascript:void(0);"> Rain Sensing Wiper</a></li>
-                                <li><a href="javascript:void(0);"> Rear Spoiler</a></li>
-                                <li><a href="javascript:void(0);"> Windows - Electric</a></li>
-
-                            </ul>
-                        </div>
-                        <!---col-lg-3---->
-
-                        <div class="col-lg-3 checklist">
-                            <span class="heading">Comfort & Convenience</span>
-                            <ul class="list-features">
-                                <li><a href="javascript:void(0);"> Android Auto</a></li>
-                                <li><a href="javascript:void(0);"> Digital Odometer</a></li>
-                                <li><a href="javascript:void(0);"> Heater</a></li>
-                                <li><a href="javascript:void(0);"> Leather Seats</a></li>
-                                <li><a href="javascript:void(0);"> Leather Seats</a></li>
-
-                            </ul>
-                        </div>
-                        <!---col-lg-3---->
-
-
-
-                    </div>
-                    <!---row---->
-
-                </div>
-
-            </div>
-            <!----row---->
-
-
-        </div>
-
-
-        <div class="container">
-
-
-            <div class="row">
-                <div class="col-lg-12 ">
-
-                    <h2 class="car-overv" Car Overview>Engine and Transmission</h2>
-                </div>
-                <div class="col-lg-12 tag-group">
-
-                    <div class="row px-0 mx-0">
-
-                        <div class="col-lg-6 ml-0 pl-0 pr-20">
-
-                            <div class="list">
-                                <div class="d-flex justify-content-between">
-                                    <div class="left-text">Engine and Transmission</div>
-                                    <div class="right-text">80</div>
-                                </div>
-                            </div>
-
-                            <div class="list">
-                                <div class="d-flex justify-content-between">
-                                    <div class="left-text">Max. Towing Weight - Braked (kg)</div>
-                                    <div class="right-text">1000</div>
-                                </div>
-                            </div>
-
-                            <div class="list">
-                                <div class="d-flex justify-content-between">
-                                    <div class="left-text w-285">Max. Towing Weight - Unbraked (kg)</div>
-                                    <div class="right-text">1100</div>
-                                </div>
-                            </div>
-
-
-
-
-                        </div>
-
-
-                        <div class="col-lg-6 pl-20">
-
-                            <div class="list">
-                                <div class="d-flex justify-content-between">
-                                    <div class="left-text">Minimum Kerbweight (kg)</div>
-                                    <div class="right-text">350</div>
-                                </div>
-                            </div>
-
-                            <div class="list">
-                                <div class="d-flex justify-content-between">
-                                    <div class="left-text">Turning Circle - Kerb to Kerb (m)</div>
-                                    <div class="right-text">6500</div>
-                                </div>
-                            </div>
-
-
-
-
-
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-            <!----row----->
-
-        </div>
 
 
     </section>
@@ -773,76 +878,93 @@
 
                     <div class="col-lg-12 mx-0 px-0">
 
-                        <div class="owl-carousel owl-theme mx-0 px-0" id="slider-4">
+                        <div class="owl-carousel owl-theme mx-0 px-0" id="slider-1">
 
                             <div class="item">
-                                <div class="inner-box">
-                                    <div class="car-modal tag">MUV</div>
-                                    <div class="product-img-box">
-                                        <img class="w-100" src="assets/images/product/product-1.jpg" alt="">
-                                        <div class="car-value tag">Estimated Market Value: $<span class="">30,000</span>
+                                <div class="position-relative">
+                                    <div class="inner-box redirect-details">
+                                        <div class="car-modal tag">MUV</div>
+                                        <div class="product-img-box">
+                                            <img class="w-100" src="assets/images/product/product-3.jpg" alt="">
+                                            <div class="car-value tag">Estimated Market Value: <span
+                                                    class="text-black">AED
+                                                    30,000</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="details">
+                                            <div class="model-name">AVEO LS AUTOMATIC A/A</div>
+                                            <div class="brand-name">Toyota</div>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
+                                                    </span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/manual.png"> Manual
+                                                    </span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
+                                                    </span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/petrol.png"> Petrol
+                                                    </span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/owner.png"> First Owner
+                                                    </span>
+                                                </div>
+
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/car-door.png"> 5
+                                                        Passengers
+                                                    </span>
+                                                </div>
+
+                                                <div class="col-12 m-auto">
+                                                    <div class="divider"> </div>
+                                                </div>
+
+
+                                                <div class="col-6 cost-box">
+                                                    <div class="pri">Repair Cost:</div>
+                                                    <div class="amou d-flex justify-content-between">
+                                                        AED 3,500
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-6 cost-box">
+                                                    <div class="pri">Current Bid Price:</div>
+                                                    <div class="amou d-flex justify-content-between">
+                                                        AED 25,000
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <a href="#" class="btn bid-btn">Bid Now</a>
+                                                </div>
+
+                                                <div class="col-12 text-center">
+                                                    <a href="#" class="ctm-link"> Buy Now $XXXX</a>
+
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-
-                                    <div class="details">
-                                        <div class="model-name">AVEO LS AUTOMATIC A/A</div>
-                                        <div class="brand-name">Toyota</div>
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/manual.png"> Manual
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/petrol.png"> Petrol
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/owner.png"> First Owner
-                                                </span>
-                                            </div>
-
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
-                                                </span>
-                                            </div>
-
-                                            <div class="col-12 m-auto">
-                                                <div class="divider"> </div>
-                                            </div>
-
-
-                                            <div class="col-6 cost-box">
-                                                <div class="pri">Repair Cost:</div>
-                                                <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 3,500</div>
-                                            </div>
-
-                                            <div class="col-6 cost-box">
-                                                <div class="pri">Current Bid Price:</div>
-                                                <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 25,000</div>
-                                            </div>
-
-                                            <div class="col-12">
-                                                <a href="#" class="btn bid-btn">Bid Now</a>
-                                            </div>
-
-                                            <div class="col-12 text-center">
-                                                <a href="#" class="ctm-link"> Buy Now $XXXX</a>
-
-                                            </div>
+                                    <div class="like-car">
+                                        <div class="form-check">
+                                            <input type="checkbox" id="customCheckBox13"
+                                                class="custom-checkbox form-check-input">
+                                            <label for="customCheckBox13" class="form-check-label"></label>
                                         </div>
                                     </div>
                                 </div>
@@ -850,73 +972,90 @@
 
 
                             <div class="item">
-                                <div class="inner-box">
-                                    <div class="car-modal tag">MUV</div>
-                                    <div class="product-img-box">
-                                        <img class="w-100" src="assets/images/product/product-2.jpg" alt="">
-                                        <div class="car-value tag">Estimated Market Value: $<span class="">30,000</span>
+                                <div class="position-relative">
+                                    <div class="inner-box redirect-details">
+                                        <div class="car-modal tag">MUV</div>
+                                        <div class="product-img-box">
+                                            <img class="w-100" src="assets/images/product/product-2.jpg" alt="">
+                                            <div class="car-value tag">Estimated Market Value: <span
+                                                    class="text-black">AED
+                                                    30,000</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="details">
+                                            <div class="model-name">AVEO LS AUTOMATIC A/A</div>
+                                            <div class="brand-name">Toyota</div>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
+                                                    </span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/manual.png"> Manual
+                                                    </span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
+                                                    </span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/petrol.png"> Petrol
+                                                    </span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/owner.png"> First Owner
+                                                    </span>
+                                                </div>
+
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/car-door.png"> 5
+                                                        Passengers
+                                                    </span>
+                                                </div>
+
+                                                <div class="col-12 m-auto">
+                                                    <div class="divider"> </div>
+                                                </div>
+
+
+                                                <div class="col-6 cost-box">
+                                                    <div class="pri">Repair Cost:</div>
+                                                    <div class="amou d-flex justify-content-between">
+                                                        AED 3,500
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-6 cost-box">
+                                                    <div class="pri">Current Bid Price:</div>
+                                                    <div class="amou d-flex justify-content-between">
+                                                        AED 25,000
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <a href="#" class="btn bid-btn">Bid Now</a>
+                                                </div>
+
+                                                <div class="col-12 text-center">
+                                                    <a href="#" class="ctm-link"> Buy Now $XXXX</a>
+
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-
-                                    <div class="details">
-                                        <div class="model-name">AVEO LS AUTOMATIC A/A</div>
-                                        <div class="brand-name">Toyota</div>
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/manual.png"> Manual
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/petrol.png"> Petrol
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/owner.png"> First Owner
-                                                </span>
-                                            </div>
-
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
-                                                </span>
-                                            </div>
-
-                                            <div class="col-12 m-auto">
-                                                <div class="divider"> </div>
-                                            </div>
-
-
-                                            <div class="col-6 cost-box">
-                                                <div class="pri">Repair Cost:</div>
-                                                <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 3,500</div>
-                                            </div>
-
-                                            <div class="col-6 cost-box">
-                                                <div class="pri">Current Bid Price:</div>
-                                                <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 25,000</div>
-                                            </div>
-
-                                            <div class="col-12">
-                                                <a href="#" class="btn bid-btn">Bid Now</a>
-                                            </div>
-
-                                            <div class="col-12 text-center">
-                                                <a href="#" class="ctm-link"> Buy Now $XXXX</a>
-
-                                            </div>
+                                    <div class="like-car">
+                                        <div class="form-check">
+                                            <input type="checkbox" id="customCheckBox14"
+                                                class="custom-checkbox form-check-input">
+                                            <label for="customCheckBox14" class="form-check-label"></label>
                                         </div>
                                     </div>
                                 </div>
@@ -924,292 +1063,270 @@
 
 
                             <div class="item">
-                                <div class="inner-box">
-                                    <div class="car-modal tag">MUV</div>
-                                    <div class="product-img-box">
-                                        <img class="w-100" src="assets/images/product/product-3.jpg" alt="">
-                                        <div class="car-value tag">Estimated Market Value: $<span class="">30,000</span>
+                                <div class="position-relative">
+                                    <div class="inner-box redirect-details">
+                                        <div class="car-modal tag">MUV</div>
+                                        <div class="product-img-box">
+                                            <img class="w-100" src="assets/images/product/product-1.jpg" alt="">
+                                            <div class="car-value tag">Estimated Market Value: <span
+                                                    class="text-black">AED
+                                                    30,000</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="details">
+                                            <div class="model-name">AVEO LS AUTOMATIC A/A</div>
+                                            <div class="brand-name">Toyota</div>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
+                                                    </span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/manual.png"> Manual
+                                                    </span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
+                                                    </span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/petrol.png"> Petrol
+                                                    </span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/owner.png"> First Owner
+                                                    </span>
+                                                </div>
+
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/car-door.png"> 5
+                                                        Passengers
+                                                    </span>
+                                                </div>
+
+                                                <div class="col-12 m-auto">
+                                                    <div class="divider"> </div>
+                                                </div>
+
+
+                                                <div class="col-6 cost-box">
+                                                    <div class="pri">Repair Cost:</div>
+                                                    <div class="amou d-flex justify-content-between">
+                                                        AED 3,500
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-6 cost-box">
+                                                    <div class="pri">Current Bid Price:</div>
+                                                    <div class="amou d-flex justify-content-between">
+                                                        AED 25,000
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <a href="#" class="btn bid-btn">Bid Now</a>
+                                                </div>
+
+                                                <div class="col-12 text-center">
+                                                    <a href="#" class="ctm-link"> Buy Now $XXXX</a>
+
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-
-                                    <div class="details">
-                                        <div class="model-name">AVEO LS AUTOMATIC A/A</div>
-                                        <div class="brand-name">Toyota</div>
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/manual.png"> Manual
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/petrol.png"> Petrol
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/owner.png"> First Owner
-                                                </span>
-                                            </div>
-
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
-                                                </span>
-                                            </div>
-
-                                            <div class="col-12 m-auto">
-                                                <div class="divider"> </div>
-                                            </div>
-
-
-                                            <div class="col-6 cost-box">
-                                                <div class="pri">Repair Cost:</div>
-                                                <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 3,500</div>
-                                            </div>
-
-                                            <div class="col-6 cost-box">
-                                                <div class="pri">Current Bid Price:</div>
-                                                <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 25,000</div>
-                                            </div>
-
-                                            <div class="col-12">
-                                                <a href="#" class="btn bid-btn">Bid Now</a>
-                                            </div>
-
-                                            <div class="col-12 text-center">
-                                                <a href="#" class="ctm-link"> Buy Now $XXXX</a>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="inner-box">
-                                    <div class="car-modal tag">MUV</div>
-                                    <div class="product-img-box">
-                                        <img class="w-100" src="assets/images/product/product-2.jpg" alt="">
-                                        <div class="car-value tag">Estimated Market Value: $<span class="">30,000</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="details">
-                                        <div class="model-name">AVEO LS AUTOMATIC A/A</div>
-                                        <div class="brand-name">Toyota</div>
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/manual.png"> Manual
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/petrol.png"> Petrol
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/owner.png"> First Owner
-                                                </span>
-                                            </div>
-
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
-                                                </span>
-                                            </div>
-
-                                            <div class="col-12 m-auto">
-                                                <div class="divider"> </div>
-                                            </div>
-
-
-                                            <div class="col-6 cost-box">
-                                                <div class="pri">Repair Cost:</div>
-                                                <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 3,500</div>
-                                            </div>
-
-                                            <div class="col-6 cost-box">
-                                                <div class="pri">Current Bid Price:</div>
-                                                <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 25,000</div>
-                                            </div>
-
-                                            <div class="col-12">
-                                                <a href="#" class="btn bid-btn">Bid Now</a>
-                                            </div>
-
-                                            <div class="col-12 text-center">
-                                                <a href="#" class="ctm-link"> Buy Now $XXXX</a>
-
-                                            </div>
+                                    <div class="like-car">
+                                        <div class="form-check">
+                                            <input type="checkbox" id="customCheckBox15"
+                                                class="custom-checkbox form-check-input">
+                                            <label for="customCheckBox15" class="form-check-label"></label>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="item">
-                                <div class="inner-box">
-                                    <div class="car-modal tag">MUV</div>
-                                    <div class="product-img-box">
-                                        <img class="w-100" src="assets/images/product/product-2.jpg" alt="">
-                                        <div class="car-value tag">Estimated Market Value: $<span class="">30,000</span>
+                                <div class="position-relative">
+                                    <div class="inner-box redirect-details">
+                                        <div class="car-modal tag">MUV</div>
+                                        <div class="product-img-box">
+                                            <img class="w-100" src="assets/images/product/product-13.png" alt="">
+                                            <div class="car-value tag">Estimated Market Value: <span
+                                                    class="text-black">AED
+                                                    30,000</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="details">
+                                            <div class="model-name">AVEO LS AUTOMATIC A/A</div>
+                                            <div class="brand-name">Toyota</div>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
+                                                    </span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/manual.png"> Manual
+                                                    </span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
+                                                    </span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/petrol.png"> Petrol
+                                                    </span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/owner.png"> First Owner
+                                                    </span>
+                                                </div>
+
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/car-door.png"> 5
+                                                        Passengers
+                                                    </span>
+                                                </div>
+
+                                                <div class="col-12 m-auto">
+                                                    <div class="divider"> </div>
+                                                </div>
+
+
+                                                <div class="col-6 cost-box">
+                                                    <div class="pri">Repair Cost:</div>
+                                                    <div class="amou d-flex justify-content-between">
+                                                        AED 3,500
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-6 cost-box">
+                                                    <div class="pri">Current Bid Price:</div>
+                                                    <div class="amou d-flex justify-content-between">
+                                                        AED 25,000
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <a href="#" class="btn bid-btn">Bid Now</a>
+                                                </div>
+
+                                                <div class="col-12 text-center">
+                                                    <a href="#" class="ctm-link"> Buy Now $XXXX</a>
+
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-
-                                    <div class="details">
-                                        <div class="model-name">AVEO LS AUTOMATIC A/A</div>
-                                        <div class="brand-name">Toyota</div>
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/manual.png"> Manual
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/petrol.png"> Petrol
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/owner.png"> First Owner
-                                                </span>
-                                            </div>
-
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
-                                                </span>
-                                            </div>
-
-                                            <div class="col-12 m-auto">
-                                                <div class="divider"> </div>
-                                            </div>
-
-
-                                            <div class="col-6 cost-box">
-                                                <div class="pri">Repair Cost:</div>
-                                                <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 3,500</div>
-                                            </div>
-
-                                            <div class="col-6 cost-box">
-                                                <div class="pri">Current Bid Price:</div>
-                                                <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 25,000</div>
-                                            </div>
-
-                                            <div class="col-12">
-                                                <a href="#" class="btn bid-btn">Bid Now</a>
-                                            </div>
-
-                                            <div class="col-12 text-center">
-                                                <a href="#" class="ctm-link"> Buy Now $XXXX</a>
-
-                                            </div>
+                                    <div class="like-car">
+                                        <div class="form-check">
+                                            <input type="checkbox" id="customCheckBox16"
+                                                class="custom-checkbox form-check-input">
+                                            <label for="customCheckBox16" class="form-check-label"></label>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="item">
-                                <div class="inner-box">
-                                    <div class="car-modal tag">MUV</div>
-                                    <div class="product-img-box">
-                                        <img class="w-100" src="assets/images/product/product-3.jpg" alt="">
-                                        <div class="car-value tag">Estimated Market Value: $<span class="">30,000</span>
+                                <div class="position-relative">
+                                    <div class="inner-box redirect-details">
+                                        <div class="car-modal tag">MUV</div>
+                                        <div class="product-img-box">
+                                            <img class="w-100" src="assets/images/product/product-6.png" alt="">
+                                            <div class="car-value tag">Estimated Market Value: <span
+                                                    class="text-black">AED
+                                                    30,000</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="details">
+                                            <div class="model-name">AVEO LS AUTOMATIC A/A</div>
+                                            <div class="brand-name">Toyota</div>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
+                                                    </span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/manual.png"> Manual
+                                                    </span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
+                                                    </span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/petrol.png"> Petrol
+                                                    </span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/owner.png"> First Owner
+                                                    </span>
+                                                </div>
+
+                                                <div class="col-6">
+                                                    <span class="d-flex align-items-center icon-box">
+                                                        <img class="ico" src="assets/images/icon/car-door.png"> 5
+                                                        Passengers
+                                                    </span>
+                                                </div>
+
+                                                <div class="col-12 m-auto">
+                                                    <div class="divider"> </div>
+                                                </div>
+
+
+                                                <div class="col-6 cost-box">
+                                                    <div class="pri">Repair Cost:</div>
+                                                    <div class="amou d-flex justify-content-between">
+                                                        AED 3,500
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-6 cost-box">
+                                                    <div class="pri">Current Bid Price:</div>
+                                                    <div class="amou d-flex justify-content-between">
+                                                        AED 25,000
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <a href="#" class="btn bid-btn">Bid Now</a>
+                                                </div>
+
+                                                <div class="col-12 text-center">
+                                                    <a href="#" class="ctm-link"> Buy Now $XXXX</a>
+
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-
-                                    <div class="details">
-                                        <div class="model-name">AVEO LS AUTOMATIC A/A</div>
-                                        <div class="brand-name">Toyota</div>
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/Kms.png"> 53000 Kms
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/manual.png"> Manual
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/cc.png"> 22,231 cc
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/petrol.png"> Petrol
-                                                </span>
-                                            </div>
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/owner.png"> First Owner
-                                                </span>
-                                            </div>
-
-                                            <div class="col-6">
-                                                <span class="d-flex align-items-center icon-box">
-                                                    <img class="ico" src="assets/images/icon/car-door.png"> 5 Passengers
-                                                </span>
-                                            </div>
-
-                                            <div class="col-12 m-auto">
-                                                <div class="divider"> </div>
-                                            </div>
-
-
-                                            <div class="col-6 cost-box">
-                                                <div class="pri">Repair Cost:</div>
-                                                <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 3,500</div>
-                                            </div>
-
-                                            <div class="col-6 cost-box">
-                                                <div class="pri">Current Bid Price:</div>
-                                                <div class="amou"><i class="fa-duotone fa-dollar-sign"></i> 25,000</div>
-                                            </div>
-
-                                            <div class="col-12">
-                                                <a href="#" class="btn bid-btn">Bid Now</a>
-                                            </div>
-
-                                            <div class="col-12 text-center">
-                                                <a href="#" class="ctm-link"> Buy Now $XXXX</a>
-
-                                            </div>
+                                    <div class="like-car">
+                                        <div class="form-check">
+                                            <input type="checkbox" id="customCheckBox17"
+                                                class="custom-checkbox form-check-input">
+                                            <label for="customCheckBox17" class="form-check-label"></label>
                                         </div>
                                     </div>
                                 </div>
@@ -1230,6 +1347,232 @@
 
     </section>
     <!-----Related Listings------->
+
+
+
+
+
+
+    <!-- for buy now modle  -->
+    <div class="modal fade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+
+        <div class="modal-dialog mt-0 mb-0 h-100 modal-lg model-licensesdocuments ">
+            <div class="modal-content p-3 model-licensesdocuments-body">
+
+                <div class="modal-body">
+                    <div class="text-dark-gray font-16 font-montserrat font-600 fst-italic line-base">
+                        Buy Now
+                    </div>
+                    <h4 class="fs-4 mb-0 text-black font-montserrat text-uppercase fst-italic font-900 mt-3 pb-1">
+                        Toyota Camry New <span class="tag2">MUV</span>
+                    </h4>
+                    <div class="text-gray font-termina font-12 font-600 mt-3">
+                        3.5 D5 PowerPulse Momentum 5dr AWD Geartronic Estate
+                    </div>
+                    <div class="modle-buy-now">
+                        <img src="assets/images/livebidding/car4.png" class="w-100 h-100" />
+                    </div>
+                    <div class="d-flex flex-column gap-20">
+                        <div
+                            class="d-flex justify-content-between align-items-center text-gray font-termina font-14 font-500">
+                            <div>Lot No:</div>
+                            <div class="font-600">
+                                LTN123456
+                            </div>
+                        </div>
+
+                        <div
+                            class="d-flex justify-content-between align-items-center text-gray font-termina font-14 font-500">
+                            <div>Live Auction </br>
+                                Date & Time:</div>
+                            <div class="font-600 text-end">
+                                15/10/2023,<br>
+                                10:00 AM GST +4
+                            </div>
+                        </div>
+
+                        <div
+                            class="d-flex justify-content-between align-items-center text-gray font-termina font-14 font-500">
+                            <div>Current Bid:</div>
+                            <div class="font-600">
+                                AED 25,000
+                            </div>
+                        </div>
+
+                        <div
+                            class="d-flex justify-content-between align-items-center text-gray font-termina font-14 font-500">
+                            <div>Pre-bid Closes In:</div>
+                            <div class="font-600">
+                                2 Days 5 Hours
+                            </div>
+                        </div>
+
+                        <div
+                            class="d-flex justify-content-between align-items-center text-gray font-termina font-14 font-500">
+                            <div>Buy Now Price:</div>
+                            <div class="font-600">
+                                AED 35,000
+                            </div>
+                        </div>
+
+                        <div
+                            class="d-flex justify-content-between align-items-center text-gray font-termina font-14 font-500">
+                            <div>Time Left to Buy:</div>
+                            <div class="font-600">
+                                1d 19h
+                            </div>
+                        </div>
+
+                        <div class="border-bottom"></div>
+
+                        <div class="text-black fs-6 font-500 font-montserrat">
+                            If you are awarded this vehicle on Feb 13 (GMT), then
+                        </div>
+
+                        <div
+                            class="d-flex justify-content-between align-items-center text-gray font-termina font-14 font-500">
+                            <div>Payment is due:</div>
+                            <div class="font-600">
+                                20/10/2023
+                            </div>
+                        </div>
+
+                        <div
+                            class="d-flex justify-content-between align-items-center text-gray font-termina font-14 font-500">
+                            <div>Pick up by:</div>
+                            <div class="font-600">
+                                20/10/2023
+                            </div>
+                        </div>
+
+                        <div class="mt-20">
+                            <a href="/cart.php" class="btn buy-now"> Buy Now AED
+                                <span>XXXX</span></a>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- /for buy now modle  -->
+
+
+    <!-- for Bid Now Side Slider  -->
+    <div class="modal fade" id="bid-now-modle" data-bs-keyboard="false" tabindex="-1" aria-labelledby="BidNow"
+        aria-hidden="true">
+
+        <div class="modal-dialog mt-0 mb-0 h-100 modal-lg model-licensesdocuments ">
+            <div class="modal-content p-3 model-licensesdocuments-body">
+
+                <div class="modal-body">
+                    <div class="text-dark-gray font-16 font-montserrat font-600 fst-italic line-base">
+                        Buy Now
+                    </div>
+                    <h4 class="fs-4 mb-0 text-black font-montserrat text-uppercase fst-italic font-900 mt-3 pb-1">
+                        Toyota Camry New <span class="tag2">MUV</span>
+                    </h4>
+                    <div class="text-gray font-termina font-12 font-600 mt-3">
+                        3.5 D5 PowerPulse Momentum 5dr AWD Geartronic Estate
+                    </div>
+                    <div class="modle-buy-now">
+                        <img src="assets/images/livebidding/car4.png" class="w-100 h-100" />
+                    </div>
+                    <div class="d-flex flex-column gap-20">
+                        <div
+                            class="d-flex justify-content-between align-items-center text-gray font-termina font-14 font-500">
+                            <div>Lot No:</div>
+                            <div class="font-600">
+                                LTN123456
+                            </div>
+                        </div>
+
+                        <div
+                            class="d-flex justify-content-between align-items-center text-gray font-termina font-14 font-500">
+                            <div>Live Auction </br>
+                                Date & Time:</div>
+                            <div class="font-600 text-end">
+                                15/10/2023,<br>
+                                10:00 AM GST +4
+                            </div>
+                        </div>
+
+                        <div
+                            class="d-flex justify-content-between align-items-center text-gray font-termina font-14 font-500">
+                            <div>Current Bid:</div>
+                            <div class="font-600">
+                                AED 25,000
+                            </div>
+                        </div>
+
+                        <div
+                            class="d-flex justify-content-between align-items-center text-gray font-termina font-14 font-500">
+                            <div>Pre-bid Closes In:</div>
+                            <div class="font-600">
+                                2 Days 5 Hours
+                            </div>
+                        </div>
+
+                        <div class="text-gray font-termina font-14 font-500">
+                            <div>Your Bid:</div>
+                            <div class="mt-10">
+                                <input type="number" class="form-control input-field-checkout p-2"
+                                    placeholder="Enter amount eg. AED XXXX">
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-10 text-gray font-termina font-14 font-500">
+                            <div>Note:</div>
+                            <div class="font-montserrat">
+                                Lorem ipsum dolor sit amet consectetur. In fringilla rhoncus felis euismod velit eu.
+                            </div>
+                        </div>
+
+                        <div class="border-bottom"></div>
+
+                        <div class="text-black fs-6 font-500 font-montserrat">
+                            If you are awarded this vehicle on Feb 13 (GMT), then
+                        </div>
+
+                        <div
+                            class="d-flex justify-content-between align-items-center text-gray font-termina font-14 font-500">
+                            <div>Payment is due:</div>
+                            <div class="font-600">
+                                20/10/2023
+                            </div>
+                        </div>
+
+                        <div
+                            class="d-flex justify-content-between align-items-center text-gray font-termina font-14 font-500">
+                            <div>Pick up by:</div>
+                            <div class="font-600">
+                                20/10/2023
+                            </div>
+                        </div>
+
+                        <div class="mt-20">
+                            <a href="/pricingplan.php" class="btn buy-now"> Bid Now</a>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- /for Bid Now Side Slider  -->
+
+
+
+
 
     <!-- Footer -->
     <?php include 'assets/include/footer.php' ;?>

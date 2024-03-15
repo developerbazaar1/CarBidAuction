@@ -9,6 +9,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.19/css/intlTelInput.css" />
 <script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Dropify/0.2.2/js/dropify.min.js"></script>
 <script type="text/javascript">
 // for favorite is check or uncheck
 
@@ -26,6 +27,56 @@ $(document).ready(function() {
 });
 
 // end favorite is check or uncheck
+
+
+$(document).ready(function() {
+    $('#btn-place-bid').click(function() {
+
+        $('#live-success').css('display', 'block');
+
+        setTimeout(function() {
+            $('#live-success').css('display', 'none');
+            $('#bid-done-alert').css('display', 'block');
+        }, 3000);
+    });
+});
+
+// for accordion 
+$(document).ready(function() {
+    $('.accordion-button').click(function() {
+        var target = $($(this).data('bs-target'));
+        if (target.hasClass('show')) {
+            target.collapse('hide');
+        } else {
+            target.collapse('show');
+        }
+    });
+});
+
+// end /accordion 
+
+// for active header 
+$(document).ready(function() {
+
+    var path = window.location.pathname;
+
+    console.log(path)
+    if (path === "/") {
+        $("#home-link").addClass("active");
+    } else if (path === "/list.php") {
+        $("#list-link").addClass("active");
+    } else if (path === "/calender.php") {
+        $("#calendar-link").addClass("active");
+    } else if (path === "/liveauction.php") {
+        $("#liveauction-link").addClass("active");
+    } else if (path === "/aboutus.php") {
+        $("#aboutus-link").addClass("active");
+    } else if (path === "/contactus.php") {
+        $("#contactus-link").addClass("active");
+    }
+
+});
+//  end active header 
 
 // for input phone number and country code
 
@@ -72,6 +123,51 @@ $(document).ready(function() {
     });
 });
 
+$(document).ready(function() {
+    $('.password-toggle-black').click(function() {
+        var passwordInput = $('#passwordInputBlack');
+        var icon = $('.password-toggle-black img');
+
+        if (passwordInput.attr('type') === 'password') {
+            passwordInput.attr('type', 'text');
+            icon.attr('src', 'assets/images/icon/eye-black.svg');
+        } else {
+            passwordInput.attr('type', 'password');
+            icon.attr('src', 'assets/images/icon/eye-closed-black.svg');
+        }
+    });
+});
+
+
+$(document).ready(function() {
+    $('.confirm-password-toggle-black').click(function() {
+        var passwordInput = $('#confirmPasswordInput');
+        var icon = $('.confirm-password-toggle-black img');
+
+        if (passwordInput.attr('type') === 'password') {
+            passwordInput.attr('type', 'text');
+            icon.attr('src', 'assets/images/icon/eye-black.svg');
+        } else {
+            passwordInput.attr('type', 'password');
+            icon.attr('src', 'assets/images/icon/eye-closed-black.svg');
+        }
+    });
+});
+
+$(document).ready(function() {
+    $('.new-password-toggle-black').click(function() {
+        var passwordInput = $('#newPasswordInput');
+        var icon = $('.new-password-toggle-black img');
+
+        if (passwordInput.attr('type') === 'password') {
+            passwordInput.attr('type', 'text');
+            icon.attr('src', 'assets/images/icon/eye-black.svg');
+        } else {
+            passwordInput.attr('type', 'password');
+            icon.attr('src', 'assets/images/icon/eye-closed-black.svg');
+        }
+    });
+});
 // for otp 
 
 $(document).ready(function() {
@@ -180,35 +276,27 @@ $(document).ready(function() {
 // for image drag
 
 $(document).ready(function() {
-    $('#dropZone').on('click', function() {
-        $('#fileInput').click();
-    });
-
-    $('#fileInput').on('change', function(e) {
-        const file = e.target.files[0];
-        const reader = new FileReader();
-        reader.onload = function(event) {
-            const imageUrl = event.target.result;
-            $('#dropZone').html(`<img src="${imageUrl}" alt="Dropped Image">`);
-        };
-        reader.readAsDataURL(file);
-    });
-
-    $('#dropZone').on('dragover', function(e) {
-        e.preventDefault();
-    });
-
-    $('#dropZone').on('drop', function(e) {
-        e.preventDefault();
-        const file = e.originalEvent.dataTransfer.files[0];
-        const reader = new FileReader();
-        reader.onload = function(event) {
-            const imageUrl = event.target.result;
-            $('#dropZone').html(`<img src="${imageUrl}" alt="Dropped Image">`);
-        };
-        reader.readAsDataURL(file);
+    $('.dropify').dropify({
+        messages: {
+            'default': 'Drag Or Upload Your Payment Receipt Here',
+            'replace': 'Drag and drop or click to replace',
+            'remove': 'Remove',
+            'error': 'Ooops, something wrong happened.'
+        }
     });
 });
+
+$(document).ready(function() {
+    $('.dropify-profile').dropify({
+        messages: {
+            'default': 'Drag Or Upload Your Image/Video Here',
+            'replace': 'Drag and drop or click to replace',
+            'remove': 'Remove',
+            'error': 'Ooops, something wrong happened.'
+        }
+    });
+});
+
 
 // end image drag
 
@@ -289,7 +377,7 @@ $(function() {
             },
 
             1500: {
-                items: 4
+                items: 3
             }
 
         }
@@ -320,7 +408,7 @@ $(function() {
             },
 
             1500: {
-                items: 4
+                items: 3
             }
 
         }
@@ -688,14 +776,23 @@ var myScrollFunc = function() {
     var y = $(window).scrollTop();
     if (y >= 80) {
         Fx.addClass("countdown-bg fixed").removeClass("countdown-bg unset");
+        $('.home-header').css({
+            'position': 'unset',
+            'top': '0'
+        });
     } else {
         Fx.addClass("countdown-bg unset").removeClass("countdown-bg fixed");
+        $('.home-header').css({
+            'position': 'sticky',
+            'top': '0'
+        });
     }
 };
 
 $(window).scroll(myScrollFunc);
 
 /*=======Onscroll fixed Section==========*/
+
 
 
 // for livebigging page

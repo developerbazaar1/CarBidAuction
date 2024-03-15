@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <title>Document</title>
+    <title> Car Arbab</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <?php include 'assets/include/cssinclude.php' ;?>
 
 </head>
@@ -17,7 +18,7 @@
         <div class="container">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item">Home</li>
+                    <li class="breadcrumb-item"><a href="/" class="text-decoration-none">Home</a></li>
                     <li class="breadcrumb-item active" aria-current="page"><a href="#">Cart</a></li>
                 </ol>
             </nav>
@@ -54,7 +55,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="d-flex flex-column justify-content-center h-100">
+                                    <div class="d-flex flex-column justify-content-center h-100 align-items-end pr-30">
                                         <h5 class="fs-5 header-cart-price">
                                             AED 35,000
                                         </h5>
@@ -68,8 +69,12 @@
                         <div class="service">
                             <div class="row">
                                 <div class="col-lg-9">
-                                    <div class="service-title">
-                                        Air Conditioner
+                                    <div class="d-flex align-items-center gap-10">
+                                        <input checked class="form-check-input m-0 border-dark rounded-0"
+                                            type="checkbox" id="inlineCheckbox1" value="option1">
+                                        <div class="font-termina text-gray font-600">
+                                            Repair Service
+                                        </div>
                                     </div>
                                     <div class="service-desc">
                                         Includes minor repairs such as dent removal, scratch touch-up, and small part
@@ -87,9 +92,14 @@
                         <div class="service">
                             <div class="row">
                                 <div class="col-lg-9">
-                                    <div class="service-title">
-                                        Insurance Service
+                                    <div class="d-flex align-items-center gap-10">
+                                        <input checked class="form-check-input m-0 border-dark rounded-0"
+                                            type="checkbox" id="inlineCheckbox1" value="option1">
+                                        <div class="font-termina text-gray font-600">
+                                            Insurance Service
+                                        </div>
                                     </div>
+
                                     <div class="service-desc">
                                         Comprehensive insurance coverage for all types of damages including accidents,
                                         theft, and natural disasters.
@@ -106,9 +116,14 @@
                         <div class="service">
                             <div class="row">
                                 <div class="col-lg-9">
-                                    <div class="service-title">
-                                        Recovery Service
+                                    <div class="d-flex align-items-center gap-10">
+                                        <input checked class="form-check-input m-0 border-dark rounded-0"
+                                            type="checkbox" id="inlineCheckbox1" value="option1">
+                                        <div class="font-termina text-gray font-600">
+                                            Recovery Service
+                                        </div>
                                     </div>
+
                                     <div class="service-desc">
                                         24/7 roadside assistance for towing, flat tire assistance, battery jump-start,
                                         and
@@ -126,9 +141,14 @@
                         <div class="service border-0">
                             <div class="row">
                                 <div class="col-lg-9">
-                                    <div class="service-title">
-                                        Protection Plan
+                                    <div class="d-flex align-items-center gap-10">
+                                        <input checked class="form-check-input m-0 border-dark rounded-0"
+                                            type="checkbox" id="inlineCheckbox1" value="option1">
+                                        <div class="font-termina text-gray font-600">
+                                            Protection Plan
+                                        </div>
                                     </div>
+
                                     <div class="service-desc">
                                         Extends manufacturer's warranty to cover repairs and replacements for mechanical
                                         and
@@ -217,7 +237,7 @@
                             </div>
                         </div>
                         <div class="text-center">
-                            <a href="#" class="btn bid-now">Procced to Checkout</a>
+                            <a href="/checkout.php" class="btn bid-now">Procced to Checkout</a>
                         </div>
                     </div>
                 </div>

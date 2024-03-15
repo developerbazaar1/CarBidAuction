@@ -1,4 +1,4 @@
-<section class="footer-section pt-50 pb-50">
+<section class="footer-section pt-50 pb-20">
     <div class="container px-0">
         <div class="row mx-0 px-0 mx-auto">
 
@@ -74,7 +74,7 @@
         </div>
         <!---/--->
 
-        <div class="row mx-0 px-0 mx-auto justify-content-center footer-border">
+        <div class="row mx-0 px-0 mx-auto justify-content-center footer-border mt-3">
 
             <div class="col-lg-12 text-center">
                 <img src="assets/images/footer-logo.svg" class="footer-img">
@@ -87,6 +87,10 @@
 
 
 
+        </div>
+
+        <div class="font-noto text-white font-14 mt-20 text-center">
+            © 2024 • Car Arbab
         </div>
         <!---/--->
     </div>

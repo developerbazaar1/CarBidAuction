@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <title>Document</title>
+    <title> Car Arbab</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <?php include 'assets/include/cssinclude.php' ;?>
 
 </head>

@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <title>Document</title>
+    <title> Car Arbab</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <?php include 'assets/include/cssinclude.php' ;?>
 
 </head>
@@ -407,7 +408,9 @@
                                         <td>
                                             <div class="d-flex justify-content-between gap-1 text-start">
                                                 <div> Jumeirah Beach Residence (JBR)</div>
-                                                <img src="assets/images/icon/edit.svg" />
+                                                <div data-bs-toggle="modal" data-bs-target="#paymentmethod" class="">
+                                                    <img src="assets/images/icon/edit.svg" />
+                                                </div>
                                             </div>
                                         </td>
                                         <td scope="col" class="col-2">
@@ -430,7 +433,9 @@
                                         <td>
                                             <div class="d-flex justify-content-between gap-1">
                                                 <div> Business Bay</div>
-                                                <img src="assets/images/icon/edit.svg" />
+                                                <div data-bs-toggle="modal" data-bs-target="#paymentmethod">
+                                                    <img src="assets/images/icon/edit.svg" />
+                                                </div>
                                             </div>
                                         </td>
                                         <td scope="col" class="col-2"><button class="btn set-payment set-payment-bg">
@@ -503,6 +508,39 @@
             </div>
         </div>
     </section>
+
+
+    <!-- for delivery modal  -->
+    <div class="modal fade" id="paymentmethod" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="paymentmethodLabel" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered modal model-dialog-addcard">
+
+            <div class="modal-content border-0 redius-25">
+
+                <div class="modal-body p-20">
+                    <div class="">
+                        <div class="font-20 font-800 text-black font-montserrat fst-italic text-center">
+                            Edit/Change Delivery Address
+                        </div>
+                    </div>
+                    <div class="pl-20 pr-20 pt-4">
+                        <input type="text" class="form-control input-field-checkout"
+                            placeholder="Jumeirah Beach Residence (JBR)">
+                    </div>
+                    <div class="pt-4 text-center">
+                        <button class="btn set-payment set-payment-bg">
+                            Save
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- end delivery modal  -->
+
 
 
     <!-- Footer -->

@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <title>Document</title>
+    <title> Car Arbab</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <?php include 'assets/include/cssinclude.php' ;?>
 
 </head>
@@ -30,7 +31,7 @@
                     <div class="heading">
                         Let's Connect, Drive Your Inquiries Away
                     </div>
-                    <div class="pri fw-bolder pt-4">
+                    <div class="pri font-600 pt-4">
                         Reach Out to [Your Company Name] for Exceptional Support
                     </div>
                     <div class="contact-details">

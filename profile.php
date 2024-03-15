@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <title>Document</title>
+    <title> Car Arbab</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <?php include 'assets/include/cssinclude.php' ;?>
 
 </head>
@@ -118,31 +119,8 @@
                                 <label class="form-label label-checkout">Phone No.
                                 </label>
                                 <!-- <input type="text" class="form-control input-field-checkout" placeholder=""> -->
-                                <div class="d-flex month-year-input">
-                                    <div class="dropdown border-end border-3 pe-2">
-                                        <button class="btn p-0 d-flex align-items-center gap-3 " type="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            <img src="assets/images/icon/flag.svg" />
-                                            <img src="assets/images/icon/left2.svg" />
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <div class="dropdown-item"><img src="assets/images/icon/flag.svg" />
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="dropdown-item"><img src="assets/images/icon/flag.svg" />
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="dropdown-item"><img src="assets/images/icon/flag.svg" />
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <input type="number" class="form-control input-field-checkout-year"
-                                        placeholder="585-417-424">
-                                </div>
+                                <input name="phone" type="number" id="phone" placeholder="585-417-424"
+                                    class="form-control input-field-checkout" />
                             </div>
                         </div>
                         <div class="text-center pt-30">
@@ -158,20 +136,35 @@
                     <div class="tab-pane fade" id="changepassword-tab-pane" role="tabpanel"
                         aria-labelledby="changepassword-tab" tabindex="0">
                         <div class="d-flex flex-column gap-20 update-section">
-                            <div>
-                                <label class="form-label label-checkout">Old Password
-                                </label>
-                                <input type="password" class="form-control input-field-checkout" placeholder="✱✱✱✱✱✱✱✱">
+
+                            <div class="pt-25">
+                                <label class="form-label label-checkout">Old Password</label>
+                                <div class="password-container d-flex align-items-center">
+                                    <input type="password" id="passwordInputBlack"
+                                        class="form-control input-field-checkout input-password" placeholder="✱✱✱✱✱✱✱✱">
+                                    <div class="password-toggle-black password-icon-profile"><img
+                                            src="assets/images/icon/eye-closed-black.svg" alt="Dropped Image"></div>
+                                </div>
                             </div>
-                            <div>
-                                <label class="form-label label-checkout">New Password
-                                </label>
-                                <input type="password" class="form-control input-field-checkout" placeholder="✱✱✱✱✱✱✱✱">
+
+
+                            <div class="">
+                                <label class="form-label label-checkout">New Password</label>
+                                <div class="password-container d-flex align-items-center">
+                                    <input type="password" id="newPasswordInput"
+                                        class="form-control input-field-checkout input-password" placeholder="✱✱✱✱✱✱✱✱">
+                                    <div class="new-password-toggle-black password-icon-profile"><img
+                                            src="assets/images/icon/eye-closed-black.svg" alt="Dropped Image"></div>
+                                </div>
                             </div>
-                            <div>
-                                <label class="form-label label-checkout">Confirm New Password
-                                </label>
-                                <input type="password" class="form-control input-field-checkout" placeholder="✱✱✱✱✱✱✱✱">
+                            <div class="">
+                                <label class="form-label label-checkout">Confirm New Password</label>
+                                <div class="password-container d-flex align-items-center">
+                                    <input type="password" id="confirmPasswordInput"
+                                        class="form-control input-field-checkout input-password" placeholder="✱✱✱✱✱✱✱✱">
+                                    <div class="confirm-password-toggle-black password-icon-profile"><img
+                                            src="assets/images/icon/eye-closed-black.svg" alt="Dropped Image"></div>
+                                </div>
                             </div>
                         </div>
                         <div class="text-center pt-30">
@@ -729,17 +722,8 @@
                             </div>
                         </div>
 
-                        <div id='dropZone' class="drag-uplod-img pt-0 w-100">
-                            <div class="drag-img">
-                                <img src="assets/images/icon/bytesize_upload.svg">
-                                <div class="drag-img-text">
-                                    Drag Or Upload Your Image/Video Here
-                                </div>
-                                <button class="btn drag-img-button">
-                                    Browse File
-                                </button>
-                            </div>
-
+                        <div class="pt-30">
+                            <input type="file" class="dropify-profile" />
                         </div>
                         <input type="file" id="fileInput">
 

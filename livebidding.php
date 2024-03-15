@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <title>Document</title>
+    <title> Car Arbab</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <?php include 'assets/include/cssinclude.php' ;?>
 </head>
 
@@ -25,15 +26,15 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="text-header">Auction List: <span
-                                    class="fw-bolder text-black text-uppercase">Toyota Camry</span></div>
+                                    class="font-600 text-black text-uppercase">Toyota Camry</span></div>
                         </div>
                         <div class="col-lg-4">
                             <div class="text-header">Participants: <span
-                                    class="fw-bolder text-black text-uppercase">3,905</span></div>
+                                    class="font-600 text-black text-uppercase">3,905</span></div>
                         </div>
                         <div class="col-lg-4">
                             <div class="text-header">Units Left: <span
-                                    class="fw-bolder text-black text-uppercase">149</span></div>
+                                    class="font-600 text-black text-uppercase">149</span></div>
                         </div>
                     </div>
                 </div>
@@ -107,14 +108,14 @@
                                 </div>
 
                                 <!-- car name section -->
-                                <div class="car-name mt-25">
+                                <div class="car-name mt-25 text-black text-uppercase">
                                     Toyota Camry New
                                 </div>
                                 <div class="pt-25 d-flex lot-no justify-content-between">
                                     <div>
-                                        Lot No: <span class="fw-bolder">LTN123456</span>
+                                        Lot No: <span class="font-600">LTN123456</span>
                                     </div>
-                                    <div class="fw-bolder">
+                                    <div class="font-600">
                                         On Reserve
                                     </div>
                                 </div>
@@ -242,7 +243,19 @@
 
                         <!-- right section -->
                         <div class="col-lg-4">
-                            <div class="py-4 box-shadow-left-div h-100">
+                            <div class="py-4 box-shadow-left-div h-100 position-relative">
+
+                                <div id="live-success" class="success-popup">
+                                    Your Bid Has Been Successfully Placed!
+                                </div>
+                                <div id="bid-done-alert" class="bid-done">
+                                    <div class="mb-10">
+                                        Congratulations! You've Won the Bid!
+                                    </div>
+                                    <a href="/cart.php" class="text-black  font-800">
+                                        Proceed to Checkout
+                                    </a>
+                                </div>
 
                                 <!-- progress bar -->
                                 <div class="text-center">
@@ -274,7 +287,7 @@
 
                                 <!-- place bid button -->
                                 <div class="place-bid">
-                                    <button class="btn place-bid-btn w-100">
+                                    <button id="btn-place-bid" class="btn place-bid-btn w-100">
                                         Place Bid
                                     </button>
                                 </div>
@@ -299,7 +312,7 @@
                                             </div>
                                             <div class="pri">
                                                 <div>Country Name</div>
-                                                <div class="fw-bolder mt-1">AED 20,00</div>
+                                                <div class="font-600 mt-1">AED 20,00</div>
                                             </div>
                                         </div>
                                         <div class="d-flex gap-2">
@@ -308,7 +321,7 @@
                                             </div>
                                             <div class="pri">
                                                 <div>Country Name</div>
-                                                <div class="fw-bolder mt-1">AED 22,00</div>
+                                                <div class="font-600 mt-1">AED 22,00</div>
                                             </div>
                                         </div>
                                     </div>
@@ -327,7 +340,7 @@
         <div class="container">
             <div class="d-flex flex-column gap-3">
                 <div class="car-bid-detail-secion p-10">
-                    <div class="row gx-4">
+                    <div class="row gx-5">
                         <div class="col-lg-2">
                             <div class="car-bid-img">
                                 <img src="assets/images/livebidding/car8.png" />
@@ -380,25 +393,24 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3">
-                            <div class="d-flex align-items-center h-100">
-                                <button class="btn place-bid-btn p-3 w-100">
+                        <div class="col-lg-4 ">
+                            <div class="d-flex align-items-center h-100 gap-5">
+                                <button class="btn place-bid-btn p-3 w-100 max-w-250">
                                     Next Bid
                                 </button>
-                            </div>
-                        </div>
-                        <div class="col-lg-1">
-                            <div class="d-flex align-items-center h-100">
+
                                 <button class="btn">
                                     <img src="assets/images/icon/like.svg" />
                                 </button>
+
                             </div>
                         </div>
+
                     </div>
                 </div>
 
                 <div class="car-bid-detail-secion p-10">
-                    <div class="row gx-4">
+                    <div class="row gx-5">
                         <div class="col-lg-2">
                             <div class="car-bid-img">
                                 <img src="assets/images/product/product-1.jpg" />
@@ -451,25 +463,22 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3">
-                            <div class="d-flex align-items-center h-100">
-                                <button class="btn not-eligible-btn p-3 w-100">
+                        <div class="col-lg-4">
+                            <div class="d-flex align-items-center h-100 gap-5">
+                                <button class="btn not-eligible-btn p-3 w-100  max-w-250">
                                     Not Eligible
                                 </button>
-                            </div>
-                        </div>
-                        <div class="col-lg-1">
-                            <div class="d-flex align-items-center h-100">
                                 <button class="btn">
                                     <img src="assets/images/icon/dislike.svg" />
                                 </button>
                             </div>
                         </div>
+
                     </div>
                 </div>
 
                 <div class="car-bid-detail-secion p-10">
-                    <div class="row gx-4">
+                    <div class="row gx-5">
                         <div class="col-lg-2">
                             <div class="car-bid-img">
                                 <img src="assets/images/livebidding/car5.png" />
@@ -522,25 +531,22 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3">
-                            <div class="d-flex align-items-center h-100">
-                                <button class="btn place-bid-btn p-3 w-100">
+                        <div class="col-lg-4">
+                            <div class="d-flex align-items-center h-100 gap-5">
+                                <button class="btn place-bid-btn p-3 w-100  max-w-250">
                                     15 Mins
                                 </button>
-                            </div>
-                        </div>
-                        <div class="col-lg-1">
-                            <div class="d-flex align-items-center h-100">
                                 <button class="btn">
                                     <img src="assets/images/icon/like.svg" />
                                 </button>
                             </div>
                         </div>
+
                     </div>
                 </div>
 
                 <div class="car-bid-detail-secion p-10">
-                    <div class="row gx-4">
+                    <div class="row gx-5">
                         <div class="col-lg-2">
                             <div class="car-bid-img">
                                 <img src="assets/images/livebidding/car6.png" />
@@ -593,20 +599,17 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3">
-                            <div class="d-flex align-items-center h-100">
-                                <button class="btn place-bid-btn p-3 w-100">
+                        <div class="col-lg-4">
+                            <div class="d-flex align-items-center h-100 gap-5">
+                                <button class="btn place-bid-btn p-3 w-100 max-w-250">
                                     30 Mins
                                 </button>
-                            </div>
-                        </div>
-                        <div class="col-lg-1">
-                            <div class="d-flex align-items-center h-100">
                                 <button class="btn">
                                     <img src="assets/images/icon/like.svg" />
                                 </button>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>

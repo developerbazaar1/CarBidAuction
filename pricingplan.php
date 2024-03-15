@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <title>Document</title>
+    <title> Car Arbab</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <?php include 'assets/include/cssinclude.php' ;?>
 
 </head>
@@ -39,20 +40,33 @@
                                     Free
                                 </div>
 
-                                <div class="font-montserrat text-gray font-500 fs-6 mt-10">
+                                <div class="font-montserrat text-gray font-500 fs-6 mt-10 line-18">
                                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit.
                                 </div>
 
                                 <div class="checklist mt-20">
-                                    <ul class="list-features m-0">
-                                        <li class="py-1"><a href="javascript:void(0);"> Free Account (No Deposit)</a>
-                                        </li>
-                                        <li class="py-1"><a href="javascript:void(0);"> KYC Mandatory</a></li>
-                                        <li class="py-1"><a href="javascript:void(0);"> Upto AED 40,000 Bid Limit</a>
-                                        </li>
-                                        <li class="py-1"><a href="javascript:void(0);"> Valid CC on File Needed</a></li>
-                                        <li class="py-1"><a href="javascript:void(0);"> Access Full Inventory</a></li>
-                                    </ul>
+                                    <div class="d-flex flex-column gap-10">
+                                        <div class="pricing-list ">
+                                            <div class="text-gray">
+                                                Air Conditioner
+                                            </div>
+                                        </div>
+                                        <div class="pricing-list ">
+                                            <div class="text-gray"> Free Account (No Deposit)</div>
+                                        </div>
+                                        <div class="pricing-list ">
+                                            <div class="text-gray"> KYC Mandatory</div>
+                                        </div>
+                                        <div class="pricing-list ">
+                                            <div class="text-gray"> Upto AED 40,000 Bid Limit</div>
+                                        </div>
+                                        <div class="pricing-list ">
+                                            <div class="text-gray"> Valid CC on File Needed</div>
+                                        </div>
+                                        <div class="pricing-list ">
+                                            <div class="text-gray"> Access Full Inventory</div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="">
@@ -76,20 +90,28 @@
                                     Regular User
                                 </div>
 
-                                <div class="font-montserrat text-gray font-500 fs-6 mt-10">
+                                <div class="font-montserrat text-gray font-500 fs-6 mt-10 line-18">
                                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit.
                                 </div>
 
                                 <div class="checklist mt-20">
-                                    <ul class="list-features m-0">
-                                        <li class="py-1"><a href="javascript:void(0);"> AED 3,500 Deposit Amount</a>
-                                        </li>
-                                        <li class="py-1"><a href="javascript:void(0);"> KYC Mandatory</a></li>
-                                        <li class="py-1"><a href="javascript:void(0);"> Upto AED 180,000 Bid Limit</a>
-                                        </li>
-                                        <li class="py-1"><a href="javascript:void(0);"> Valid CC on File Needed</a></li>
-                                        <li class="py-1"><a href="javascript:void(0);"> Access Full Inventory</a></li>
-                                    </ul>
+                                    <div class="d-flex flex-column gap-10">
+                                        <div class="pricing-list ">
+                                            <div class="text-gray"> AED 3,500 Deposit Amount</div>
+                                        </div>
+                                        <div class="pricing-list ">
+                                            <div class="text-gray"> KYC Mandatory</div>
+                                        </div>
+                                        <div class="pricing-list ">
+                                            <div class="text-gray"> Upto AED 180,000 Bid Limit</div>
+                                        </div>
+                                        <div class="pricing-list ">
+                                            <div class="text-gray"> Valid CC on File Needed</div>
+                                        </div>
+                                        <div class="pricing-list ">
+                                            <div class="text-gray"> Access Full Inventory</div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="">
@@ -119,27 +141,40 @@
                                         Power User
                                     </div>
 
-                                    <div class="font-montserrat text-white font-500 fs-6 mt-10">
+                                    <div class="font-montserrat text-white font-500 fs-6 mt-10 line-18">
                                         Quis autem vel eum iure reprehenderit qui in ea voluptate velit.
                                     </div>
 
                                     <div class="checklist mt-20">
-                                        <ul class="list-features m-0">
-                                            <li class="py-1"><a href="javascript:void(0);" class="text-white">
-                                                    AED 4,500 Deposit Amount</a>
-                                            </li>
-                                            <li class="py-1"><a href="javascript:void(0);" class="text-white"> KYC
-                                                    Mandatory</a></li>
-                                            <li class="py-1"><a href="javascript:void(0);" class="text-white">Up to AED
-                                                    400,000 Bid Limit</a>
-                                            </li>
-                                            <li class="py-1"><a href="javascript:void(0);" class="text-white"> Valid CC
+                                        <div class="d-flex flex-column gap-10">
+                                            <div class="pricing-list text-white">
+                                                <div class="">
+                                                    AED 4,500 Deposit Amount
+                                                </div>
+                                            </div>
+                                            <div class="pricing-list text-white">
+                                                <div class=""> KYC
+                                                    Mandatory
+                                                </div>
+                                            </div>
+                                            <div class="pricing-list text-white">
+                                                <div class="">Up to AED
+                                                    400,000 Bid Limit
+                                                </div>
+                                            </div>
+                                            <div class="pricing-list text-white">
+                                                <div class=""> Valid CC
                                                     on
-                                                    File Needed</a></li>
-                                            <li class="py-1"><a href="javascript:void(0);" class="text-white"> Access
+                                                    File Needed
+                                                </div>
+                                            </div>
+                                            <div class="pricing-list text-white">
+                                                <div class=""> Access
                                                     Full
-                                                    Inventory</a></li>
-                                        </ul>
+                                                    Inventory
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="">
@@ -165,24 +200,32 @@
                                     Business
                                 </div>
 
-                                <div class="font-montserrat text-gray font-500 fs-6 mt-10">
+                                <div class="font-montserrat text-gray font-500 fs-6 mt-10 line-18">
                                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit.
                                 </div>
 
                                 <div class="checklist mt-20">
-                                    <ul class="list-features m-0">
-                                        <li class="py-1"><a href="javascript:void(0);"> AED 36,500 Deposit Amount</a>
-                                        </li>
-                                        <li class="py-1"><a href="javascript:void(0);"> Valid Trade License Required</a>
-                                        </li>
-                                        <li class="py-1"><a href="javascript:void(0);"> KYC Mandatory</a>
-                                        </li>
-                                        <li class="py-1"><a href="javascript:void(0);"> Up to AED 3.6 M Bid Limit</a>
-                                        </li>
-                                        <li class="py-1"><a href="javascript:void(0);"> Valid CC on File Needed</a></li>
-                                        <li class="py-1"><a href="javascript:void(0);"> Access Full Inventory</a></li>
+                                    <div class="d-flex flex-column gap-10">
+                                        <div class="pricing-list ">
+                                            <div class="text-gray"> AED 36,500 Deposit Amount </div>
+                                        </div>
+                                        <div class="pricing-list ">
+                                            <div class="text-gray"> Valid Trade License Required </div>
+                                        </div>
+                                        <div class="pricing-list ">
+                                            <div class="text-gray"> KYC Mandatory </div>
+                                        </div>
+                                        <div class="pricing-list ">
+                                            <div class="text-gray"> Up to AED 3.6 M Bid Limit </div>
+                                        </div>
+                                        <div class="pricing-list ">
+                                            <div class="text-gray"> Valid CC on File Needed </div>
+                                        </div>
+                                        <div class="pricing-list ">
+                                            <div class="text-gray"> Access Full Inventory </div>
+                                        </div>
 
-                                    </ul>
+                                    </div>
                                 </div>
                             </div>
                             <div class="">

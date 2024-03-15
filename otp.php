@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <title>Document</title>
+    <title> Car Arbab</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <?php include 'assets/include/cssinclude.php' ;?>
 
 </head>
@@ -26,13 +27,13 @@
                             <div class="pt-25 d-flex gap-4 max-w-314">
 
                                 <input type="number" maxlength="1" id="otp1"
-                                    class="otp-input form-control input-field-checkout input-field-signin">
+                                    class="otp-input form-control input-field-checkout input-field-signin fw-bold text-center">
                                 <input type="number" maxlength="1" id="otp2"
-                                    class="otp-input form-control input-field-checkout input-field-signin">
+                                    class="otp-input form-control input-field-checkout input-field-signin fw-bold text-center">
                                 <input type="number" maxlength="1" id="otp3"
-                                    class="otp-input form-control input-field-checkout input-field-signin">
+                                    class="otp-input form-control input-field-checkout input-field-signin fw-bold text-center">
                                 <input type="number" maxlength="1" id="otp4"
-                                    class="otp-input form-control input-field-checkout input-field-signin">
+                                    class="otp-input form-control input-field-checkout input-field-signin fw-bold text-center">
 
                             </div>
 
