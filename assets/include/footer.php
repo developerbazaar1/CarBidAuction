@@ -1,8 +1,8 @@
 <section class="footer-section pt-50 pb-20">
-    <div class="container px-0">
+    <div class="container">
         <div class="row mx-0 px-0 mx-auto">
 
-            <div class="col-lg-2 col-6">
+            <div class="col-lg-2 col-sm-4 col-6">
                 <h3 class="footer-heading"><span class="">Company</span></h3>
                 <ul class="list-item">
                     <li><a href="#">About Us</a></li>
@@ -15,7 +15,7 @@
             <!---/col--->
 
 
-            <div class="col-lg-2 col-6">
+            <div class="col-lg-2 col-sm-4 col-6">
                 <h3 class="footer-heading"><span class="">Quick Links</span></h3>
                 <ul class="list-item">
                     <li><a href="#">Live Bids</a></li>
@@ -27,7 +27,7 @@
             </div>
             <!---/col--->
 
-            <div class="col-lg-2 col-6">
+            <div class="col-lg-2 col-sm-4 col-6">
                 <h3 class="footer-heading"><span class="">Our Brands</span></h3>
                 <ul class="list-item">
                     <li><a href="#">Toyota</a></li>
@@ -39,7 +39,7 @@
             </div>
             <!---/col--->
 
-            <div class="col-lg-2 col-6">
+            <div class="col-lg-2  col-sm-4 col-6">
                 <h3 class="footer-heading"><span class="">Vehicles Type</span></h3>
                 <ul class="list-item">
                     <li><a href="#">SUV</a></li>
@@ -53,7 +53,7 @@
             </div>
             <!---/col--->
 
-            <div class="col-lg-4 col-6">
+            <div class="col-lg-4 col-sm-8 col-12">
                 <h3 class="footer-heading"><span class="">Our Info</span></h3>
                 <ul class="list-item">
                     <li><a href="#">5 Park Plaza Suite 800, Irvine, CA 92614</a></li>

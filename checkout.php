@@ -103,7 +103,8 @@
                             </div>
                             <div class="col-lg-12">
                                 <div class="text-center mt-2">
-                                    <button class="btn bid-now">Pay AED 39,150</button>
+                                    <button class="btn bid-now" data-bs-toggle="modal"
+                                        data-bs-target="#paymentmethod">Pay AED 39,150</button>
                                 </div>
                             </div>
                         </div>
@@ -174,13 +175,46 @@
                             <div class="drag-img-text mt-10">Image should not bigger than 100 KB</div>
                         </div>
                         <div class="text-center mt-4">
-                            <button class="btn bid-now">Pay AED 39,150</button>
+                            <button class="btn bid-now" data-bs-toggle="modal" data-bs-target="#paymentmethod">Pay AED
+                                39,150</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+    <!-- for Thank you  -->
+    <div class="modal fade" id="paymentmethod" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="paymentmethodLabel" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered modal model-dialog-addcard thank-you-modal">
+
+            <div class="modal-content border-0 redius-25">
+
+                <div class="modal-body p-20 pt-0">
+                    <div class="max-w-414">
+                        <img src="assets/images/background/car.gif" />
+                    </div>
+                    <div class="">
+                        <div class="font-20 font-800 text-black font-montserrat fst-italic text-center">
+                            Thank You for Your Purchase!
+                        </div>
+                    </div>
+                    <div class="pl-20 pr-20 mt-10 text-gray font-termina font-16 font-600 text-center">
+                        Congratulations on your new car! 🚗 We are thrilled that you chose [Company Name] for your
+                        automotive needs. Your trust means the world to us, and we're here to ensure your satisfaction
+                        every step of the way.
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- end Thank you modal  -->
 
     <!-- Footer -->
     <?php include 'assets/include/footer.php' ;?>

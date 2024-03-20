@@ -43,7 +43,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 p-5 d-flex align-items-center justify-content-between p-lg-0">
                                     <div class="d-flex flex-column justify-content-center h-100">
                                         <div class="url-heading mb-1">
                                             Toyota Camry New
@@ -53,14 +53,16 @@
                                         </div>
 
                                     </div>
+
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="d-flex flex-column justify-content-center h-100 align-items-end pr-30">
-                                        <h5 class="fs-5 header-cart-price">
+                                        <h5 class="font-20 header-cart-price">
                                             AED 35,000
                                         </h5>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
 
@@ -72,7 +74,7 @@
                                     <div class="d-flex align-items-center gap-10">
                                         <input checked class="form-check-input m-0 border-dark rounded-0"
                                             type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <div class="font-termina text-gray font-600">
+                                        <div class="font-16 font-termina text-gray font-600">
                                             Repair Service
                                         </div>
                                     </div>
@@ -95,7 +97,7 @@
                                     <div class="d-flex align-items-center gap-10">
                                         <input checked class="form-check-input m-0 border-dark rounded-0"
                                             type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <div class="font-termina text-gray font-600">
+                                        <div class="font-16 font-termina text-gray font-600">
                                             Insurance Service
                                         </div>
                                     </div>
@@ -119,7 +121,7 @@
                                     <div class="d-flex align-items-center gap-10">
                                         <input checked class="form-check-input m-0 border-dark rounded-0"
                                             type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <div class="font-termina text-gray font-600">
+                                        <div class="font-16 font-termina text-gray font-600">
                                             Recovery Service
                                         </div>
                                     </div>
@@ -144,7 +146,7 @@
                                     <div class="d-flex align-items-center gap-10">
                                         <input checked class="form-check-input m-0 border-dark rounded-0"
                                             type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <div class="font-termina text-gray font-600">
+                                        <div class="font-16 font-termina text-gray font-600">
                                             Protection Plan
                                         </div>
                                     </div>

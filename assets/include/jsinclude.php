@@ -13,6 +13,9 @@
 <script type="text/javascript">
 // for favorite is check or uncheck
 
+
+
+
 $(document).ready(function() {
     $('.clickable-image').click(function() {
 
@@ -367,10 +370,10 @@ $(function() {
                 items: 1
             },
             600: {
-                items: 2
+                items: 1
             },
             960: {
-                items: 3
+                items: 2
             },
             1200: {
                 items: 3
@@ -398,10 +401,10 @@ $(function() {
                 items: 1
             },
             600: {
-                items: 2
+                items: 1
             },
             960: {
-                items: 3
+                items: 2
             },
             1200: {
                 items: 3
@@ -542,32 +545,55 @@ $(function() {
     });
 
     /////////////////////////////////////////////////
-    const rangeInput = $('.range-input input'),
-        priceInput = $('.year-input input'),
-        range = $('.slider .progress');
-    let priceGap = 1000;
+    function updateProgress(range, rangeInput) {
+        let minVal = parseInt(rangeInput.eq(0).val()),
+            maxVal = parseInt(rangeInput.eq(1).val());
 
-    priceInput.on('input', function(e) {
-        let minPrice = parseInt(priceInput.eq(0).val()),
-            maxPrice = parseInt(priceInput.eq(1).val());
+        let rangeMin = parseInt(rangeInput.eq(0).attr('min'));
+        let rangeMax = parseInt(rangeInput.eq(0).attr('max'));
 
-        if (maxPrice - minPrice >= priceGap && maxPrice <= rangeInput.eq(1).attr('max')) {
-            if ($(e.target).hasClass("input-min")) {
-                rangeInput.eq(0).val(minPrice);
-                range.css('left', (minPrice / rangeInput.eq(0).attr('max')) * 100 + "%");
-            } else {
-                rangeInput.eq(1).val(maxPrice);
-                range.css('right', 100 - (maxPrice / rangeInput.eq(1).attr('max')) * 100 + "%");
+        let left = ((minVal - rangeMin) / (rangeMax - rangeMin)) * 100;
+        let right = 100 - ((maxVal - rangeMin) / (rangeMax - rangeMin)) * 100;
+
+        range.css('left', left + '%');
+        range.css('right', right + '%');
+    }
+
+    $('.year-range').each(function() {
+        const rangeInput = $(this).find('.range-input input'),
+            yearInput = $(this).find('.year-input input'),
+            range = $(this).find('.slider .progress');
+        let priceGap = 2;
+
+        yearInput.on('input', function(e) {
+            let minYear = parseInt(yearInput.eq(0).val()),
+                maxYear = parseInt(yearInput.eq(1).val());
+
+            if (maxYear - minYear >= priceGap && maxYear <= rangeInput.eq(1).attr('max')) {
+                if ($(e.target).hasClass("input-min")) {
+                    rangeInput.eq(0).val(minYear);
+                    updateProgress(range, rangeInput);
+                } else {
+                    rangeInput.eq(1).val(maxYear);
+                    updateProgress(range, rangeInput);
+                }
             }
-        }
+        });
+
+        updateProgress(range, rangeInput); // Initialize progress
     });
 
-    rangeInput.on('input', function(e) {
+    $('.range-input input').on('input', function(e) {
+        let rangeInput = $(this).closest('.range-input').find('input'),
+            priceInput = $(this).closest('.year-range').find('.year-input input'),
+            range = $(this).closest('.year-range').find('.slider .progress');
+        let priceGap = 2;
+
         let minVal = parseInt(rangeInput.eq(0).val()),
             maxVal = parseInt(rangeInput.eq(1).val());
 
         if (maxVal - minVal < priceGap) {
-            if ($(e.target).hasClass("range-min")) {
+            if ($(this).hasClass("range-min")) {
                 rangeInput.eq(0).val(maxVal - priceGap);
             } else {
                 rangeInput.eq(1).val(minVal + priceGap);
@@ -575,10 +601,11 @@ $(function() {
         } else {
             priceInput.eq(0).val(minVal);
             priceInput.eq(1).val(maxVal);
-            range.css('left', (minVal / rangeInput.eq(0).attr('max')) * 100 + "%");
-            range.css('right', 100 - (maxVal / rangeInput.eq(1).attr('max')) * 100 + "%");
+            updateProgress(range, rangeInput);
         }
     });
+
+
 
     ////////////////////////////////////////////
 
@@ -667,6 +694,9 @@ owl.owlCarousel({
 });
 
 ///////////////////////////////////////
+
+
+
 
 function getTimeRemaining(endtime) {
     var t = Date.parse(endtime) - Date.parse(new Date());
@@ -793,6 +823,38 @@ $(window).scroll(myScrollFunc);
 
 /*=======Onscroll fixed Section==========*/
 
+const toggleButton = document.getElementById('accordion-btn');
+const myTable = document.getElementById('accordion-body');
+
+toggleButton.addEventListener('click', function() {
+    if (myTable.style.display === 'none') {
+        myTable.style.display = 'table';
+    } else {
+        myTable.style.display = 'none';
+    }
+});
+
+const setLabel = (lbl, val) => {
+    const label = $(`#slider-${lbl}-label`);
+    label.text(val);
+    const slider = $(`#slider-div .${lbl}-slider-handle`);
+    const rect = slider[0].getBoundingClientRect();
+    label.offset({
+        top: rect.top - 30,
+        left: rect.left
+    });
+}
+
+const setLabels = (values) => {
+    setLabel("min", values[0]);
+    setLabel("max", values[1]);
+}
+
+
+$('#ex2').slider().on('slide', function(ev) {
+    setLabels(ev.value);
+});
+setLabels($('#ex2').attr("data-value").split(","));
 
 
 // for livebigging page

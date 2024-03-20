@@ -26,7 +26,7 @@
     <section class="pt-50 pb-50">
         <div class="container">
 
-            <div class="row">
+            <div class="row gy-5">
                 <div class="col-lg-6">
                     <div class="heading">
                         Let's Connect, Drive Your Inquiries Away
@@ -77,28 +77,28 @@
                 </div>
                 <div class="col-lg-6 ">
                     <div class="row gy-4 gx-5">
-                        <div class="col-lg-6">
+                        <div class="col-md-6">
                             <div class="input-field-contact">
                                 <img src="assets/images/icon/user.svg" />
                                 <input type="text" placeholder="Name" class="input-field-contact form-control">
                             </div>
                         </div>
 
-                        <div class="col-lg-6">
+                        <div class="col-md-6">
                             <div class="input-field-contact">
                                 <img src="assets/images/icon/mail.svg" />
                                 <input type="email" placeholder="Email" class="input-field-contact form-control">
                             </div>
                         </div>
 
-                        <div class="col-lg-6">
+                        <div class="col-md-6">
                             <div class="input-field-contact">
                                 <img src="assets/images/icon/phone-call.svg" />
                                 <input type="number" placeholder="Phone" class="input-field-contact form-control">
                             </div>
                         </div>
 
-                        <div class="col-lg-6">
+                        <div class="col-md-6">
                             <div class="input-field-contact">
                                 <img src="assets/images/icon/pencil-line.svg" />
                                 <input type="text" placeholder="Subject" class="input-field-contact form-control">

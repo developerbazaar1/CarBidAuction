@@ -512,7 +512,7 @@
                                     </div>
 
 
-                                    <div class="float-right d-flex justify-content-end">
+                                    <div class="float-right d-flex justify-content-end mt-10">
 
                                         <a href="#" class="full-insp">Full Inspection Report</a>
 
@@ -538,79 +538,72 @@
 
 
                     <div class="mt-30">
-                        <div class="accordion accordion-flush" id="accordionFlushExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button
-                                        class="accordion-button collapsed text-black font-900 font-18 fst-italic font-montserrat border rounded-pill"
-                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
-                                        aria-expanded="false" aria-controls="flush-collapseOne">
-                                        Complete Car Auction History:
-                                    </button>
-                                </h2>
+                        <div>
+                            <button
+                                class="text-black font-900 font-18 bg-white w-100 py-10 px-4 d-flex align-items-center justify-content-between fst-italic font-montserrat border rounded-pill"
+                                type="button" id="accordion-btn">
+                                Complete Car Auction History:
+                                <div>
+                                    <img src="assets/images/icon/Down2.svg">
+                                </div>
+                            </button>
 
-                                <!--row---->
+                            <div id="accordion-body">
+                                <div class="row">
+                                    <div class="col-lg-12 table-responsive">
 
-                                <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body p-0 m-0">
-                                        <div class="row">
+                                        <table class="table ctm-table">
 
-                                            <div class="col-lg-12 table-responsive">
+                                            <tr class="bg-ctm">
+                                                <td class="border-top-left">Auction Date</td>
+                                                <td>Auction Platform</td>
+                                                <td>Lot No</td>
+                                                <td>Price of Auction</td>
+                                                <td>Place of Auction</td>
+                                                <td class="border-top-right">Mileage</td>
+                                            </tr>
 
-                                                <table class="table ctm-table">
+                                            <tbody>
+                                                <tr>
+                                                    <td>2024-01-01</td>
+                                                    <td>Online Auction</td>
+                                                    <td>101</td>
+                                                    <td>AED 15,000</td>
+                                                    <td>Virtual</td>
+                                                    <td>50,000 mi.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2023-02-02</td>
+                                                    <td>Local Auction</td>
+                                                    <td>101</td>
+                                                    <td>AED 15,000</td>
+                                                    <td>Virtual</td>
+                                                    <td>50,000 mi.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2024-01-01</td>
+                                                    <td>Online Auction</td>
+                                                    <td>101</td>
+                                                    <td>AED 15,000</td>
+                                                    <td>Virtual</td>
+                                                    <td>50,000 mi.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2023-02-02</td>
+                                                    <td>Online Auction</td>
+                                                    <td>101</td>
+                                                    <td>AED 15,000</td>
+                                                    <td>Virtual</td>
+                                                    <td>50,000 mi.</td>
+                                                </tr>
 
-                                                    <tr class="bg-ctm">
-                                                        <td class="border-top-left">Auction Date</td>
-                                                        <td>Auction Platform</td>
-                                                        <td>Lot No</td>
-                                                        <td>Price of Auction</td>
-                                                        <td>Place of Auction</td>
-                                                        <td class="border-top-right">Mileage</td>
-                                                    </tr>
-
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>2024-01-01</td>
-                                                            <td>Online Auction</td>
-                                                            <td>101</td>
-                                                            <td>AED 15,000</td>
-                                                            <td>Virtual</td>
-                                                            <td>50,000 mi.</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>2023-02-02</td>
-                                                            <td>Local Auction</td>
-                                                            <td>101</td>
-                                                            <td>AED 15,000</td>
-                                                            <td>Virtual</td>
-                                                            <td>50,000 mi.</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>2024-01-01</td>
-                                                            <td>Online Auction</td>
-                                                            <td>101</td>
-                                                            <td>AED 15,000</td>
-                                                            <td>Virtual</td>
-                                                            <td>50,000 mi.</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>2023-02-02</td>
-                                                            <td>Online Auction</td>
-                                                            <td>101</td>
-                                                            <td>AED 15,000</td>
-                                                            <td>Virtual</td>
-                                                            <td>50,000 mi.</td>
-                                                        </tr>
-
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
 
 
                         <div class="row">
@@ -853,7 +846,7 @@
     <!-----Auction-timer------->
 
 
-    <section class="related-list pb-50">
+    <section class="related-list pb-50 pt-50">
 
         <div class="container">
             <div class="row mx-0 px-0">
@@ -1373,7 +1366,7 @@
                     <div class="modle-buy-now">
                         <img src="assets/images/livebidding/car4.png" class="w-100 h-100" />
                     </div>
-                    <div class="d-flex flex-column gap-20">
+                    <div class="d-flex flex-column gap-10">
                         <div
                             class="d-flex justify-content-between align-items-center text-gray font-termina font-14 font-500">
                             <div>Lot No:</div>
@@ -1446,7 +1439,7 @@
                             </div>
                         </div>
 
-                        <div class="mt-20">
+                        <div class="mt-10">
                             <a href="/cart.php" class="btn buy-now"> Buy Now AED
                                 <span>XXXX</span></a>
                         </div>
@@ -1483,7 +1476,7 @@
                     <div class="modle-buy-now">
                         <img src="assets/images/livebidding/car4.png" class="w-100 h-100" />
                     </div>
-                    <div class="d-flex flex-column gap-20">
+                    <div class="d-flex flex-column gap-10">
                         <div
                             class="d-flex justify-content-between align-items-center text-gray font-termina font-14 font-500">
                             <div>Lot No:</div>
@@ -1555,7 +1548,7 @@
                             </div>
                         </div>
 
-                        <div class="mt-20">
+                        <div class="mt-10">
                             <a href="/pricingplan.php" class="btn buy-now"> Bid Now</a>
                         </div>
 

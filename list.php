@@ -230,33 +230,56 @@
 
                     </select>
 
-                    <select class="form-select" aria-label="">
-                        <option value="">Odometer Range</option>
-                        <option value=""></option>
-
-                    </select>
 
 
-                    <div class="year-range">
-                        Year
+                    <div class="year-range my-3">
+                        Odometer Range
                         <div class="year-input">
                             <div class="field">
-                                <input type="number" class="input-min" value="1990">
+                                <input type="number"
+                                    class="input-min rounded-pill text-black font-500 font-14 font-termina"
+                                    value="1990">
                             </div>
                             <div class="separator">To</div>
                             <div class="field">
-                                <input type="number" class="input-max" value="2025">
+                                <input type="number" class="input-max rounded-pill " value="2025">
                             </div>
                         </div>
+
+
                         <div class="slider">
                             <div class="progress"></div>
                         </div>
                         <div class="range-input">
-                            <input type="range" class="range-min" min="1900" max="10000" value="1990" step="100">
-                            <input type="range" class="range-max" min="0" max="10000" value="2500" step="100">
+                            <input type="range" class="range-min" min="0" max="10000" value="0" step="1">
+                            <input type="range" class="range-max" min="0" max="10000" value="10000" step="1">
+                        </div>
+                    </div>
+
+                    <div class="year-range my-3">
+                        Year
+                        <div class="year-input">
+                            <div class="field">
+                                <input type="number"
+                                    class="input-min rounded-pill text-black font-500 font-14 font-termina"
+                                    value="1990">
+                            </div>
+                            <div class="separator">To</div>
+                            <div class="field">
+                                <input type="number" class="input-max rounded-pill " value="2025">
+                            </div>
                         </div>
 
+
+                        <div class="slider">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="range-input odometer-range-input">
+                            <input type="range" class="range-min" min="1990" max="2024" value="0" step="1">
+                            <input type="range" class="range-max" min="1990" max="2024" value="2024" step="1">
+                        </div>
                     </div>
+
 
 
                     <select class="form-select" aria-label="">
@@ -297,25 +320,28 @@
 
                     </select>
 
-                    <div class="year-range">
-                        Price
+                    <div class="year-range my-3">
+                        Odometer Range
                         <div class="year-input">
                             <div class="field">
-                                <input type="number" class="input-min" value="1990">
+                                <input type="number"
+                                    class="input-min rounded-pill text-black font-500 font-14 font-termina"
+                                    value="1990">
                             </div>
                             <div class="separator">To</div>
                             <div class="field">
-                                <input type="number" class="input-max" value="2025">
+                                <input type="number" class="input-max rounded-pill " value="2025">
                             </div>
                         </div>
+
+
                         <div class="slider">
                             <div class="progress"></div>
                         </div>
                         <div class="range-input">
-                            <input type="range" class="range-min" min="1900" max="10000" value="1990" step="100">
-                            <input type="range" class="range-max" min="0" max="10000" value="2500" step="100">
+                            <input type="range" class="range-min" min="0" max="10000" value="0" step="1">
+                            <input type="range" class="range-max" min="0" max="10000" value="10000" step="1">
                         </div>
-
                     </div>
 
 
@@ -344,7 +370,6 @@
         </div>
 
 
-
         <!----offcanvas------>
 
 
@@ -359,7 +384,7 @@
 
                 <div class="row">
 
-                    <div class="col-lg-4 mt-25 position-relative">
+                    <div class="col-lg-4 col-md-6 mt-25 position-relative">
                         <div class="inner-box redirect-details">
                             <div class="car-modal tag">MUV</div>
                             <div class="product-img-box">
@@ -445,7 +470,7 @@
                     </div>
                     <!---col--->
 
-                    <div class="col-lg-4 mt-25 position-relative">
+                    <div class="col-lg-4 col-md-6 mt-25 position-relative">
                         <div class="inner-box redirect-details">
                             <div class="car-modal tag">MUV</div>
                             <div class="product-img-box">
@@ -531,7 +556,7 @@
                     <!---col--->
 
 
-                    <div class="col-lg-4 mt-25 position-relative">
+                    <div class="col-lg-4 col-md-6 mt-25 position-relative">
                         <div class="inner-box redirect-details">
                             <div class="car-modal tag">MUV</div>
                             <div class="product-img-box">
@@ -616,7 +641,7 @@
                     <!---col--->
 
 
-                    <div class="col-lg-4 mt-25 position-relative">
+                    <div class="col-lg-4 col-md-6 mt-25 position-relative">
                         <div class="inner-box redirect-details">
                             <div class="car-modal tag">MUV</div>
                             <div class="product-img-box">
@@ -701,7 +726,7 @@
                     </div>
                     <!---col--->
 
-                    <div class="col-lg-4 mt-25 position-relative">
+                    <div class="col-lg-4 col-md-6 mt-25 position-relative">
                         <div class="inner-box redirect-details">
                             <div class="car-modal tag">MUV</div>
                             <div class="product-img-box">
@@ -786,7 +811,7 @@
                     </div>
                     <!---col--->
 
-                    <div class="col-lg-4 mt-25 position-relative">
+                    <div class="col-lg-4 col-md-6 mt-25 position-relative">
                         <div class="inner-box redirect-details">
                             <div class="car-modal tag">MUV</div>
                             <div class="product-img-box">
@@ -872,7 +897,7 @@
                     <!---col--->
 
 
-                    <div class="col-lg-4 mt-25 position-relative">
+                    <div class="col-lg-4 col-md-6 mt-25 position-relative">
                         <div class="inner-box redirect-details">
                             <div class="car-modal tag">MUV</div>
                             <div class="product-img-box">
@@ -957,7 +982,7 @@
                     <!---col--->
 
 
-                    <div class="col-lg-4 mt-25 position-relative">
+                    <div class="col-lg-4 col-md-6 mt-25 position-relative">
                         <div class="inner-box redirect-details">
                             <div class="car-modal tag">MUV</div>
                             <div class="product-img-box">

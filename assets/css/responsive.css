@@ -1,13 +1,357 @@
-@media (max-width: 1400px) {
-  .pr-80 {
-    padding: 0px;
-  }
-  .pr-105 {
-    padding: 0px;
-  }
-}
 @media (min-width: 1600px) {
   .signin-section {
     height: 100vh;
   }
+}
+@media only screen and (max-width: 1400px) {
+  .pr-80 {
+    padding-right: 30px;
+  }
+  .pr-105 {
+    padding: 0px;
+  }
+  .pl-40 {
+    padding-left: 0px;
+  }
+
+  .head-menu li a {
+    font-size: 15px;
+  }
+
+  .hero-h1 {
+    font-size: 30px;
+  }
+  .img-hero {
+    object-fit: contain;
+  }
+
+  .heading {
+    font-size: 30px;
+  }
+  .title-p {
+    padding-top: 12px;
+    font-size: 15px;
+  }
+
+  .title-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .fillter-btn .btn-group {
+    gap: 10px;
+  }
+
+  .model-name {
+    font-size: 15px;
+  }
+
+  .how-it {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .hero-pera {
+    font-size: 15px;
+  }
+
+  .bg-howit {
+    padding: 70px 0px;
+  }
+
+  .section-heading {
+    font-size: 20px;
+  }
+
+  .section-subheading {
+    font-size: 18px;
+  }
+
+  .section-pera {
+    font-size: 15px;
+  }
+  .why-car {
+    font-size: 20px;
+  }
+
+  .number-box {
+    font-size: 35px;
+  }
+
+  span.name {
+    font-size: 16px;
+  }
+
+  .number-detail {
+    font-size: 16px;
+  }
+
+  .url-heading {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .pb-50 {
+    padding-bottom: 40px;
+  }
+
+  .pt-50 {
+    padding-top: 40px;
+  }
+
+  .mt-50 {
+    margin-top: 40px;
+  }
+
+  .fillter-btn .btn-primary.dropdown-toggle {
+    font-size: 15px !important;
+  }
+
+  .fillter-btn .btn-outline-primary {
+    font-size: 15px !important;
+  }
+  .brand-name {
+    font-size: 15px;
+  }
+  .amou {
+    font-size: 16px;
+  }
+  .footer-heading {
+    font-size: 16px;
+  }
+  .timer-box {
+    font-size: 20px;
+  }
+  .timer-section {
+    gap: 20px;
+  }
+
+  .fc-toolbar-title {
+    font-size: 24px !important;
+  }
+  .inquiries-list-desc {
+    font-size: 15px;
+  }
+
+  .font-20 {
+    font-size: 18px;
+  }
+  .since-text {
+    font-size: 15px;
+  }
+
+  .service-prise {
+    font-size: 15px;
+  }
+
+  .font-16 {
+    font-size: 15px;
+  }
+
+  .bank-account-text {
+    font-size: 17px;
+  }
+
+  .label-checkout {
+    font-size: 15px;
+  }
+
+  li.breadcrumb-item {
+    font-size: 15px;
+  }
+
+  .btn-usrhub {
+    font-size: 13px;
+    padding: 5px 10px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .hero-h1 {
+    font-size: 25px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .bg-howit {
+    padding: 50px 0px;
+  }
+  .number-box {
+    font-size: 30px;
+  }
+  .font-25 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .py-82 {
+    padding: 50px 0px;
+  }
+  .hero-h1 {
+    font-size: 22px;
+  }
+  .hero-pera {
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .heading {
+    font-size: 22px;
+  }
+  .title-p {
+    font-size: 14px;
+    padding-top: 8px;
+  }
+  .fillter-btn .btn-primary.dropdown-toggle {
+    font-size: 14px !important;
+  }
+  .fillter-btn .btn-outline-primary {
+    font-size: 14px !important;
+  }
+  .how-it {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .title-section {
+    padding-top: 30px;
+  }
+
+  .how-it p {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+
+  .bg-howit {
+    padding: 30px;
+  }
+
+  .section-heading {
+    font-size: 18px;
+  }
+
+  .section-subheading {
+    font-size: 16px;
+  }
+
+  .section-pera {
+    font-size: 14px;
+  }
+
+  .why-car {
+    font-size: 18px;
+  }
+
+  span.name {
+    font-size: 14px;
+  }
+
+  .number-box {
+    font-size: 27px;
+  }
+
+  .model-name {
+    font-size: 14px;
+  }
+  .brand-name {
+    font-size: 14px;
+  }
+
+  .amou {
+    font-size: 15px;
+  }
+
+  .pri {
+    font-size: 13px;
+  }
+
+  .car-value {
+    font-size: 13px;
+  }
+  .car-modal {
+    font-size: 13px;
+  }
+  ul.list-item li a {
+    font-size: 13px;
+  }
+  .footer-bootem {
+    font-size: 13px;
+  }
+
+  .heading {
+    line-height: 30px;
+  }
+  .inquiries-list-desc {
+    font-size: 14px;
+  }
+  .top-header .dropdown-menu {
+    left: -34px;
+  }
+  .font-20 {
+    font-size: 17px;
+  }
+  .since-text {
+    font-size: 14px;
+  }
+
+  .service-desc {
+    font-size: 13px;
+  }
+
+  .service-prise {
+    font-size: 14px;
+  }
+
+  .font-16 {
+    font-size: 14px;
+  }
+
+  .pb-50 {
+    padding-bottom: 30px;
+  }
+
+  .pt-50 {
+    padding-top: 30px;
+  }
+
+  .mt-50 {
+    margin-top: 30px;
+  }
+
+  .bank-account-text {
+    font-size: 16px;
+  }
+
+  .label-checkout {
+    font-size: 14px;
+  }
+
+  li.breadcrumb-item {
+    font-size: 14px;
+  }
+
+  .font-25 {
+    font-size: 19px;
+  }
+
+  .font-14 {
+    font-size: 13px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+}
+@media only screen and (max-width: 575px) {
+  .logo {
+    width: 75px;
+  }
+  .pl-40 {
+    padding-left: 0px;
+  }
+  .number-box {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 375px) {
 }

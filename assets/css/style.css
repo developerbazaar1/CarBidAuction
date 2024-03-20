@@ -158,6 +158,11 @@ li.nav-item {
 .logo {
   width: 122px;
 }
+
+.logo-nav {
+  width: 73px;
+}
+
 .footer-img {
   width: 76.418px;
 }
@@ -570,7 +575,7 @@ background: linear-gradient(90deg, #21E786 0%, rgba(33, 231, 134, 0.00) 100.02%)
   height: 1px;
   width: 130px;
   background: #aaa;
-  margin: 20px 140px;
+  margin: 20px auto;
 }
 
 .pri {
@@ -1319,7 +1324,7 @@ input[type="number"]::-webkit-inner-spin-button {
 .slider {
   height: 5px;
   position: relative;
-  background: #ddd;
+  background: #e6e6e6;
   border-radius: 5px;
 }
 .slider .progress {
@@ -1328,7 +1333,7 @@ input[type="number"]::-webkit-inner-spin-button {
   right: 25%;
   position: absolute;
   border-radius: 5px;
-  background: #17a2b8;
+  background: #21e786;
 }
 .range-input {
   position: relative;
@@ -1344,23 +1349,25 @@ input[type="number"]::-webkit-inner-spin-button {
   -moz-appearance: none;
 }
 input[type="range"]::-webkit-slider-thumb {
-  height: 17px;
-  width: 17px;
+  height: 28px;
+  width: 28px;
   border-radius: 50%;
-  background: #17a2b8;
+  background: #fff;
   pointer-events: auto;
   -webkit-appearance: none;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.08),
+    0px 0px 4px 0px rgba(0, 0, 0, 0.04), 0px 0px 1px 0px rgba(0, 0, 0, 0.12);
 }
 input[type="range"]::-moz-range-thumb {
-  height: 17px;
-  width: 17px;
+  height: 28px;
+  width: 28px;
   border: none;
   border-radius: 50%;
-  background: #17a2b8;
+  background: #fff;
   pointer-events: auto;
   -moz-appearance: none;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.08),
+    0px 0px 4px 0px rgba(0, 0, 0, 0.04), 0px 0px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 /* Support */
@@ -1993,6 +2000,9 @@ ul.list-features {
   width: 285px;
 }
 
+.w-320 {
+  width: 320px;
+}
 .max-w-250 {
   max-width: 250px;
 }
@@ -2039,10 +2049,6 @@ ul.list-features {
 
   .head-menu li a {
     font-size: 14px;
-  }
-  .btn-usrhub {
-    font-size: 13px;
-    padding: 5px 10px;
   }
 }
 
@@ -3800,7 +3806,7 @@ tr.bg-table-history {
   aspect-ratio: 2;
   max-width: 400px;
   margin-top: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 .modle-buy-now img {
   object-fit: cover;
@@ -3821,4 +3827,46 @@ section.auction-timer {
 
 .redius-25 {
   border-radius: 25px;
+}
+.thank-you-modal {
+  max-width: 580px;
+}
+.max-w-414 {
+  /* max-width: 414px; */
+  margin: 0 auto;
+}
+
+.transition-none {
+  transition: none !important;
+  /* transform: translate(0, -50px) !important; */
+}
+.modal-sm {
+  max-width: 300px !important;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.skill-main .skill-wrrap .skill-per:before {
+  top: auto;
+  bottom: -35px;
+}
+
+.skill-main .skill-wrrap .skill-per:after {
+  top: auto;
+  bottom: -16px;
+}
+
+.py-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.skill-main .skill-wrrap {
+  margin-bottom: 35px;
+}
+.position-nav-dropdown {
+  transform: translate3d(-43px, 38px, 0px) !important;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
 }

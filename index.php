@@ -21,18 +21,18 @@
     <!-- Hero Section -->
     <section class="hero-section z-0" style="">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-5 py-82 animated wow fadeInLeft ">
+            <div class="row m-auto">
+                <div class="col-lg-5 col-12 order-2 order-lg-1 py-82 animated wow fadeInLeft ">
                     <h1 class="hero-h1">Unleash the Power of Choice: Your Dream Car Awaits!</h1>
                     <p class="hero-pera">Elevate your drive with Website Name. Explore diverse car auctions, bid, and
                         win your dream ride. Unleash the thrill – start now!</p>
                     <button type="button" class="btn hero-btn">Explore Auctions</button>
 
                 </div>
-                <div class="col-lg-7   animated wow fadeInRight text-end position-relative">
+                <div class="col-lg-7 col-12 order-1 order-lg-2  animated wow fadeInRight text-end position-relative">
 
                     <img class="w-100 img-hero" src="assets/images/background/cars.png">
-                    <div class="video-btn">
+                    <div class="video-btn" data-bs-toggle="modal" data-bs-target="#paymentmethod">
                         <img src="assets/images/icon/slow_motion_video.svg" />
                     </div>
 
@@ -64,9 +64,9 @@
 
                 <div class="container">
                     <div class="row mx-0 px-0 ">
-                        <div class="col-lg-5">
+                        <div class="col-xl-5 col-lg-6 col-12">
 
-                            <div class="border-end mt-3">
+                            <div class="border-end-lg mt-3 text-center d-none d-lg-flex">
                                 <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
                                     <div class="dropdown">
                                         <button id="" type="button" class="btn btn-primary dropdown-toggle"
@@ -74,8 +74,10 @@
                                             Make
                                         </button>
                                         <ul class="dropdown-menu" aria-labelledby="dropdown">
-                                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
-                                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                                            <li><a class="dropdown-item text-gray font-termina font-14 font-500"
+                                                    href="#">Dropdown link</a></li>
+                                            <li><a class="dropdown-item text-gray font-termina font-14 font-500"
+                                                    href="#">Dropdown link</a></li>
                                         </ul>
                                     </div>
                                     <div class="" role="group">
@@ -84,8 +86,10 @@
                                             Model
                                         </button>
                                         <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
-                                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                                            <li><a class="dropdown-item text-gray font-termina font-14 font-500"
+                                                    href="#">Dropdown link</a></li>
+                                            <li><a class="dropdown-item text-gray font-termina font-14 font-500"
+                                                    href="#">Dropdown link</a></li>
                                         </ul>
                                     </div>
                                     <div class="" role="group">
@@ -94,8 +98,10 @@
                                             Year
                                         </button>
                                         <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
-                                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                                            <li><a class="dropdown-item text-gray font-termina font-14 font-500"
+                                                    href="#">Dropdown link</a></li>
+                                            <li><a class="dropdown-item text-gray font-termina font-14 font-500"
+                                                    href="#">Dropdown link</a></li>
                                         </ul>
                                     </div>
                                     <div class="" role="group">
@@ -104,20 +110,72 @@
                                             Body Style
                                         </button>
                                         <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
-                                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                                            <li><a class="dropdown-item text-gray font-termina font-14 font-500"
+                                                    href="#">Dropdown link</a></li>
+                                            <li><a class="dropdown-item text-gray font-termina font-14 font-500"
+                                                    href="#">Dropdown link</a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-7 d-flex px-0">
+                        <div class="col-xl-7 col-lg-6 col-12 d-flex px-0">
 
                             <i class="button--left fa-solid fa-chevron-left" id="slideBack"></i>
 
-                            <div class="scroll-x mt-3 mx-2">
-
+                            <div class="scroll-x mt-3 mx-2 flex-lg-row gap-lg-0 flex-column gap-3">
+                                <div class="btn-group d-flex d-lg-none" role="group"
+                                    aria-label="Button group with nested dropdown">
+                                    <div class="dropdown">
+                                        <button id="" type="button" class="btn btn-primary dropdown-toggle"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Make
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdown">
+                                            <li><a class="dropdown-item text-gray font-termina font-14 font-500"
+                                                    href="#">Dropdown link</a></li>
+                                            <li><a class="dropdown-item text-gray font-termina font-14 font-500"
+                                                    href="#">Dropdown link</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="" role="group">
+                                        <button id="" type="button" class="btn btn-primary dropdown-toggle"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Model
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                            <li><a class="dropdown-item text-gray font-termina font-14 font-500"
+                                                    href="#">Dropdown link</a></li>
+                                            <li><a class="dropdown-item text-gray font-termina font-14 font-500"
+                                                    href="#">Dropdown link</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="" role="group">
+                                        <button id="" type="button" class="btn btn-primary dropdown-toggle"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Year
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                            <li><a class="dropdown-item text-gray font-termina font-14 font-500"
+                                                    href="#">Dropdown link</a></li>
+                                            <li><a class="dropdown-item text-gray font-termina font-14 font-500"
+                                                    href="#">Dropdown link</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="" role="group">
+                                        <button id="" type="button" class="btn btn-primary dropdown-toggle"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Body Style
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                            <li><a class="dropdown-item text-gray font-termina font-14 font-500"
+                                                    href="#">Dropdown link</a></li>
+                                            <li><a class="dropdown-item text-gray font-termina font-14 font-500"
+                                                    href="#">Dropdown link</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
 
                                 <div class="btn-group ml-20" role="group"
                                     aria-label="Basic checkbox toggle button group">
@@ -1608,7 +1666,7 @@
                         <h4 class="why-car">Why Cars & Bids</h4>
                     </div>
 
-                    <div class="row mx-0 px-0 pt-25">
+                    <div class="row gx-4 pt-25">
                         <div class="col-lg-3 col-6">
                             <div class="bids-box">
                                 <div class="number-box"><span class="count com">17000</span>+</div>
@@ -1660,8 +1718,8 @@
 
     <section class="url-section pt-50 pb-50">
         <div class="container px-0">
-            <div class="row mx-0 px-0 mx-auto">
-                <div class="col-lg-2 col-6">
+            <div class="row mx-0 px-0 mx-auto gx-lg-2">
+                <div class="col-lg-2 col-sm-4 col-6">
                     <h3 class="url-heading"><span class="border-bottom">GCC Specs</span></h3>
                     <ul class="list-item">
                         <li><a href="#">Toyota Land Cruiser</a></li>
@@ -1678,7 +1736,7 @@
                 <!----col-lg-2---->
 
 
-                <div class="col-lg-2 col-6">
+                <div class="col-lg-2 col-sm-4 col-6">
                     <h3 class="url-heading"><span class="border-bottom">American Specs</span></h3>
                     <ul class="list-item">
                         <li><a href="#">Ford Mustang</a></li>
@@ -1697,7 +1755,7 @@
                 <!----col-lg-2---->
 
 
-                <div class="col-lg-2 col-6">
+                <div class="col-lg-2 col-sm-4 col-6">
                     <h3 class="url-heading"><span class="border-bottom">European Specs</span></h3>
                     <ul class="list-item">
                         <li><a href="#">Volkswagen Golf</a></li>
@@ -1717,7 +1775,7 @@
                 </div>
                 <!----col-lg-2---->
 
-                <div class="col-lg-2 col-6">
+                <div class="col-lg-2 col-sm-4 col-6">
                     <h3 class="url-heading"><span class="border-bottom">Japanese Specs</span></h3>
                     <ul class="list-item">
                         <li><a href="#">Toyota Corolla</a></li>
@@ -1735,7 +1793,7 @@
                 <!----col-lg-2---->
 
 
-                <div class="col-lg-2 col-6">
+                <div class="col-lg-2 col-sm-4 col-6">
                     <h3 class="url-heading"><span class="border-bottom">Korean Specs</span></h3>
                     <ul class="list-item">
                         <li><a href="#">Hyundai Sonata</a></li>
@@ -1754,7 +1812,7 @@
 
 
 
-                <div class="col-lg-2 col-6">
+                <div class="col-lg-2 col-sm-4 col-6">
                     <h3 class="url-heading"><span class="border-bottom">Chinese Specs</span></h3>
                     <ul class="list-item">
                         <li><a href="#">Toyota Corolla</a></li>
@@ -1781,6 +1839,27 @@
     </section>
     <!----/section----->
 
+
+    <!-- for video modle  -->
+    <div class="modal fade" id="paymentmethod" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="paymentmethodLabel" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered modal model-dialog-addcard thank-you-modal">
+
+            <div class="modal-content border-0 redius-25">
+
+                <div class="modal-body p-20 pt-0">
+                    <div class="max-w-414">
+                        <img src="assets/images/background/car.gif" />
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- end video modal  -->
 
 
     <!-- Footer -->
