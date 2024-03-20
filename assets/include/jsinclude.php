@@ -369,8 +369,8 @@ $(function() {
             0: {
                 items: 1
             },
-            600: {
-                items: 1
+            767: {
+                items: 2
             },
             960: {
                 items: 2
@@ -400,8 +400,8 @@ $(function() {
             0: {
                 items: 1
             },
-            600: {
-                items: 1
+            767: {
+                items: 2
             },
             960: {
                 items: 2
