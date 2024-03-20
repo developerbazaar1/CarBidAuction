@@ -15,85 +15,89 @@
 
 
     <!-- for tab bar -->
-    <div class="fillter-btn bg-f7 mt-50 input-group-checkout text-center">
-        <div class="btn-group ml-20" role="group" aria-label="Basic checkbox toggle button group">
+    <div class="fillter-btn bg-f7 mt-50 input-group-checkout text-center ">
+        <div class="scroll-x scroll-lg-none justify-content-lg-center">
+            <div class="btn-group ml-20" role="group" aria-label="Basic checkbox toggle button group">
 
-            <div class="at">
-                <a href="/dashboard.php">
-                    <button class="btn btn-outline-primary ">Dashboard</button>
-                </a>
+                <div class="at">
+                    <a href="/dashboard.php">
+                        <button class="btn btn-outline-primary ">Dashboard</button>
+                    </a>
+                </div>
+
+                <div class="at">
+                    <a href="/award.php">
+                        <button class="btn btn-outline-primary ">Award Pending</button>
+                    </a>
+                </div>
+
+
+                <div class="at">
+                    <a href="/wonvehicles.php">
+                        <button class="btn btn-outline-primary ">Won Vehicles</button>
+                    </a>
+                </div>
+
+
+                <div class="at">
+                    <a href="/lostbid.php">
+                        <button class="btn btn-outline-primary">Lost Pre-Bids</button>
+                    </a>
+                </div>
+
+
+                <div class="at">
+                    <a href="/myvehicle.php">
+                        <button class="btn btn-outline-primary">My Vehicles</button>
+                    </a>
+                </div>
+
+
+                <div class="at">
+                    <a href="/profile.php">
+                        <button class="btn btn-outline-primary active-btn-at">Profile</button>
+                    </a>
+                </div>
+
             </div>
-
-            <div class="at">
-                <a href="/award.php">
-                    <button class="btn btn-outline-primary ">Award Pending</button>
-                </a>
-            </div>
-
-
-            <div class="at">
-                <a href="/wonvehicles.php">
-                    <button class="btn btn-outline-primary ">Won Vehicles</button>
-                </a>
-            </div>
-
-
-            <div class="at">
-                <a href="/lostbid.php">
-                    <button class="btn btn-outline-primary">Lost Pre-Bids</button>
-                </a>
-            </div>
-
-
-            <div class="at">
-                <a href="/myvehicle.php">
-                    <button class="btn btn-outline-primary">My Vehicles</button>
-                </a>
-            </div>
-
-
-            <div class="at">
-                <a href="/profile.php">
-                    <button class="btn btn-outline-primary active-btn-at">Profile</button>
-                </a>
-            </div>
-
         </div>
     </div>
 
     <section class="mt-50 mb-50">
         <div class="container">
             <div class="won-vehicles-section">
-                <div class="header-checkout nav nav-tabs" id="myTab" role="tablist">
-                    <button class="btn btn-credit-card active" id="updateprofile-tab" data-bs-toggle="tab"
-                        data-bs-target="#updateprofile-tab-pane" type="button" role="tab"
-                        aria-controls="updateprofile-tab-pane" aria-selected="false">
-                        Update profile
-                    </button>
+                <div class="scroll-x scroll-lg-none justify-content-lg-center pb-0 rounded-10">
+                    <div class="header-checkout nav nav-tabs flex-nowrap" id="myTab" role="tablist">
+                        <button class="btn btn-credit-card active" id="updateprofile-tab" data-bs-toggle="tab"
+                            data-bs-target="#updateprofile-tab-pane" type="button" role="tab"
+                            aria-controls="updateprofile-tab-pane" aria-selected="false">
+                            Update profile
+                        </button>
 
-                    <button class="btn btn-credit-card " id="changepassword-tab" data-bs-toggle="tab"
-                        data-bs-target="#changepassword-tab-pane" type="button" role="tab"
-                        aria-controls="changepassword-tab-pane" aria-selected="false">
-                        Change Password
-                    </button>
+                        <button class="btn btn-credit-card " id="changepassword-tab" data-bs-toggle="tab"
+                            data-bs-target="#changepassword-tab-pane" type="button" role="tab"
+                            aria-controls="changepassword-tab-pane" aria-selected="false">
+                            Change Password
+                        </button>
 
-                    <button class="btn btn-credit-card" id="notification-tab" data-bs-toggle="tab"
-                        data-bs-target="#notification-tab-pane" type="button" role="tab"
-                        aria-controls="notification-tab-pane" aria-selected="false">
-                        Notification
-                    </button>
+                        <button class="btn btn-credit-card" id="notification-tab" data-bs-toggle="tab"
+                            data-bs-target="#notification-tab-pane" type="button" role="tab"
+                            aria-controls="notification-tab-pane" aria-selected="false">
+                            Notification
+                        </button>
 
-                    <button class="btn btn-credit-card " id="licensesdocuments-tab" data-bs-toggle="tab"
-                        data-bs-target="#licensesdocuments-tab-pane" type="button" role="tab"
-                        aria-controls="licensesdocuments-tab-pane" aria-selected="false">
-                        Licenses & Documents
-                    </button>
+                        <button class="btn btn-credit-card " id="licensesdocuments-tab" data-bs-toggle="tab"
+                            data-bs-target="#licensesdocuments-tab-pane" type="button" role="tab"
+                            aria-controls="licensesdocuments-tab-pane" aria-selected="false">
+                            Licenses & Documents
+                        </button>
 
-                    <button class="btn btn-credit-card" id="paymentmethod-tab" data-bs-toggle="tab"
-                        data-bs-target="#paymentmethod-tab-pane" type="button" role="tab"
-                        aria-controls="paymentmethod-tab-pane" aria-selected="false">
-                        Payment Method
-                    </button>
+                        <button class="btn btn-credit-card" id="paymentmethod-tab" data-bs-toggle="tab"
+                            data-bs-target="#paymentmethod-tab-pane" type="button" role="tab"
+                            aria-controls="paymentmethod-tab-pane" aria-selected="false">
+                            Payment Method
+                        </button>
+                    </div>
                 </div>
 
 
@@ -137,7 +141,7 @@
                         aria-labelledby="changepassword-tab" tabindex="0">
                         <div class="d-flex flex-column gap-20 update-section">
 
-                            <div class="pt-25">
+                            <div class="">
                                 <label class="form-label label-checkout">Old Password</label>
                                 <div class="password-container d-flex align-items-center">
                                     <input type="password" id="passwordInputBlack"
@@ -181,7 +185,7 @@
                         aria-labelledby="notification-tab" tabindex="0">
                         <div class="notification-section">
                             <div>
-                                <div class="text-black font-montserrat font-600 line-28 fst-italic">
+                                <div class="font-16 text-black font-montserrat font-600 line-28 fst-italic">
                                     Negotiation Offers
                                 </div>
                                 <div class="d-flex flex-column gap-10 ">
@@ -211,7 +215,7 @@
 
 
                             <div class="pt-4">
-                                <div class="text-black font-montserrat font-600 line-28 fst-italic">
+                                <div class="font-16 text-black font-montserrat font-600 line-28 fst-italic">
                                     Other
                                 </div>
                                 <div class="d-flex flex-column gap-10 ">
@@ -239,7 +243,7 @@
 
 
                             <div class="pt-4">
-                                <div class="text-black font-montserrat font-600 line-28 fst-italic">
+                                <div class="font-16 text-black font-montserrat font-600 line-28 fst-italic">
                                     Account Credit
                                 </div>
                                 <div class="d-flex flex-column gap-10 ">
@@ -267,7 +271,7 @@
 
 
                             <div class="pt-4">
-                                <div class="text-black font-montserrat font-600 line-28 fst-italic">
+                                <div class="font-16 text-black font-montserrat font-600 line-28 fst-italic">
                                     Post Sale
                                 </div>
                                 <div class="d-flex flex-column gap-10 ">
@@ -360,7 +364,7 @@
 
 
                             <div class="pt-4">
-                                <div class="text-black font-montserrat font-600 line-28 fst-italic">
+                                <div class="font-16 text-black font-montserrat font-600 line-28 fst-italic">
                                     Email Notifications
                                 </div>
                                 <div class="d-flex flex-column gap-10 ">
@@ -509,19 +513,20 @@
                     <div class="tab-pane fade" id="licensesdocuments-tab-pane" role="tabpanel"
                         aria-labelledby="licensesdocuments-tab" tabindex="0">
                         <div class="notification-section">
-                            <div class="d-flex justify-content-between">
-                                <div class="text-black font-montserrat font-600 line-28 fst-italic">
+                            <div class="d-flex flex-sm-row flex-column gap-3 justify-content-between">
+                                <div class="font-16 text-black font-montserrat font-600 line-28 fst-italic">
                                     Personal Identification
                                 </div>
 
-                                <button class="btn set-payment set-payment-bg d-flex align-items-center gap-10"
+                                <button
+                                    class="btn set-payment justify-content-between set-payment-bg d-flex align-items-center gap-10"
                                     data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                     Add New Document <img src="assets/images/icon/person_2.svg" />
                                 </button>
                             </div>
 
                             <div class="row g-5 pt-4">
-                                <div class="col-lg-6">
+                                <div class="col-md-6">
                                     <div class="side-section-license">
                                         <div class="d-flex justify-content-between">
                                             <div class="text-gray font-termina font-600 font-14">
@@ -545,7 +550,7 @@
                                 </div>
 
 
-                                <div class="col-lg-6">
+                                <div class="col-md-6">
                                     <div class="side-section-license">
                                         <div class="d-flex justify-content-between">
                                             <div class="text-gray font-termina font-600 font-14">
@@ -576,20 +581,23 @@
                     <!-- for Payment Method tab  -->
                     <div class="tab-pane fade" id="paymentmethod-tab-pane" role="tabpanel"
                         aria-labelledby="paymentmethod-tab" tabindex="0">
-                        <div class="p-10 pb-0 pt-30 notification-section">
-                            <div class="d-flex justify-content-between">
-                                <div class="text-black font-montserrat font-600 line-28 fst-italic">
+                        <div class="notification-section">
+                            <div class="d-flex flex-sm-row flex-column gap-3 justify-content-between">
+
+                                <div class="font-16 text-black font-montserrat font-600 line-28 fst-italic">
                                     Personal Identification
                                 </div>
 
-                                <button class="btn set-payment set-payment-bg d-flex align-items-center gap-10"
+                                <button
+                                    class="btn set-payment justify-content-between set-payment-bg d-flex align-items-center gap-10"
                                     data-bs-toggle="modal" data-bs-target="#paymentmethod">
                                     Add New Document <img src="assets/images/icon/person_2.svg" />
                                 </button>
                             </div>
 
+
                             <div class="row g-5 pt-4">
-                                <div class="col-lg-6">
+                                <div class="col-md-6">
                                     <div class="side-section-license">
                                         <div class="d-flex justify-content-between">
                                             <div class="text-gray font-termina font-600 font-14">
@@ -616,7 +624,7 @@
                                 </div>
 
 
-                                <div class="col-lg-6">
+                                <div class="col-md-6">
                                     <div class="side-section-license">
                                         <div class="d-flex justify-content-between mb-2">
                                             <div class="text-gray font-termina font-600 font-14">
@@ -660,13 +668,13 @@
                     <div class="text-dark-gray font-16 font-montserrat font-600 fst-italic line-base">
                         Add New Document
                     </div>
-                    <h4 class="fs-4 mb-0 text-dark font-montserrat fst-italic font-900 mt-3">
+                    <h4 class="font-24 mb-0 text-dark font-montserrat fst-italic font-900 mt-3">
                         ADD IDENTIFICATION
                     </h4>
 
                     <div class="pt-50 d-flex flex-column gap-4">
-                        <div class="row gx-5 p-0 m-0">
-                            <div class="col-lg-6 ps-0">
+                        <div class="row gx-5 gy-4">
+                            <div class="col-sm-6 ">
                                 <select class="form-select select-bar-payment m-0" aria-label="Default select example">
                                     <option value="3" class="font-14 text-gray font-500 font-termina px-3 py-2"
                                         selected>Select
@@ -676,7 +684,7 @@
                                     <option value="2">Passport/visa</option>
                                 </select>
                             </div>
-                            <div class="col-lg-6 pe-0">
+                            <div class="col-sm-6 ">
                                 <select class="form-select select-bar-payment m-0" aria-label="Default select example">
                                     <option selected>Country</option>
                                     <option value="1">Canada</option>
@@ -729,7 +737,7 @@
 
                         <div class=" mt-4">
                             <button
-                                class="btn btn-save-payment py-3 px-5 font-montserrat fst-italic font-600">Save</button>
+                                class="btn btn-save-payment py-lg-3 py-2 font-16 px-5 font-montserrat fst-italic font-600">Save</button>
                         </div>
                     </div>
                 </div>

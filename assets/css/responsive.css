@@ -134,7 +134,7 @@
   }
 
   .font-20 {
-    font-size: 18px;
+    font-size: 17px;
   }
   .since-text {
     font-size: 15px;
@@ -164,6 +164,50 @@
     font-size: 13px;
     padding: 5px 10px;
   }
+
+  .pl-50 {
+    padding-left: 2%;
+  }
+
+  .banner-text-section {
+    width: 724.9px;
+    margin-right: auto;
+  }
+
+  .year-text {
+    font-size: 100px;
+  }
+  .experience-text {
+    font-size: 20px;
+  }
+
+  .aboutus-banner-desc {
+    font-size: 15px;
+  }
+
+  .our-mission-text {
+    font-size: 16px;
+  }
+
+  .font-24 {
+    font-size: 20px;
+  }
+
+  .font-18 {
+    font-size: 16px;
+  }
+
+  .pricing-card-heding {
+    font-size: 25px;
+  }
+
+  .pricing-list {
+    font-size: 12px;
+  }
+
+  .card-group-pricing-plan {
+    margin-top: 70px;
+  }
 }
 
 @media only screen and (max-width: 1199px) {
@@ -181,6 +225,25 @@
   }
   .font-25 {
     font-size: 22px;
+  }
+
+  .banner-text-section {
+    width: 626.9px;
+    margin-right: 7%;
+    padding: 70px 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .pl-50 {
+    padding-left: 0px;
+  }
+  .dashboard-vehicles {
+    padding: 10px 20px;
+  }
+
+  .table {
+    min-width: 1200px;
   }
 }
 
@@ -338,9 +401,108 @@
   .font-14 {
     font-size: 13px !important;
   }
+
+  .banner-text-section {
+    margin-right: 0px;
+    width: 100%;
+    max-width: 740px;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .banner-bottom-section {
+    margin-left: 0px;
+  }
+
+  .w-lg-75 {
+    width: 100%;
+  }
+
+  .year-text {
+    font-size: 70px;
+  }
+  .experience-text {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+
+  .aboutus-banner-desc {
+    font-size: 14px;
+  }
+
+  .our-mission-text {
+    font-size: 15px;
+  }
+
+  .mission-desc {
+    font-size: 13px;
+  }
+
+  .header-checkout {
+    gap: 10px;
+    width: auto;
+  }
+
+  .font-24 {
+    font-size: 18px;
+  }
+
+  .font-18 {
+    font-size: 15px;
+  }
+  .font-20 {
+    font-size: 16px;
+  }
+
+  .announcements-sub-header {
+    max-width: 100%;
+  }
+
+  .table-body-award td {
+    font-size: 13px;
+  }
+
+  .pricing-card-heding {
+    font-size: 22px;
+  }
+
+  .most-popular {
+    margin-top: 0px;
+  }
+
+  .card-group-pricing-plan {
+    margin-top: 50px;
+  }
+
+  .scroll-lg-none {
+    overflow-x: scroll;
+  }
+
+  .bid-btn {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+
+  .bid-now {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+
+  .place-bid-btn {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
+  .banner-text-section {
+    max-width: 556px;
+  }
+
+  .right-side-text-banner {
+    max-width: 556px;
+    margin: 0 auto;
+  }
 }
 @media only screen and (max-width: 575px) {
   .logo {
@@ -351,6 +513,16 @@
   }
   .number-box {
     width: auto;
+  }
+  .banner-text-section {
+    max-width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .right-side-text-banner {
+    max-width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 }
 @media only screen and (max-width: 375px) {

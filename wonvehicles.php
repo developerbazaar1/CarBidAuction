@@ -16,87 +16,89 @@
 
     <!-- for tab bar -->
     <div class="fillter-btn bg-f7 mt-50 input-group-checkout text-center">
-        <div class="btn-group ml-20" role="group" aria-label="Basic checkbox toggle button group">
+        <div class="scroll-x scroll-lg-none justify-content-lg-center">
+            <div class="btn-group ml-20" role="group" aria-label="Basic checkbox toggle button group">
 
-            <div class="at">
-                <a href="/dashboard.php">
-                    <button class="btn btn-outline-primary">Dashboard</button>
-                </a>
+                <div class="at">
+                    <a href="/dashboard.php">
+                        <button class="btn btn-outline-primary">Dashboard</button>
+                    </a>
+                </div>
+
+                <div class="at">
+                    <a href="/award.php">
+                        <button class="btn btn-outline-primary ">Award Pending</button>
+                    </a>
+                </div>
+
+
+                <div class="at">
+                    <a href="/wonvehicles.php">
+                        <button class="btn btn-outline-primary active-btn-at">Won Vehicles</button>
+                    </a>
+                </div>
+
+
+                <div class="at">
+                    <a href="/lostbid.php">
+                        <button class="btn btn-outline-primary">Lost Pre-Bids</button>
+                    </a>
+                </div>
+
+
+                <div class="at">
+                    <a href="/myvehicle.php">
+                        <button class="btn btn-outline-primary">My Vehicles</button>
+                    </a>
+                </div>
+
+
+                <div class="at">
+                    <a href="/profile.php">
+                        <button class="btn btn-outline-primary">Profile</button>
+                    </a>
+                </div>
             </div>
-
-            <div class="at">
-                <a href="/award.php">
-                    <button class="btn btn-outline-primary ">Award Pending</button>
-                </a>
-            </div>
-
-
-            <div class="at">
-                <a href="/wonvehicles.php">
-                    <button class="btn btn-outline-primary active-btn-at">Won Vehicles</button>
-                </a>
-            </div>
-
-
-            <div class="at">
-                <a href="/lostbid.php">
-                    <button class="btn btn-outline-primary">Lost Pre-Bids</button>
-                </a>
-            </div>
-
-
-            <div class="at">
-                <a href="/myvehicle.php">
-                    <button class="btn btn-outline-primary">My Vehicles</button>
-                </a>
-            </div>
-
-
-            <div class="at">
-                <a href="/profile.php">
-                    <button class="btn btn-outline-primary">Profile</button>
-                </a>
-            </div>
-
         </div>
     </div>
 
     <section class="mt-50 mb-50">
         <div class="container">
             <div class="won-vehicles-section">
-                <div class="header-checkout nav nav-tabs gap-4" id="myTab" role="tablist">
+                <div class="scroll-x scroll-lg-none justify-content-lg-center pb-0 rounded-10">
+                    <div class="header-checkout nav nav-tabs gap-4 flex-nowrap" id="myTab" role="tablist">
 
-                    <button class="btn btn-credit-card active" id="howitworks-tab" data-bs-toggle="tab"
-                        data-bs-target="#howitworks-tab-pane" type="button" role="tab"
-                        aria-controls="howitworks-tab-pane" aria-selected="false">
-                        How It Works
-                    </button>
+                        <button class="btn btn-credit-card active" id="howitworks-tab" data-bs-toggle="tab"
+                            data-bs-target="#howitworks-tab-pane" type="button" role="tab"
+                            aria-controls="howitworks-tab-pane" aria-selected="false">
+                            How It Works
+                        </button>
 
-                    <button class="btn btn-credit-card " id="tobepaid-tab" data-bs-toggle="tab"
-                        data-bs-target="#tobepaid-tab-pane" type="button" role="tab" aria-controls="tobepaid-tab-pane"
-                        aria-selected="false">
-                        To Be Paid
-                    </button>
+                        <button class="btn btn-credit-card " id="tobepaid-tab" data-bs-toggle="tab"
+                            data-bs-target="#tobepaid-tab-pane" type="button" role="tab"
+                            aria-controls="tobepaid-tab-pane" aria-selected="false">
+                            To Be Paid
+                        </button>
 
-                    <button class="btn btn-credit-card " id="tobepickedup-tab" data-bs-toggle="tab"
-                        data-bs-target="#tobepickedup-tab-pane" type="button" role="tab"
-                        aria-controls="tobepickedup-tab-pane" aria-selected="false">
-                        To Be Picked Up
-                    </button>
+                        <button class="btn btn-credit-card " id="tobepickedup-tab" data-bs-toggle="tab"
+                            data-bs-target="#tobepickedup-tab-pane" type="button" role="tab"
+                            aria-controls="tobepickedup-tab-pane" aria-selected="false">
+                            To Be Picked Up
+                        </button>
 
-                    <button class="btn btn-credit-card" id="delivery-tab" data-bs-toggle="tab"
-                        data-bs-target="#delivery-tab-pane" type="button" role="tab" aria-controls="delivery-tab-pane"
-                        aria-selected="false">
-                        Delivery
-                    </button>
+                        <button class="btn btn-credit-card" id="delivery-tab" data-bs-toggle="tab"
+                            data-bs-target="#delivery-tab-pane" type="button" role="tab"
+                            aria-controls="delivery-tab-pane" aria-selected="false">
+                            Delivery
+                        </button>
 
-                    <button class="btn btn-credit-card" id="purchasehistory-tab" data-bs-toggle="tab"
-                        data-bs-target="#purchasehistory-tab-pane" type="button" role="tab"
-                        aria-controls="purchasehistory-tab-pane" aria-selected="false">
-                        Purchase History
-                    </button>
+                        <button class="btn btn-credit-card" id="purchasehistory-tab" data-bs-toggle="tab"
+                            data-bs-target="#purchasehistory-tab-pane" type="button" role="tab"
+                            aria-controls="purchasehistory-tab-pane" aria-selected="false">
+                            Purchase History
+                        </button>
+                    </div>
                 </div>
-
 
 
 

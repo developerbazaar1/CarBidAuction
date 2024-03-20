@@ -320,7 +320,7 @@
                     </select>
 
                     <div class="year-range my-3">
-                        Odometer Range
+                        Price
                         <div class="year-input">
                             <div class="field">
                                 <input type="number"

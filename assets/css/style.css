@@ -2872,6 +2872,7 @@ tr.bg-table-award td {
   align-items: center;
   gap: 35px;
   border-radius: 10px 10px 0px 0px;
+  width: 100%;
 }
 
 .btn-credit-card {
@@ -3308,7 +3309,7 @@ tr.bg-table-history {
   background-image: url(../images/icon/switch.svg);
   background-repeat: no-repeat;
   height: 26px;
-  width: 64px;
+  min-width: 64px;
   background-position: center left;
   border: none;
   background-size: contain;
@@ -3869,4 +3870,55 @@ section.auction-timer {
   transform: translate3d(-43px, 38px, 0px) !important;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
+}
+
+.w-lg-75 {
+  width: 75%;
+}
+.rounded-10 {
+  border-radius: 10px;
+}
+.form-switch {
+  display: flex;
+}
+
+.most-popular-plan-btn {
+  border-radius: 100px;
+  border: 2.5px solid #000;
+  background: #000;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 15px 25px;
+}
+
+.most-popular-plan-btn:hover {
+  background-color: #0000003f;
+  border-color: #0000003f;
+  color: #000;
+}
+
+.scroll-lg-none {
+  overflow-x: auto;
+}
+
+.table-award::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.table-award::-webkit-scrollbar {
+  width: 3px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.table-award::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #8ff2c2;
 }

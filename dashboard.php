@@ -18,48 +18,49 @@
 
     <div class="row"></div>
     <div class="fillter-btn bg-f7 mt-50 input-group-checkout text-center">
-        <div class="btn-group ml-20" role="group" aria-label="Basic checkbox toggle button group">
+        <div class="scroll-x scroll-lg-none justify-content-lg-center">
+            <div class="btn-group ml-20" role="group" aria-label="Basic checkbox toggle button group">
 
-            <div class="at">
-                <a href="/dashboard.php">
-                    <button class="btn btn-outline-primary active-btn-at">Dashboard</button>
-                </a>
+                <div class="at">
+                    <a href="/dashboard.php">
+                        <button class="btn btn-outline-primary active-btn-at">Dashboard</button>
+                    </a>
+                </div>
+
+                <div class="at">
+                    <a href="/award.php">
+                        <button class="btn btn-outline-primary ">Award Pending</button>
+                    </a>
+                </div>
+
+
+                <div class="at">
+                    <a href="/wonvehicles.php">
+                        <button class="btn btn-outline-primary ">Won Vehicles</button>
+                    </a>
+                </div>
+
+
+                <div class="at">
+                    <a href="/lostbid.php">
+                        <button class="btn btn-outline-primary">Lost Pre-Bids</button>
+                    </a>
+                </div>
+
+
+                <div class="at">
+                    <a href="/myvehicle.php">
+                        <button class="btn btn-outline-primary">My Vehicles</button>
+                    </a>
+                </div>
+
+
+                <div class="at">
+                    <a href="/profile.php">
+                        <button class="btn btn-outline-primary">Profile</button>
+                    </a>
+                </div>
             </div>
-
-            <div class="at">
-                <a href="/award.php">
-                    <button class="btn btn-outline-primary ">Award Pending</button>
-                </a>
-            </div>
-
-
-            <div class="at">
-                <a href="/wonvehicles.php">
-                    <button class="btn btn-outline-primary ">Won Vehicles</button>
-                </a>
-            </div>
-
-
-            <div class="at">
-                <a href="/lostbid.php">
-                    <button class="btn btn-outline-primary">Lost Pre-Bids</button>
-                </a>
-            </div>
-
-
-            <div class="at">
-                <a href="/myvehicle.php">
-                    <button class="btn btn-outline-primary">My Vehicles</button>
-                </a>
-            </div>
-
-
-            <div class="at">
-                <a href="/profile.php">
-                    <button class="btn btn-outline-primary">Profile</button>
-                </a>
-            </div>
-
         </div>
     </div>
 
@@ -69,16 +70,16 @@
     <section class="position-relative mt-50 mb-50">
 
         <div class="container">
-            <div class="row gx-5">
-                <div class="col-lg-9">
-                    <div class="d-flex justify-content-between align-items-center">
+            <div class="row g-5">
+                <div class="col-xl-9 col-lg-8">
+                    <div class="d-flex flex-column flex-sm-row gap-3 justify-content-between align-items-center">
                         <div class="section-heading p-0">Sheikh Muhammad Bilal</div>
                         <div class="font-termina font-18 font-600 text-gray">
                             Buyer# 607764
                         </div>
                     </div>
-                    <div class="row pt-30 gx-5 gy-4">
-                        <div class="col-lg-4">
+                    <div class="row pt-30 gx-xl-5 gy-4 gx-4">
+                        <div class="col-md-4 col-sm-6">
                             <div data-tab-id="tobepaid-tab"
                                 class="dashboard-vehicles cursor-pointer d-flex align-items-center justify-content-between">
                                 <div>
@@ -93,7 +94,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4">
+                        <div class="col-md-4 col-sm-6">
                             <!-- <a href="#" class="text-decoration-none"> -->
                             <div data-tab-id="tobepickedup-tab"
                                 class="dashboard-vehicles cursor-pointer d-flex align-items-center justify-content-between">
@@ -112,7 +113,7 @@
                             <!-- </a> -->
                         </div>
 
-                        <div class="col-lg-4">
+                        <div class="col-md-4 col-sm-6">
                             <!-- <a href="#" class="text-decoration-none"> -->
                             <div
                                 class="dashboard-vehicles cursor-pointer d-flex align-items-center justify-content-between">
@@ -131,7 +132,7 @@
                             <!-- </a> -->
                         </div>
 
-                        <div class="col-lg-4">
+                        <div class="col-md-4 col-sm-6">
                             <!-- <a href="#" class="text-decoration-none"> -->
                             <div class="dashboard-vehicles d-flex align-items-center justify-content-between">
                                 <div>
@@ -149,7 +150,7 @@
                             <!-- </a> -->
                         </div>
 
-                        <div class="col-lg-4">
+                        <div class="col-md-4 col-sm-6">
                             <a href="/assets/award.php" class="text-decoration-none">
                                 <div class="dashboard-vehicles d-flex align-items-center justify-content-between">
                                     <div>
@@ -167,7 +168,7 @@
                             </a>
                         </div>
 
-                        <div class="col-lg-4">
+                        <div class="col-md-4 col-sm-6">
                             <!-- <a href="#" class="text-decoration-none"> -->
                             <div data-tab-id="purchasehistory-tab"
                                 class="dashboard-vehicles cursor-pointer d-flex align-items-center justify-content-between">
@@ -186,7 +187,7 @@
                             <!-- </a> -->
                         </div>
 
-                        <div class="col-lg-4">
+                        <div class="col-md-4 col-sm-6">
                             <!-- <a href="#" class="text-decoration-none"> -->
                             <div data-tab-id="tobepaid-tab"
                                 class="cursor-pointer dashboard-vehicles d-flex align-items-center justify-content-between">
@@ -205,7 +206,7 @@
                             <!-- </a> -->
                         </div>
 
-                        <div class="col-lg-4">
+                        <div class="col-md-4 col-sm-6">
                             <!-- <a href="#" class="text-decoration-none"> -->
                             <div class="dashboard-vehicles d-flex align-items-center justify-content-between">
                                 <div>
@@ -225,15 +226,15 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-xl-3 col-lg-4">
                     <div class="announcements-card">
                         <div class="font-20 text-black font-900 fst-italic text-uppercase font-montserrat text-center">
                             Announcements
                         </div>
-                        <div class="text-gray font-termina font-600 mt-10 announcements-sub-header">
+                        <div class="text-gray font-termina font-16 font-600 mt-10 announcements-sub-header">
                             Lorem ipsum dolor sit amet consectetur.
                         </div>
-                        <div class="mt-10 font-montserrat font-500 lh-lg text-black">
+                        <div class="mt-10 font-montserrat font-16 font-500 lh-lg text-black">
                             Lorem ipsum dolor sit amet consectetur. Blandit ut ac eget pharetra sed diam. Egestas ut
                             amet magna justo.
                         </div>

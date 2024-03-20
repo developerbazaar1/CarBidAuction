@@ -17,48 +17,49 @@
 
     <!-- for tab bar -->
     <div class="fillter-btn bg-f7 mt-50 input-group-checkout text-center">
-        <div class="btn-group ml-20" role="group" aria-label="Basic checkbox toggle button group">
+        <div class="scroll-x scroll-lg-none justify-content-lg-center">
+            <div class="btn-group ml-20" role="group" aria-label="Basic checkbox toggle button group">
 
-            <div class="at">
-                <a href="/dashboard.php">
-                    <button class="btn btn-outline-primary">Dashboard</button>
-                </a>
+                <div class="at">
+                    <a href="/dashboard.php">
+                        <button class="btn btn-outline-primary">Dashboard</button>
+                    </a>
+                </div>
+
+                <div class="at">
+                    <a href="/award.php">
+                        <button class="btn btn-outline-primary ">Award Pending</button>
+                    </a>
+                </div>
+
+
+                <div class="at">
+                    <a href="/wonvehicles.php">
+                        <button class="btn btn-outline-primary ">Won Vehicles</button>
+                    </a>
+                </div>
+
+
+                <div class="at">
+                    <a href="/lostbid.php">
+                        <button class="btn btn-outline-primary">Lost Pre-Bids</button>
+                    </a>
+                </div>
+
+
+                <div class="at">
+                    <a href="/myvehicle.php">
+                        <button class="btn btn-outline-primary active-btn-at">My Vehicles</button>
+                    </a>
+                </div>
+
+
+                <div class="at">
+                    <a href="/profile.php">
+                        <button class="btn btn-outline-primary">Profile</button>
+                    </a>
+                </div>
             </div>
-
-            <div class="at">
-                <a href="/award.php">
-                    <button class="btn btn-outline-primary ">Award Pending</button>
-                </a>
-            </div>
-
-
-            <div class="at">
-                <a href="/wonvehicles.php">
-                    <button class="btn btn-outline-primary ">Won Vehicles</button>
-                </a>
-            </div>
-
-
-            <div class="at">
-                <a href="/lostbid.php">
-                    <button class="btn btn-outline-primary">Lost Pre-Bids</button>
-                </a>
-            </div>
-
-
-            <div class="at">
-                <a href="/myvehicle.php">
-                    <button class="btn btn-outline-primary active-btn-at">My Vehicles</button>
-                </a>
-            </div>
-
-
-            <div class="at">
-                <a href="/profile.php">
-                    <button class="btn btn-outline-primary">Profile</button>
-                </a>
-            </div>
-
         </div>
     </div>
 
@@ -71,7 +72,7 @@
             <img src="assets/images/icon/tune.svg" />
         </button>
         <div class="container">
-            <div class="table-award table-responsive mx-5">
+            <div class="table-award table-responsive mx-xxl-5">
 
                 <table class="table table-borderless mb-0">
 
@@ -88,9 +89,10 @@
                     <tbody class="table-body-award">
                         <tr>
                             <td>
-                                <div data-target="vehicle-element1" id="vehicle-element1"
-                                    class="element-to-change clickable-image">
-                                    <img src="assets/images/icon/star.svg" />
+                                <div class="form-check">
+                                    <input type="checkbox" id="customCheckbox-13"
+                                        class="custom-checkbox form-check-input" checked>
+                                    <label for="customCheckbox-13" class="form-check-label"></label>
                                 </div>
                             </td>
                             <td>
@@ -127,9 +129,10 @@
 
                         <tr>
                             <td>
-                                <div data-target="vehicle-element2" id="vehicle-element2"
-                                    class="element-to-change clickable-image">
-                                    <img src="assets/images/icon/star.svg" />
+                                <div class="form-check">
+                                    <input type="checkbox" id="customCheckbox14"
+                                        class="custom-checkbox form-check-input" checked>
+                                    <label for="customCheckbox14" class="form-check-label"></label>
                                 </div>
                             </td>
                             <td>
@@ -165,9 +168,10 @@
 
                         <tr>
                             <td>
-                                <div data-target="vehicle-element3" id="vehicle-element3"
-                                    class="element-to-change clickable-image">
-                                    <img src="assets/images/icon/star.svg" />
+                                <div class="form-check">
+                                    <input type="checkbox" id="customCheckbox15"
+                                        class="custom-checkbox form-check-input" checked>
+                                    <label for="customCheckbox15" class="form-check-label"></label>
                                 </div>
                             </td>
                             <td>

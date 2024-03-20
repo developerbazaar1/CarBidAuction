@@ -10,9 +10,9 @@
                         class="logo"></a>
                 <div class="d-lg-none pe-3">
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#left-toggle-filter" aria-controls="left-toggle-filter">
+                        data-bs-target="#nav-bar-toggle-filter" aria-controls="nav-bar-toggle-filter">
                         <span class="navbar-toggler-icon" data-bs-toggle="offcanvas"
-                            data-bs-target="#left-toggle-filter" aria-controls="left-toggle-filter"></span>
+                            data-bs-target="#nav-bar-toggle-filter" aria-controls="nav-bar-toggle-filter"></span>
                     </button>
 
                 </div>
@@ -110,8 +110,8 @@
 
 </section>
 
-<div class="offcanvas offcanvas-start w-320" data-bs-scroll="true" tabindex="-1" id="left-toggle-filter"
-    aria-labelledby="left-toggle-filterLabel">
+<div class="offcanvas offcanvas-start w-320" data-bs-scroll="true" tabindex="-1" id="nav-bar-toggle-filter"
+    aria-labelledby="nav-bar-toggle-filterLabel">
 
     <div class="offcanvas-body">
 

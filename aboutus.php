@@ -16,9 +16,9 @@
     <section class="overflow-visible">
         <!-- <div class="container"> -->
         <div class="row m-0 p-0">
-            <div class="col-lg-8 pe-0">
+            <div class="col-lg-8 p-0">
                 <div class="banner-text-section ">
-                    <div class="w-75 pl-50">
+                    <div class="w-lg-75 pl-50">
                         <div class="heading">
                             We Value Our Clients And Want Them To Have A Nice Experience
                         </div>
@@ -31,14 +31,15 @@
                     </div>
                 </div>
                 <div class="banner-bottom-section">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="banner-bottom-img">
+                    <div class="row m-0 p-0">
+                        <div class="col-md-6 p-0">
+                            <div class="banner-bottom-img w-100 h-100">
                                 <img src="assets/images/aboutus/car1.png" />
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="p-4 pe-5 d-flex justify-content-center h-100 flex-column">
+                        <div class="col-md-6 p-0">
+                            <div
+                                class="p-md-5 py-4 d-flex justify-content-center h-100 flex-column right-side-text-banner">
                                 <div class="d-flex gap-2 align-items-center">
                                     <img src="assets/images/aboutus/rocket.png">
                                     <div class="our-mission-text">
@@ -109,7 +110,7 @@
                         <h4 class="why-car">Why Cars & Bids</h4>
                     </div>
 
-                    <div class="row mx-0 px-0 pt-25">
+                    <div class="row mx-0 px-0 pt-md-4">
                         <div class="col-lg-3 col-6">
                             <div class="bids-box">
                                 <div class="number-box"><span class="count com">17000</span>+</div>
@@ -156,7 +157,7 @@
     </section>
 
     <section class="expertise-section">
-        <div class="container px-0">
+        <div class="container">
 
             <div class="heading text-center">
                 Collaborative Excellence, Unparalleled Expertise
@@ -166,9 +167,9 @@
             </div>
             <div class="pt-50">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="ceo-img position-relative">
-                            <img src="assets/images/aboutus/team1.svg" />
+                            <img src="assets/images/aboutus/team1.svg" class="w-100 h-100" />
                             <div class="hover-overlay">
                                 <div class="hover-text-bg">
                                     henry@boxcars.com
@@ -204,9 +205,9 @@
                             Founder and CEO
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="ceo-img position-relative">
-                            <img src="assets/images/aboutus/team2.svg" />
+                            <img src="assets/images/aboutus/team2.svg" class="w-100 h-100" />
                             <div class="hover-overlay">
                                 <div class="hover-text-bg">
                                     Kristine@boxcars.com
@@ -242,9 +243,9 @@
                             Chief Technology Officer
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="ceo-img position-relative">
-                            <img src="assets/images/aboutus/team3.svg" />
+                            <img src="assets/images/aboutus/team3.svg" class="w-100 h-100" />
                             <div class="hover-overlay">
                                 <div class="hover-text-bg">
                                     Kristine@boxcars.com

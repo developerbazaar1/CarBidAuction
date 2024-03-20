@@ -249,49 +249,50 @@
             <!----Offcanvas-body------>
         </div>
 
-        <div class="btn-group ml-20" role="group" aria-label="Basic checkbox toggle button group">
+        <div class="scroll-x scroll-lg-none justify-content-lg-center">
+            <div class="btn-group ml-20" role="group" aria-label="Basic checkbox toggle button group">
 
 
-            <div class="at">
-                <a href="/dashboard.php">
-                    <button class="btn btn-outline-primary">Dashboard</button>
-                </a>
+                <div class="at">
+                    <a href="/dashboard.php">
+                        <button class="btn btn-outline-primary">Dashboard</button>
+                    </a>
+                </div>
+
+                <div class="at">
+                    <a href="/award.php">
+                        <button class="btn btn-outline-primary ">Award Pending</button>
+                    </a>
+                </div>
+
+
+                <div class="at">
+                    <a href="/wonvehicles.php">
+                        <button class="btn btn-outline-primary ">Won Vehicles</button>
+                    </a>
+                </div>
+
+
+                <div class="at">
+                    <a href="/lostbid.php">
+                        <button class="btn btn-outline-primary active-btn-at">Lost Pre-Bids</button>
+                    </a>
+                </div>
+
+
+                <div class="at">
+                    <a href="/myvehicle.php">
+                        <button class="btn btn-outline-primary ">My Vehicles</button>
+                    </a>
+                </div>
+
+
+                <div class="at">
+                    <a href="/profile.php">
+                        <button class="btn btn-outline-primary">Profile</button>
+                    </a>
+                </div>
             </div>
-
-            <div class="at">
-                <a href="/award.php">
-                    <button class="btn btn-outline-primary ">Award Pending</button>
-                </a>
-            </div>
-
-
-            <div class="at">
-                <a href="/wonvehicles.php">
-                    <button class="btn btn-outline-primary ">Won Vehicles</button>
-                </a>
-            </div>
-
-
-            <div class="at">
-                <a href="/lostbid.php">
-                    <button class="btn btn-outline-primary active-btn-at">Lost Pre-Bids</button>
-                </a>
-            </div>
-
-
-            <div class="at">
-                <a href="/myvehicle.php">
-                    <button class="btn btn-outline-primary ">My Vehicles</button>
-                </a>
-            </div>
-
-
-            <div class="at">
-                <a href="/profile.php">
-                    <button class="btn btn-outline-primary">Profile</button>
-                </a>
-            </div>
-
         </div>
     </div>
 
@@ -308,7 +309,7 @@
             </button>
         </div>
         <div class="container">
-            <div class="table-award table-responsive mx-5">
+            <div class="table-award table-responsive mx-xxl-5">
 
                 <table class="table table-borderless mb-0">
 

@@ -26,21 +26,21 @@
 
             <div class="card-group-pricing-plan">
                 <!-- row  -->
-                <div class="row gx-5">
+                <div class="row gx-xxl-5">
 
                     <!-- col 1 -->
-                    <div class="col-lg-3 d-flex">
+                    <div class="col-xl-3 col-lg-4 col-md-6 d-flex">
                         <div class="d-flex justify-content-between h-100 flex-column py-4 px-3">
                             <div class="">
                                 <div class="pricing-card-heding">AED 0<span
-                                        class="fs-6 font-500 font-termina">/Month</span>
+                                        class="font-16 font-500 font-termina">/Month</span>
                                 </div>
 
                                 <div class="text-gray font-600 font-termina font-20 mt-20">
                                     Free
                                 </div>
 
-                                <div class="font-montserrat text-gray font-500 fs-6 mt-10 line-18">
+                                <div class="font-montserrat text-gray font-500 font-16 mt-10 line-18">
                                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit.
                                 </div>
 
@@ -79,18 +79,18 @@
                     <!-- /col 1 -->
 
                     <!-- col 2 -->
-                    <div class="col-lg-3 d-flex">
+                    <div class="col-xl-3 col-lg-4 col-md-6 d-flex">
                         <div class="d-flex justify-content-between h-100 flex-column py-4 px-3">
                             <div class="">
                                 <div class="pricing-card-heding">AED 0<span
-                                        class="fs-6 font-500 font-termina">/Month</span>
+                                        class="font-16 font-500 font-termina">/Month</span>
                                 </div>
 
                                 <div class="text-gray font-600 font-termina font-20 mt-20">
                                     Regular User
                                 </div>
 
-                                <div class="font-montserrat text-gray font-500 fs-6 mt-10 line-18">
+                                <div class="font-montserrat text-gray font-500 font-16 mt-10 line-18">
                                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit.
                                 </div>
 
@@ -124,7 +124,7 @@
                     <!-- /col 2 -->
 
                     <!-- col 3 -->
-                    <div class="col-lg-3 d-flex">
+                    <div class="col-xl-3 col-lg-4 col-md-6 d-flex">
                         <div class="most-popular">
                             <div class="bg-plan d-flex flex-column justify-content-between h-100 py-4 px-3">
                                 <div class="">
@@ -134,14 +134,14 @@
                                         </div>
                                     </div>
                                     <div class="pricing-card-heding text-white mt-20">AED 750<span
-                                            class="fs-6 font-500 font-termina">/Qtr</span>
+                                            class="font-16 font-500 font-termina">/Qtr</span>
                                     </div>
 
                                     <div class="text-white font-600 font-termina font-20 mt-20">
                                         Power User
                                     </div>
 
-                                    <div class="font-montserrat text-white font-500 fs-6 mt-10 line-18">
+                                    <div class="font-montserrat text-white font-500 font-16 mt-10 line-18">
                                         Quis autem vel eum iure reprehenderit qui in ea voluptate velit.
                                     </div>
 
@@ -178,7 +178,7 @@
                                     </div>
                                 </div>
                                 <div class="">
-                                    <button class="btn-usrhub w-100 mt-25">
+                                    <button class="most-popular-plan-btn w-100 mt-25 ">
                                         Choose Plan
                                     </button>
                                 </div>
@@ -189,18 +189,18 @@
 
 
                     <!-- col 4 -->
-                    <div class="col-lg-3 d-flex">
+                    <div class="col-xl-3 col-lg-4 col-md-6 d-flex">
                         <div class="d-flex justify-content-between h-100 flex-column py-4 px-3">
                             <div class="">
                                 <div class="pricing-card-heding">AED 1,250<span
-                                        class="fs-6 font-500 font-termina">/Qtr</span>
+                                        class="font-16 font-500 font-termina">/Qtr</span>
                                 </div>
 
                                 <div class="text-gray font-600 font-termina font-20 mt-20">
                                     Business
                                 </div>
 
-                                <div class="font-montserrat text-gray font-500 fs-6 mt-10 line-18">
+                                <div class="font-montserrat text-gray font-500 font-16 mt-10 line-18">
                                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit.
                                 </div>
 
