@@ -16,30 +16,58 @@
 
     <!-- Header -->
 
+    <!-- sticky header -->
+    <div class="car-details-header-section sticky-header-livebidding d-block d-sm-none">
+        <div class="d-flex max-w-850 justify-content-between gap-md-3 gap-2">
+            <div class="d-flex flex-md-row flex-column">
+                <div class="text-header">Auction List: </div>
+                <div class="font-600 text-black font-termina text-uppercase sub-header-text-livebidding">
+                    Toyota Camry
+                </div>
+            </div>
+            <div class="d-flex flex-md-row flex-column">
+                <div class="text-header">Participants: </div>
+                <div class="font-600 font-termina text-black text-uppercase sub-header-text-livebidding">3,905
+                </div>
+
+            </div>
+            <div class="d-flex flex-md-row flex-column">
+                <div class="text-header">Units: </div>
+                <div class="font-600 font-termina text-black text-uppercase sub-header-text-livebidding">149</div>
+            </div>
+
+        </div>
+    </div>
+
 
     <!-- car details-->
-    <section class="pt-50 pb-4">
+    <section class="pt-50 pb-lg-4 ">
         <div class="container">
             <div class="car-bid-detail-secion">
                 <!-- top head section -->
-                <div class="car-details-heade-section">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="text-header">Auction List: <span
-                                    class="font-600 text-black text-uppercase">Toyota Camry</span></div>
+                <div class="car-details-header-section d-none d-sm-block">
+                    <div class="d-flex max-w-850 justify-content-between gap-md-3 gap-2">
+                        <div class="d-flex flex-md-row flex-column">
+                            <div class="text-header">Auction List: </div>
+                            <div class="font-600 text-black font-termina text-uppercase">
+                                Toyota Camry
+                            </div>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="text-header">Participants: <span
-                                    class="font-600 text-black text-uppercase">3,905</span></div>
+                        <div class="d-flex flex-md-row flex-column">
+                            <div class="text-header">Participants: </div>
+                            <div class="font-600 font-termina text-black text-uppercase">3,905
+                            </div>
+
                         </div>
-                        <div class="col-lg-4">
-                            <div class="text-header">Units Left: <span
-                                    class="font-600 text-black text-uppercase">149</span></div>
+                        <div class="d-flex flex-md-row flex-column">
+                            <div class="text-header">Units: </div>
+                            <div class="font-600 font-termina text-black text-uppercase">149</div>
                         </div>
+
                     </div>
                 </div>
 
-                <div class="ps-3">
+                <div class="ps-lg-3">
                     <!-- row -->
                     <div class="row ">
 
@@ -85,7 +113,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="slider-ratio ag-photo-gallery_item ag-photo-gallery_item__wide">
-                                            <figure class="ag-photo-gallery_figure">
+                                            <figure class="ag-photo-gallery_figure h-100">
                                                 <a href="assets/images/livebidding/car4.png" data-fancybox="gallery"
                                                     data-caption="Car 1">
                                                     <img src="assets/images/livebidding/car4.png"
@@ -96,7 +124,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="slider-ratio ag-photo-gallery_item ag-photo-gallery_item__wide">
-                                            <figure class="ag-photo-gallery_figure">
+                                            <figure class="ag-photo-gallery_figure h-100">
                                                 <a href="assets/images/livebidding/car4.png" data-fancybox="gallery"
                                                     data-caption="Car 1">
                                                     <img src="assets/images/livebidding/car4.png"
@@ -111,7 +139,7 @@
                                 <div class="car-name mt-25 text-black text-uppercase">
                                     Toyota Camry New
                                 </div>
-                                <div class="pt-25 d-flex lot-no justify-content-between">
+                                <div class="pt-lg-25 pt-2 d-flex lot-no justify-content-between">
                                     <div>
                                         Lot No: <span class="font-600">LTN123456</span>
                                     </div>
@@ -119,9 +147,99 @@
                                         On Reserve
                                     </div>
                                 </div>
+                                <!-- show in lg screen -->
+
+
+                                <div class="pt-4 h-100 d-lg-none d-block position-relative">
+
+                                    <div id="live-success" class="success-popup">
+                                        Your Bid Has Been Successfully Placed!
+                                    </div>
+                                    <div id="bid-done-alert" class="bid-done">
+                                        <div class="mb-10">
+                                            Congratulations! You've Won the Bid!
+                                        </div>
+                                        <a href="/cart.php" class="text-black  font-800">
+                                            Proceed to Checkout
+                                        </a>
+                                    </div>
+
+                                    <!-- progress bar -->
+                                    <div class="text-center">
+                                        <svg width="200" height="200" viewBox="0 0 250 250" class="circular-progress">
+                                            <circle class="bg"></circle>
+                                            <circle class="fg">
+                                            </circle>
+                                            <text x="50%" y="35%" text-anchor="middle" dominant-baseline="middle"
+                                                class="minnesato-text">MINNESATO</text>
+                                            <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+                                                fill="#21E786" class="aed-text">AED 2,500</text>
+                                            <text x="50%" y="65%" text-anchor="middle" dominant-baseline="middle"
+                                                class="minnesato-text">BID
+                                                !</text>
+                                        </svg>
+                                    </div>
+
+                                    <!-- input field and button -->
+                                    <div class="d-flex justify-content-center mt-30">
+                                        <input type="number" id="bid-amount" value="250" placeholder="Enter Amount"
+                                            class="input-field form-control rounded-pill" />
+                                        <button id="decrement-btn" class="btn minus-icon">
+                                            <img src="assets/images/icon/minus_icon.svg" />
+                                        </button>
+                                        <button id="increment-btn" class="btn plus-icon">
+                                            <img src="assets/images/icon/plus_icon.svg" />
+                                        </button>
+                                    </div>
+
+                                    <!-- place bid button -->
+                                    <div class="place-bid">
+                                        <button id="btn-place-bid" class="btn place-bid-btn w-100">
+                                            Place Bid
+                                        </button>
+                                    </div>
+
+
+                                    <div class="mt-30 text-center">
+                                        <div class="lot-no">
+                                            (AED 250 Bid Increment) <a href="#" class="bid-guidelines">Incremental Bid
+                                                Guidelines</a>
+                                        </div>
+                                    </div>
+
+                                    <!-- previous bid section -->
+                                    <div class="previous-bid">
+                                        Previous Bid
+                                    </div>
+                                    <div class="p-10">
+                                        <div class="d-flex justify-content-between flex-lg-column flex-xl-row gap-3">
+                                            <div class="d-flex gap-2">
+                                                <div>
+                                                    <img src="assets/images/icon/flag-italy.svg" />
+                                                </div>
+                                                <div class="pri">
+                                                    <div>Country Name</div>
+                                                    <div class="font-600 mt-1">AED 20,00</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex gap-2">
+                                                <div>
+                                                    <img src="assets/images/icon/flag-italy.svg" />
+                                                </div>
+                                                <div class="pri">
+                                                    <div>Country Name</div>
+                                                    <div class="font-600 mt-1">AED 22,00</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- /show in lg screen -->
 
                                 <!-- for tag section -->
-                                <div class="pt-25">
+                                <div class="pt-25 d-flex flex-wrap gap-3">
 
                                     <a class="btn btn-tag" href="#">Ending Soon</a>
                                     <a class="btn btn-tag" href="#">Accident Free</a>
@@ -138,9 +256,9 @@
                                     </div>
                                     <div class="col-lg-12 pt-25">
 
-                                        <div class="row px-0 mx-0">
+                                        <div class="row gx-5 gy-4">
 
-                                            <div class="col-lg-6 ml-0 pl-0 pr-20">
+                                            <div class="col-lg-6">
 
                                                 <div class="list">
                                                     <div class="d-flex justify-content-between">
@@ -186,7 +304,7 @@
                                             </div>
 
 
-                                            <div class="col-lg-6 pl-20">
+                                            <div class="col-lg-6">
 
                                                 <div class="list">
                                                     <div class="d-flex justify-content-between">
@@ -242,7 +360,7 @@
                         </div>
 
                         <!-- right section -->
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 d-lg-block d-none">
                             <div class="py-4 box-shadow-left-div h-100 position-relative">
 
                                 <div id="live-success" class="success-popup">
@@ -305,7 +423,7 @@
                                     Previous Bid
                                 </div>
                                 <div class="p-10">
-                                    <div class="d-flex justify-content-between">
+                                    <div class="d-flex justify-content-between flex-lg-column flex-xl-row gap-3">
                                         <div class="d-flex gap-2">
                                             <div>
                                                 <img src="assets/images/icon/flag-italy.svg" />
@@ -336,11 +454,11 @@
 
 
     <!-- place bid secion  -->
-    <section class="p-1 pb-4">
+    <section class="p-1 pb-4 d-lg-block d-none">
         <div class="container">
             <div class="d-flex flex-column gap-3">
                 <div class="car-bid-detail-secion p-10">
-                    <div class="row gx-5">
+                    <div class="row gx-xl-5 gx-lg-3">
                         <div class="col-lg-2">
                             <div class="car-bid-img">
                                 <img src="assets/images/livebidding/car8.png" />
@@ -367,7 +485,7 @@
                             </div>
 
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-lg-4 col-xl-3">
                             <div class="list">
                                 <div class="d-flex justify-content-between">
                                     <div class="left-text">Current Bid</div>
@@ -393,13 +511,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 ">
-                            <div class="d-flex align-items-center h-100 gap-5">
+                        <div class="col-lg-3 col-xl-4">
+                            <div class="d-flex align-items-center h-100 gap-xl-5 gap-lg-3">
                                 <button class="btn place-bid-btn p-3 w-100 max-w-250">
                                     Next Bid
                                 </button>
 
-                                <button class="btn">
+                                <button class="btn p-0">
                                     <img src="assets/images/icon/like.svg" />
                                 </button>
 
@@ -410,7 +528,7 @@
                 </div>
 
                 <div class="car-bid-detail-secion p-10">
-                    <div class="row gx-5">
+                    <div class="row gx-xl-5 gx-lg-3">
                         <div class="col-lg-2">
                             <div class="car-bid-img">
                                 <img src="assets/images/product/product-1.jpg" />
@@ -437,7 +555,7 @@
                             </div>
 
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-4 col-xl-3">
                             <div class="list">
                                 <div class="d-flex justify-content-between">
                                     <div class="left-text">Current Bid</div>
@@ -463,12 +581,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="d-flex align-items-center h-100 gap-5">
+                        <div class="col-lg-3 col-xl-4">
+                            <div class="d-flex align-items-center h-100 gap-xl-5 gap-lg-3">
                                 <button class="btn not-eligible-btn p-3 w-100  max-w-250">
                                     Not Eligible
                                 </button>
-                                <button class="btn">
+                                <button class="btn p-0">
                                     <img src="assets/images/icon/dislike.svg" />
                                 </button>
                             </div>
@@ -478,7 +596,7 @@
                 </div>
 
                 <div class="car-bid-detail-secion p-10">
-                    <div class="row gx-5">
+                    <div class="row gx-xl-5 gx-lg-3">
                         <div class="col-lg-2">
                             <div class="car-bid-img">
                                 <img src="assets/images/livebidding/car5.png" />
@@ -505,7 +623,7 @@
                             </div>
 
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-4 col-xl-3">
                             <div class="list">
                                 <div class="d-flex justify-content-between">
                                     <div class="left-text">Current Bid</div>
@@ -531,12 +649,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="d-flex align-items-center h-100 gap-5">
+                        <div class="col-lg-3 col-xl-4">
+                            <div class="d-flex align-items-center h-100 gap-xl-5 gap-lg-3">
                                 <button class="btn place-bid-btn p-3 w-100  max-w-250">
                                     15 Mins
                                 </button>
-                                <button class="btn">
+                                <button class="btn p-0">
                                     <img src="assets/images/icon/like.svg" />
                                 </button>
                             </div>
@@ -546,7 +664,7 @@
                 </div>
 
                 <div class="car-bid-detail-secion p-10">
-                    <div class="row gx-5">
+                    <div class="row gx-xl-5 gx-lg-3">
                         <div class="col-lg-2">
                             <div class="car-bid-img">
                                 <img src="assets/images/livebidding/car6.png" />
@@ -573,7 +691,7 @@
                             </div>
 
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-4 col-xl-3">
                             <div class="list">
                                 <div class="d-flex justify-content-between">
                                     <div class="left-text">Current Bid</div>
@@ -599,17 +717,286 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="d-flex align-items-center h-100 gap-5">
+                        <div class="col-lg-3 col-xl-4">
+                            <div class="d-flex align-items-center h-100 gap-xl-5 gap-lg-3">
                                 <button class="btn place-bid-btn p-3 w-100 max-w-250">
                                     30 Mins
                                 </button>
-                                <button class="btn">
+                                <button class="btn p-0">
                                     <img src="assets/images/icon/like.svg" />
                                 </button>
                             </div>
                         </div>
 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="d-lg-none d-block car-bid-show-lg">
+        <div class="container pb-4 pt-2">
+            <div class="owl-carousel owl-theme mx-0 px-0" id="slider-5">
+
+
+                <div class="item">
+                    <div class="car-bid-cart">
+                        <div class="car-bid-img">
+                            <img src="assets/images/livebidding/car8.png" class="object-fit-cover" />
+                        </div>
+
+                        <div class="pt-4">
+                            <div class="model-name">
+                                AVEO LS AUTOMATIC A/A
+                            </div>
+                            <div class="car-company-name">
+                                Toyota
+                            </div>
+                            <div class="list">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Lot No</div>
+                                    <div class="right-text">LTN123456</div>
+                                </div>
+                            </div>
+                            <div class="list mb-0">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Year</div>
+                                    <div class="right-text">2022</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-5">
+                            <div class="list">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Current Bid</div>
+                                    <div class="right-text">AED 25,000</div>
+                                </div>
+                            </div>
+                            <div class="list">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Body Type</div>
+                                    <div class="right-text">LTN123456</div>
+                                </div>
+                            </div>
+                            <div class="list">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Engine Type</div>
+                                    <div class="right-text">Inline-4</div>
+                                </div>
+                            </div>
+                            <div class="list mb-0">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Transmission</div>
+                                    <div class="right-text">Automatic</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-5">
+                            <div class="d-flex align-items-center h-100 gap-3">
+                                <button class="btn place-bid-btn p-3 w-100">
+                                    Next Bid
+                                </button>
+
+                                <button class="btn p-0">
+                                    <img src="assets/images/icon/like.svg" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <div class="car-bid-cart">
+                        <div class="car-bid-img">
+                            <img src="assets/images/product/product-1.jpg" class="object-fit-cover" />
+                        </div>
+
+                        <div class="pt-4">
+                            <div class="model-name">
+                                AVEO LS AUTOMATIC A/A
+                            </div>
+                            <div class="car-company-name">
+                                Toyota
+                            </div>
+                            <div class="list">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Lot No</div>
+                                    <div class="right-text">LTN123456</div>
+                                </div>
+                            </div>
+                            <div class="list mb-0">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Year</div>
+                                    <div class="right-text">2022</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-5">
+                            <div class="list">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Current Bid</div>
+                                    <div class="right-text">AED 25,000</div>
+                                </div>
+                            </div>
+                            <div class="list">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Body Type</div>
+                                    <div class="right-text">LTN123456</div>
+                                </div>
+                            </div>
+                            <div class="list">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Engine Type</div>
+                                    <div class="right-text">Inline-4</div>
+                                </div>
+                            </div>
+                            <div class="list mb-0">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Transmission</div>
+                                    <div class="right-text">Automatic</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-5">
+                            <div class="d-flex align-items-center h-100 gap-3">
+                                <button class="btn not-eligible-btn p-3 w-100">
+                                    Not Eligible
+                                </button>
+                                <button class="btn p-0">
+                                    <img src="assets/images/icon/dislike.svg" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="car-bid-cart">
+                        <div class="car-bid-img">
+                            <img src="assets/images/livebidding/car5.png" class="object-fit-cover" />
+                        </div>
+
+                        <div class="pt-4">
+                            <div class="model-name">
+                                AVEO LS AUTOMATIC A/A
+                            </div>
+                            <div class="car-company-name">
+                                Toyota
+                            </div>
+                            <div class="list">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Lot No</div>
+                                    <div class="right-text">LTN123456</div>
+                                </div>
+                            </div>
+                            <div class="list mb-0">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Year</div>
+                                    <div class="right-text">2022</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-5">
+                            <div class="list">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Current Bid</div>
+                                    <div class="right-text">AED 25,000</div>
+                                </div>
+                            </div>
+                            <div class="list">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Body Type</div>
+                                    <div class="right-text">LTN123456</div>
+                                </div>
+                            </div>
+                            <div class="list">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Engine Type</div>
+                                    <div class="right-text">Inline-4</div>
+                                </div>
+                            </div>
+                            <div class="list mb-0">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Transmission</div>
+                                    <div class="right-text">Automatic</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-5">
+                            <div class="d-flex align-items-center h-100 gap-3">
+                                <button class="btn place-bid-btn p-3 w-100 ">
+                                    15 Mins
+                                </button>
+                                <button class="btn p-0">
+                                    <img src="assets/images/icon/like.svg" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="car-bid-cart">
+                        <div class="car-bid-img">
+                            <img src="assets/images/livebidding/car6.png" class="object-fit-cover" />
+                        </div>
+
+                        <div class="pt-4">
+                            <div class="model-name">
+                                AVEO LS AUTOMATIC A/A
+                            </div>
+                            <div class="car-company-name">
+                                Toyota
+                            </div>
+                            <div class="list">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Lot No</div>
+                                    <div class="right-text">LTN123456</div>
+                                </div>
+                            </div>
+                            <div class="list mb-0">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Year</div>
+                                    <div class="right-text">2022</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-5">
+                            <div class="list">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Current Bid</div>
+                                    <div class="right-text">AED 25,000</div>
+                                </div>
+                            </div>
+                            <div class="list">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Body Type</div>
+                                    <div class="right-text">LTN123456</div>
+                                </div>
+                            </div>
+                            <div class="list">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Engine Type</div>
+                                    <div class="right-text">Inline-4</div>
+                                </div>
+                            </div>
+                            <div class="list mb-0">
+                                <div class="d-flex justify-content-between">
+                                    <div class="left-text">Transmission</div>
+                                    <div class="right-text">Automatic</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-5">
+                            <div class="d-flex align-items-center h-100 gap-3">
+                                <button class="btn place-bid-btn p-3 w-100">
+                                    30 Mins
+                                </button>
+                                <button class="btn p-0">
+                                    <img src="assets/images/icon/like.svg" />
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

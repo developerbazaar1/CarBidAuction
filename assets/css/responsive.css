@@ -208,6 +208,27 @@
   .card-group-pricing-plan {
     margin-top: 70px;
   }
+
+  .countdown-time {
+    font-size: 22.792px;
+  }
+
+  .countdown-number {
+    padding: 8px 2px;
+  }
+
+  .custom-list .top-tit {
+    font-size: 13px;
+  }
+
+  .custom-list .deta {
+    font-size: 16px;
+  }
+
+  ul.custom-list li {
+    padding-left: 5.5px;
+    padding-right: 6.5px;
+  }
 }
 
 @media only screen and (max-width: 1199px) {
@@ -245,6 +266,10 @@
   .table {
     min-width: 1200px;
   }
+
+  .grid-container {
+    grid-template-columns: auto auto auto;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -260,7 +285,7 @@
     padding-bottom: 20px;
   }
   .heading {
-    font-size: 22px;
+    font-size: 26px;
   }
   .title-p {
     font-size: 14px;
@@ -391,7 +416,7 @@
   }
 
   li.breadcrumb-item {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .font-25 {
@@ -492,6 +517,20 @@
   .place-bid-btn {
     font-size: 14px;
   }
+
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
+
+  .fixed {
+    border-radius: 5px;
+    left: 10px;
+    right: 10px;
+  }
+
+  .car-bid-detail-secion {
+    box-shadow: none;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -502,6 +541,10 @@
   .right-side-text-banner {
     max-width: 556px;
     margin: 0 auto;
+  }
+
+  section.auction-timer {
+    overflow: hidden;
   }
 }
 @media only screen and (max-width: 575px) {
@@ -524,6 +567,39 @@
     padding-left: 12px;
     padding-right: 12px;
   }
+  .img-hotspot {
+    width: 100%;
+  }
+
+  .p {
+    font-size: 14px;
+  }
+
+  .icon-box {
+    font-size: 16px;
+  }
+
+  .pr-80 {
+    padding-right: 15px;
+  }
+
+  .car-details-header-section {
+    border-radius: 0px;
+  }
 }
 @media only screen and (max-width: 375px) {
+  .bid-now {
+    padding: 10px 15px;
+  }
+  .buy-now {
+    padding: 15px 15px;
+  }
+
+  .text-header {
+    font-size: 14px;
+  }
+
+  .sub-header-text-livebidding {
+    font-size: 14px;
+  }
 }

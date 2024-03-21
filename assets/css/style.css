@@ -1476,7 +1476,7 @@ li.breadcrumb-item {
 .countdown {
   /* font-family: sans-serif;*/
   color: #fff;
-  display: inline-block;
+  display: flex;
   font-weight: 100;
   text-align: center;
   font-size: 30px;
@@ -1623,7 +1623,7 @@ ul.custom-list {
 }
 .ag-photo-gallery_figure {
   width: 100%;
-  height: 100%;
+  height: fit-content;
 
   overflow: hidden;
 }
@@ -1653,7 +1653,7 @@ ul.custom-list {
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {
-    width: 96%;
+    /* width: 96%; */
   }
 
   .ag-photo-gallery_list {
@@ -1662,7 +1662,7 @@ ul.custom-list {
     -ms-grid-rows: 14rem 0.9375rem 14rem 0.9375rem 14rem 0.9375rem 14rem
       0.9375rem 14rem 0.9375rem 14rem 0.9375rem 14rem 0.9375rem 14rem 0.9375rem
       14rem 0.9375rem 14rem 0.9375rem 14rem 0.9375rem 14rem;
-    grid-template-rows: 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem;
+    grid-template-rows: 16rem 7rem;
   }
 }
 
@@ -1674,14 +1674,14 @@ ul.custom-list {
 
 @media (min-width: 768px) and (max-width: 979px) {
   .ag-format-container {
-    width: 750px;
+    /* width: 750px; */
   }
 }
 
 @media (min-width: 980px) and (max-width: 1161px) {
-  .ag-format-container {
+  /* .ag-format-container {
     width: 960px;
-  }
+  } */
 }
 
 /*===============IMAGE gallery===============*/
@@ -2109,7 +2109,12 @@ ul.list-features {
 
 /* live bildding page */
 
-.car-details-heade-section {
+.sticky-header-livebidding {
+  position: sticky;
+  top: 100px;
+  z-index: 5;
+}
+.car-details-header-section {
   background: #8ff2c2;
   padding: 20px 25px;
   border-radius: 10px 10px 0px 0px;
@@ -2144,7 +2149,10 @@ ul.list-features {
   padding: 20px;
   border-radius: 100% !important;
   width: 25px;
+  vertical-align: middle;
   background-color: #fff !important;
+  text-align: center;
+  height: 25px;
 }
 .owl-next {
   position: absolute;
@@ -2152,7 +2160,10 @@ ul.list-features {
   right: 0px;
   width: 25px;
   border-radius: 100% !important;
+  vertical-align: middle;
   background-color: #fff !important;
+  text-align: center;
+  height: 25px;
 }
 .owl-stage-outer {
   border-radius: 10px;
@@ -3282,6 +3293,10 @@ tr.bg-table-history {
   font-size: 18px;
 }
 
+.btn-car-history {
+  font-size: 18px;
+}
+
 .model-heder-addcard {
   border-bottom: 1px solid #d3d3d3;
   background: #e3fbef;
@@ -3921,4 +3936,39 @@ section.auction-timer {
 .table-award::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background-color: #8ff2c2;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(../images/icon/menu.svg);
+}
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.max-w-850 {
+  max-width: 850px;
+}
+.car-bid-cart {
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+.object-fit-cover {
+  object-fit: cover !important;
+}
+
+.car-bid-show-lg .owl-prev {
+  color: #fff !important;
+  background-color: #000 !important;
+}
+
+.car-bid-show-lg .owl-next {
+  color: #fff !important;
+  background-color: #000 !important;
+}
+
+.car-bid-show-lg .owl-nav {
+  top: 40%;
 }

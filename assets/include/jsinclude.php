@@ -430,12 +430,45 @@ $(function() {
         dots: false,
         responsive: {
             0: {
-                items: 1
+                items: 2
+            },
+            600: {
+                items: 3
+            },
+            960: {
+                items: 3
+            },
+            1200: {
+                items: 4.5
+            },
+
+            1500: {
+                items: 4.5
+            }
+
+        }
+    });
+
+
+    var owl = $("#slider-5");
+    owl.owlCarousel({
+        items: 4,
+        margin: 10,
+        loop: true,
+        autoplay: true,
+        nav: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        autoWidth: false,
+        dots: false,
+        responsive: {
+            0: {
+                items: 1.2
             },
             600: {
                 items: 2
             },
-            960: {
+            991: {
                 items: 3
             },
             1200: {
