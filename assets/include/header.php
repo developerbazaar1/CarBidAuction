@@ -5,11 +5,11 @@
         <div class="container">
 
 
-            <nav class="navbar navbar-light navbar-expand-lg align-content-center pl-40">
+            <nav class="navbar navbar-light navbar-expand-lg align-content-center pl-40 py-xs-1">
                 <a href="index.php" class="navbar-brand d-flex mr-auto"><img src="assets/images/Logo.svg"
                         class="logo"></a>
-                <div class="d-lg-none pe-3">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                <div class="d-lg-none pe-sm-3">
+                    <button class="navbar-toggler p-0" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#nav-bar-toggle-filter" aria-controls="nav-bar-toggle-filter">
                         <span class="navbar-toggler-icon" data-bs-toggle="offcanvas"
                             data-bs-target="#nav-bar-toggle-filter" aria-controls="nav-bar-toggle-filter"></span>

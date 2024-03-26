@@ -1587,7 +1587,7 @@
             <div class="col-lg-12 time-line mt-50 mb-50">
 
                 <div class="container">
-                    <div class="row mx-auto">
+                    <div class="row mx-auto d-md-flex d-none">
 
                         <div class="col-lg-2 col-sm-2 col-xs-6 mx-auto text-center hv">
                             <div class="ico-b d-flex justify-content-center align-items-center mb-35"><img class=""
@@ -1629,6 +1629,54 @@
                         </div>
 
                     </div>
+
+
+                    <!-- show in before xl  -->
+
+                    <div class="row mx-auto d-md-none d-flex gy-5">
+
+                        <div class="col-lg-2 col-sm-4 col-6 mx-auto text-center hv">
+                            <div class="ico-b d-flex justify-content-center align-items-center mb-35"><img class=""
+                                    src="assets/images/icon/question1.svg"></div>
+                            <div class="step"> Step:1</div>
+                            <div class="explore">Explore Listings</div>
+                        </div>
+
+                        <div class="col-lg-2 col-sm-4 col-6 mx-auto text-center hv">
+                            <div class="ico-b d-flex justify-content-center align-items-center mb-35"><img class=""
+                                    src="assets/images/icon/question2.svg"></div>
+                            <div class="step"> Step:2</div>
+                            <div class="explore">Secure Participation</div>
+
+
+                        </div>
+
+                        <div class="col-lg-2 col-sm-4 col-6 mx-auto text-center hv">
+                            <div class="ico-b d-flex justify-content-center align-items-center mb-35"><img class=""
+                                    src="assets/images/icon/question3.svg"></div>
+                            <div class="step"> Step:3</div>
+                            <div class="explore">Auction Countdown</div>
+                        </div>
+
+                        <div class="col-lg-2 col-sm-4 col-6 mx-auto text-center hv">
+                            <div class="ico-b d-flex justify-content-center align-items-center mb-35"><img class=""
+                                    src="assets/images/icon/question4.svg"></div>
+                            <div class="step"> Step:4</div>
+                            <div class="explore">Bid with Confidence</div>
+
+
+                        </div>
+
+                        <div class="col-lg-2 col-sm-4 col-6 mx-auto text-center hv">
+                            <div class="ico-b d-flex justify-content-center align-items-center mb-35"><img class=""
+                                    src="assets/images/icon/question5.svg"></div>
+                            <div class="step"> Step:5</div>
+                            <div class="explore">Victory Lap</div>
+                        </div>
+
+                    </div>
+
+                    <!-- /show in before xl  -->
                 </div>
 
             </div>

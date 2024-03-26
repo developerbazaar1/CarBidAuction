@@ -145,86 +145,85 @@
 
     <!-----Auction-timer------->
     <section class="auction-timer pt-50">
-        <div class="container">
-            <div class=" countdown-bg unset px-lg-4 px-2" id="Fx">
-                <div class="d-flex align-items-center justify-content-between">
+        <div class="container countdown-bg unset px-lg-4 px-2" id="Fx">
+            <div class="d-flex align-items-center justify-content-between">
 
-                    <div class="">
-                        <div class="timer">
+                <div class="">
+                    <div class="timer">
 
-                            <div id="countdown" class="countdown">
-                                <div class="countdown-number">
-                                    <span class="days countdown-time"></span>
-                                    <span class="countdown-text">Days</span>
-                                </div>
-                                <div class="countdown-number">
-                                    <span class="hours countdown-time"></span>
-                                    <span class="countdown-text">Hours</span>
-                                </div>
-                                <div class="countdown-number">
-                                    <span class="minutes countdown-time"></span>
-                                    <span class="countdown-text">Minutes</span>
-                                </div>
-                                <div class="countdown-number">
-                                    <span class="seconds countdown-time"></span>
-                                    <span class="countdown-text">Seconds</span>
-                                </div>
+                        <div id="countdown" class="countdown">
+                            <div class="countdown-number">
+                                <span class="days countdown-time"></span>
+                                <span class="countdown-text">Days</span>
                             </div>
-
-
+                            <div class="countdown-number">
+                                <span class="hours countdown-time"></span>
+                                <span class="countdown-text">Hours</span>
+                            </div>
+                            <div class="countdown-number">
+                                <span class="minutes countdown-time"></span>
+                                <span class="countdown-text">Minutes</span>
+                            </div>
+                            <div class="countdown-number">
+                                <span class="seconds countdown-time"></span>
+                                <span class="countdown-text">Seconds</span>
+                            </div>
                         </div>
-                    </div>
-                    <!----col--->
-
-
-                    <div class="">
-
-
-
-                        <ul class="custom-list">
-
-                            <li class="d-lg-block d-none">
-                                <div class="top-tit">Lot Number:</div>
-                                <div class="deta">LTN123456</div>
-                            </li>
-
-                            <li>
-                                <div class="top-tit">Current Bit Price:</div>
-                                <div class="deta">AED 25,000</div>
-                            </li>
-
-
-                            <li class="d-lg-block d-none">
-                                <div class="top-tit">Est. Market Value:</div>
-                                <div class="deta">AED 30,000</div>
-                            </li>
-
-
-                            <li class="d-lg-block d-none">
-                                <div class="top-tit">Estimated Repair Cost</div>
-                                <div class="deta">AED 12,000</div>
-                            </li>
-
-
-                            <li class="d-lg-block d-none">
-                                <div class="top-tit">Auction Lane:</div>
-                                <div class="deta">141A</div>
-                            </li>
-
-                            <li class="d-xl-block d-none">
-                                <div class="top-tit">Auction Date and Time:</div>
-                                <div class="deta">04/10/2023, 16:40 GST +4</div>
-                            </li>
-
-                        </ul>
-
 
 
                     </div>
-                    <!----col--->
                 </div>
-                <!---row---->
+                <!----col--->
+
+
+                <div class="">
+
+
+
+                    <ul class="custom-list">
+
+                        <li class="d-lg-block d-none">
+                            <div class="top-tit">Lot Number:</div>
+                            <div class="deta">LTN123456</div>
+                        </li>
+
+                        <li>
+                            <div class="top-tit">Current Bit Price:</div>
+                            <div class="deta">AED 25,000</div>
+                        </li>
+
+
+                        <li class="d-lg-block d-none">
+                            <div class="top-tit">Est. Market Value:</div>
+                            <div class="deta">AED 30,000</div>
+                        </li>
+
+
+                        <li class="d-lg-block d-none">
+                            <div class="top-tit">Estimated Repair Cost</div>
+                            <div class="deta">AED 12,000</div>
+                        </li>
+
+
+                        <li class="d-lg-block d-none">
+                            <div class="top-tit">Auction Lane:</div>
+                            <div class="deta">141A</div>
+                        </li>
+
+                        <li class="d-xl-block d-none">
+                            <div class="top-tit">Auction Date and Time:</div>
+                            <div class="deta">04/10/2023, 16:40 GST +4</div>
+                        </li>
+
+                    </ul>
+
+
+
+                </div>
+                <!----col--->
             </div>
+            <!---row---->
+
         </div>
         <!----container--->
 
@@ -515,7 +514,7 @@
                                     </div>
 
 
-                                    <div class="float-right d-flex justify-content-end mt-10">
+                                    <div class="float-right d-flex justify-content-md-end mt-10">
 
                                         <a href="#" class="full-insp">Full Inspection Report</a>
 

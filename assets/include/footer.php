@@ -76,11 +76,11 @@
 
         <div class="row mx-0 px-0 mx-auto justify-content-center footer-border mt-3">
 
-            <div class="col-lg-12 text-center">
+            <div class="col-lg-12 text-sm-center">
                 <img src="assets/images/footer-logo.svg" class="footer-img">
             </div>
 
-            <div class="col-lg-9  text-center">
+            <div class="col-lg-9  text-sm-center">
                 <p class="footer-bootem">Lorem ipsum dolor sit amet consectetur. Lobortis lacus sit mattis vel
                     consectetur consequat venenatis mauris. Varius aliquet nam justo tortor magna. </p>
             </div>

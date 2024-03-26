@@ -270,6 +270,18 @@
   .grid-container {
     grid-template-columns: auto auto auto;
   }
+
+  .bg-howit {
+    background-size: 1616px;
+  }
+
+  .mt-90 {
+    margin-top: 0px;
+  }
+
+  .scroll-x .ml-20 {
+    margin-left: 0px;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -531,6 +543,32 @@
   .car-bid-detail-secion {
     box-shadow: none;
   }
+
+  .ico-b {
+    width: 80px;
+    height: 80px;
+  }
+
+  .ico-b img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .mt-35 {
+    margin-top: 15px;
+  }
+
+  .bg-howit {
+    background-size: 1229px;
+  }
+
+  .mb-35 {
+    margin-bottom: 15px;
+  }
+
+  .explore {
+    padding: 4px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -545,6 +583,10 @@
 
   section.auction-timer {
     overflow: hidden;
+  }
+
+  .full-insp {
+    padding: 10px 15px;
   }
 }
 @media only screen and (max-width: 575px) {
@@ -581,10 +623,41 @@
 
   .pr-80 {
     padding-right: 15px;
+    padding-left: 15px;
   }
 
   .car-details-header-section {
     border-radius: 0px;
+  }
+
+  .auction-timer .container {
+    width: auto;
+  }
+
+  .top-header {
+    border-radius: 100px 100px 100px 100px;
+    padding: 0px 15px;
+  }
+
+  .py-xs-1 {
+    padding: 5px 0px;
+  }
+
+  .countdown-text {
+    font-size: 8.5px;
+  }
+
+  .custom-list .top-tit {
+    font-size: 12px;
+  }
+
+  .footer-bootem {
+    text-align: left;
+  }
+
+  .bg-howit {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
 @media only screen and (max-width: 375px) {
