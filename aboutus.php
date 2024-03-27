@@ -13,7 +13,7 @@
     <?php include 'assets/include/header.php' ;?>
     <!-- /Header -->
 
-    <section class="overflow-visible">
+    <section class="overflow-visible section-aboutus">
         <!-- <div class="container"> -->
         <div class="row m-0 p-0">
             <div class="col-lg-8 p-0">

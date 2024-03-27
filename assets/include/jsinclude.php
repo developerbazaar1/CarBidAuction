@@ -14,8 +14,6 @@
 // for favorite is check or uncheck
 
 
-
-
 $(document).ready(function() {
     $('.clickable-image').click(function() {
 
@@ -43,6 +41,19 @@ $(document).ready(function() {
         }, 3000);
     });
 });
+
+$(document).ready(function() {
+    $(document).click(function() {
+        if ($('.hello-2').is(':visible')) {
+            $('.scroll-x').css('overflow-x', 'clip');
+            console.log('At least one dropdown is open');
+        } else {
+            $('.scroll-x').css('overflow-x', 'scroll');
+            console.log('All dropdowns are closed');
+        }
+    });
+});
+
 
 // for accordion 
 $(document).ready(function() {
@@ -76,6 +87,8 @@ $(document).ready(function() {
         $("#aboutus-link").addClass("active");
     } else if (path === "/contactus.php") {
         $("#contactus-link").addClass("active");
+    } else if (path === "/livebidding.php") {
+        $(".home-header").addClass("bg-white");
     }
 
 });
@@ -833,11 +846,14 @@ skillPers.forEach(function(skillPer) {
 //         }    
 // });
 
+
+
 var Fx = $("#Fx");
 
 var myScrollFunc = function() {
     var y = $(window).scrollTop();
     if (y >= 80) {
+
         Fx.addClass("countdown-bg fixed").removeClass("countdown-bg unset");
         $('.home-header').css({
             'position': 'unset',
@@ -849,6 +865,7 @@ var myScrollFunc = function() {
             'position': 'sticky',
             'top': '0'
         });
+
     }
 };
 

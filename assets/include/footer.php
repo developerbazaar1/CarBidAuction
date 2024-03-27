@@ -5,11 +5,11 @@
             <div class="col-lg-2 col-sm-4 col-6">
                 <h3 class="footer-heading"><span class="">Company</span></h3>
                 <ul class="list-item">
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="/aboutus.php">About Us</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">FAQs</a></li>
                     <li><a href="#">Terms</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="/contactus.php">Contact Us</a></li>
                 </ul>
             </div>
             <!---/col--->

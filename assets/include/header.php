@@ -1,6 +1,4 @@
 <section class="pr-80 pb-17 home-header top-0 z-3 overflow-visible">
-
-
     <header class="top-header z-1 justify-content-center justify-content">
         <div class="container">
 

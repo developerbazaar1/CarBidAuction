@@ -241,7 +241,9 @@
                             </div>
                             <div class="separator">To</div>
                             <div class="field">
-                                <input type="number" class="input-max rounded-pill " value="2025">
+                                <input type="number"
+                                    class="input-max rounded-pill text-black font-500 font-14 font-termina"
+                                    value="2025">
                             </div>
                         </div>
 
@@ -265,7 +267,9 @@
                             </div>
                             <div class="separator">To</div>
                             <div class="field">
-                                <input type="number" class="input-max rounded-pill " value="2025">
+                                <input type="number"
+                                    class="input-max rounded-pill text-black font-500 font-14 font-termina"
+                                    value="2025">
                             </div>
                         </div>
 
@@ -329,7 +333,9 @@
                             </div>
                             <div class="separator">To</div>
                             <div class="field">
-                                <input type="number" class="input-max rounded-pill " value="2025">
+                                <input type="number"
+                                    class="input-max rounded-pill text-black font-500 font-14 font-termina"
+                                    value="2025">
                             </div>
                         </div>
 

@@ -193,7 +193,7 @@ li.nav-item {
 }
 
 .hero-section {
-  background-image: url(../images/background/hero-bg.jpg);
+  background-image: url(../images/background/CarBGImage.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -3971,4 +3971,12 @@ section.auction-timer {
 
 .car-bid-show-lg .owl-nav {
   top: 40%;
+}
+
+.sticky-bg {
+  position: sticky;
+  top: 69px;
+  background: #fff;
+  height: 31px;
+  z-index: 2;
 }

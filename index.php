@@ -29,14 +29,14 @@
                     <button type="button" class="btn hero-btn">Explore Auctions</button>
 
                 </div>
-                <div class="col-lg-7 col-12 order-1 order-lg-2  animated wow fadeInRight text-end position-relative">
+                <!-- <div class="col-lg-7 col-12 order-1 order-lg-2  animated wow fadeInRight text-end position-relative">
 
                     <img class="w-100 img-hero" src="assets/images/background/cars.png">
                     <div class="video-btn" data-bs-toggle="modal" data-bs-target="#paymentmethod">
                         <img src="assets/images/icon/slow_motion_video.svg" />
                     </div>
 
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -125,50 +125,50 @@
                             <i class="button--left fa-solid fa-chevron-left" id="slideBack"></i>
 
                             <div class="scroll-x mt-3 mx-2 flex-lg-row gap-lg-0 flex-column gap-3">
-                                <div class="btn-group d-flex d-lg-none" role="group"
+                                <div class="btn-group d-inline-flex d-lg-none position-static" role="group"
                                     aria-label="Button group with nested dropdown">
-                                    <div class="dropdown">
+                                    <div>
                                         <button id="" type="button" class="btn btn-primary dropdown-toggle"
                                             data-bs-toggle="dropdown" aria-expanded="false">
                                             Make
                                         </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdown">
+                                        <ul class="dropdown-menu hello-2" aria-labelledby="dropdown">
                                             <li><a class="dropdown-item text-gray font-termina font-14 font-500"
                                                     href="#">Dropdown link</a></li>
                                             <li><a class="dropdown-item text-gray font-termina font-14 font-500"
                                                     href="#">Dropdown link</a></li>
                                         </ul>
                                     </div>
-                                    <div class="" role="group">
+                                    <div role="group">
                                         <button id="" type="button" class="btn btn-primary dropdown-toggle"
                                             data-bs-toggle="dropdown" aria-expanded="false">
                                             Model
                                         </button>
-                                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                        <ul class="dropdown-menu hello-2" aria-labelledby="btnGroupDrop1">
                                             <li><a class="dropdown-item text-gray font-termina font-14 font-500"
                                                     href="#">Dropdown link</a></li>
                                             <li><a class="dropdown-item text-gray font-termina font-14 font-500"
                                                     href="#">Dropdown link</a></li>
                                         </ul>
                                     </div>
-                                    <div class="" role="group">
+                                    <div role="group">
                                         <button id="" type="button" class="btn btn-primary dropdown-toggle"
                                             data-bs-toggle="dropdown" aria-expanded="false">
                                             Year
                                         </button>
-                                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                        <ul class="dropdown-menu hello-2" aria-labelledby="btnGroupDrop1">
                                             <li><a class="dropdown-item text-gray font-termina font-14 font-500"
                                                     href="#">Dropdown link</a></li>
                                             <li><a class="dropdown-item text-gray font-termina font-14 font-500"
                                                     href="#">Dropdown link</a></li>
                                         </ul>
                                     </div>
-                                    <div class="" role="group">
+                                    <div role="group">
                                         <button id="" type="button" class="btn btn-primary dropdown-toggle"
                                             data-bs-toggle="dropdown" aria-expanded="false">
                                             Body Style
                                         </button>
-                                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                        <ul class="dropdown-menu hello-2" aria-labelledby="btnGroupDrop1">
                                             <li><a class="dropdown-item text-gray font-termina font-14 font-500"
                                                     href="#">Dropdown link</a></li>
                                             <li><a class="dropdown-item text-gray font-termina font-14 font-500"

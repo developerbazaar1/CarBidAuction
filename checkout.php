@@ -122,7 +122,7 @@
                                     <div class="pri">
                                         Bank Name:
                                     </div>
-                                    <div class="pri font-600">
+                                    <div class="pri font-600 text-end">
                                         ABC Bank
                                     </div>
                                 </div>
@@ -133,7 +133,7 @@
                                     <div class="pri">
                                         Account Number:
                                     </div>
-                                    <div class="pri font-600">
+                                    <div class="pri font-600 text-end">
                                         234567890
                                     </div>
                                 </div>
@@ -144,7 +144,7 @@
                                     <div class="pri">
                                         Routing Number:
                                     </div>
-                                    <div class="pri font-600">
+                                    <div class="pri font-600 text-end">
                                         0987654321
                                     </div>
                                 </div>
@@ -155,7 +155,7 @@
                                     <div class="pri">
                                         Account Holder Name:
                                     </div>
-                                    <div class="pri font-600">
+                                    <div class="pri font-600 text-end">
                                         Car Arbab PVT. LTD
                                     </div>
                                 </div>

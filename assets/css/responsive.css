@@ -569,6 +569,10 @@
   .explore {
     padding: 4px;
   }
+
+  .pr-84 {
+    padding-right: 0px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -658,6 +662,27 @@
   .bg-howit {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .hero-section {
+    min-height: 544px;
+    padding-top: 100px;
+  }
+
+  .offcanvas-start {
+    width: 300px;
+  }
+
+  /* .home-header {
+    background: #fff;
+  } */
+
+  .section-aboutus .heading {
+    font-size: 21px;
+  }
+
+  .expertise-section .heading {
+    font-size: 21px;
   }
 }
 @media only screen and (max-width: 375px) {

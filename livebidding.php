@@ -17,6 +17,9 @@
     <!-- Header -->
 
     <!-- sticky header -->
+    <div class="d-block d-sm-none sticky-bg" id="heder-top-livebidding">
+
+    </div>
     <div class="car-details-header-section sticky-header-livebidding d-block d-sm-none">
         <div class="d-flex max-w-850 justify-content-between gap-md-3 gap-2">
             <div class="d-flex flex-md-row flex-column">
